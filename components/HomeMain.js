@@ -47,16 +47,16 @@ const HomeMain = () => {
         className={`h-[60vh] md:h-[95vh] mt-[80px] relative ${gradients.homePage}`}
       >
         <HomeImageGallery />
-        <div className="absolute top-10 flex flex-col justify-center items-center sm:flex-row sm:gap-10 ">
-          <div className="md:top-[20%] lg:top-[20%] xl:top-[5%] left-0 z-10 w-[90%] md:w-[65%] lg:w-[60%]  md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10 ">
+        <div className="absolute top-10 flex flex-col justify-center items-center sm:flex-row sm:gap-10">
+          <div className="md:top-[20%] lg:top-[20%] xl:top-[5%] left-0 z-10 w-[90%] md:w-[65%] lg:w-[60%]  md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10">
             <div className="font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4 mb-6">
               <span className="text-orange-400"></span>{" "}
-              <span className="text-white">
+              <span className="text-blue-900">
                 3rd International Conference on
               </span>{" "}
-              <span className="text-white">Microwave</span>{" "}
+              <span className="text-orange-400">Microwave</span>{" "}
               <span className="text-white">, Antenna and</span>{" "}
-              <span className="text-white">Communication </span>{" "}
+              <span className="text-green-500">Communication </span>{" "}
               <span className="text-white">2025 </span>
               <span className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl">
                 <br></br>
@@ -108,14 +108,14 @@ const HomeMain = () => {
             <a
               href="https://cmt3.research.microsoft.com/MAC2025/"
               // className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
-              className="block w-[50%] text-blue-900 bg-blue-200 hover:bg-orange-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-300 dark:hover:bg-blue-700 dark:focus:ring-blue-900"
+              className="block w-[50%]  text-blue-900 bg-blue-200 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900"
             >
               Submit Papers
             </a>
 
             {/* <a href="/registration" class="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Registration</a> */}
             <Link href="/registration">
-              <span className="block w-[50%] text-blue-900 bg-blue-200 hover:bg-orange-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-300 dark:hover:bg-blue-700 dark:focus:ring-blue-900">
+              <span className="block w-[50%]  text-blue-900 bg-blue-200 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900">
                 Registration
               </span>
             </Link>

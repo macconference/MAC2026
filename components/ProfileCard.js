@@ -8,7 +8,7 @@ const ProfileCard = ({ title, fullName, post, organisation, profileImage }) => {
           <img
             src={profileImage}
             alt=""
-            className="h-40 mx-8 mt-4 w-2/4 object-cover object-top rounded-full"
+            className="h-56 mx-8 mt-4 w-full object-cover object-top rounded-full"
           />
         )}
       </figure>

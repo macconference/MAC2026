@@ -61,7 +61,6 @@ const Committee = () => {
             isOpen={isOpen}
             setIsOpen={setIsOpen}
           />
-
           <div className="md:w-[70%] lg:w-[75%] pb-8 ">
             <div className="mt-2 mx-2 p-8 rounded-box flex flex-col gap-2 items-center">
               {/* <div>
@@ -79,10 +78,8 @@ const Committee = () => {
                 />
               </div> */}
               <div>
-                <div id="patron" className="h-20 mb-16 md:mb-0 "></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
-                  Patron
-                </h1>
+                <div id="patron" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold">Patron</h1>
                 <div className="flex gap-8 flex-wrap ">
                   {patrons.map((patron) => (
                     <ProfileCard
