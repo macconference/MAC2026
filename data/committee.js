@@ -477,6 +477,12 @@ export const PublicityChairs = [
     organisation: "IIT Roorkee, India",
     profileImage: "/akhilesh.png",
   },
+  {
+    title: "Dr.",
+    fullName: "Abhinav Gupta",
+    organisation: "REC Sonbhadra, India",
+    profileImage: "/dr abhinav gupta.jpeg",
+  },
 ];
 
 export const confChairs = [
