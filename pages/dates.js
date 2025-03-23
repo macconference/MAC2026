@@ -40,7 +40,7 @@ const Dates = () => {
                   <td class="text-center px-4 py-2 border border-black w-4/12">
                     <s>February 28, 2025</s>
                     <br />
-                    <span class="text-red-500">March 23, 2025</span>
+                    <span class="text-red-500">April 6, 2025</span>
                   </td>
                 </tr>
                 <tr>
