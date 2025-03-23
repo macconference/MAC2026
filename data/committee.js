@@ -352,7 +352,7 @@ export const SponsorshipCoChair = [
   {
     title: "",
     fullName: "Shashwat Pathak",
-    organisation: "CEO,AIC GNITS foundation",
+    organisation: "CEO,AIC GNITS foundation, India",
     profileImage: "/shashwat2.jpeg",
   },
   {
@@ -817,7 +817,7 @@ export const committeeMembers = [
       // },
       {
         fullName: "Dr. Dilip Kumar Kothari",
-        organisation: "Nirma University, Ahmedabad, India",
+        organisation: "Professor Emeritus, Ganpat University, India",
       },
       // {
       //   fullName: "Dr. Yatendra Kumar Singh",
