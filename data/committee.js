@@ -519,6 +519,21 @@ export const confChairs = [
   // }
 ];
 
+export const confSecretary= [
+  {
+    title: "Dr.",
+    fullName: "D K Raghuvanshi",
+    organisation: "MANIT Bhopal, India",
+    profileImage: "/dr dk raghuvanshi.jpeg",
+  },
+  {
+    title: "Dr.",
+    fullName: "Lalita Gupta ",
+    organisation: "MANIT Bhopal, India",
+    profileImage: "/dr lalita gupta.jpeg",
+  },
+]
+
 export const committeeMembers = [
   {
     title: "Executive Committee",

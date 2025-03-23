@@ -152,6 +152,20 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               Conference Organising Chair
             </li>
             <li
+               onClick={() => {
+               router.push("/Committee#confSecretary");
+               if (width < 768) {
+               setIsOpen(false);
+              }
+             }}
+            className={`p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 ${isActiveTab(
+              "/Committee#confSecretary"
+           )}`}
+            >
+             Conference Secretary
+           </li>
+
+            <li
               onClick={() => {
                 router.push("/Committee#sponsorshipcochair");
                 if (width < 768) {

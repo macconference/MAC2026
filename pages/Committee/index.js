@@ -8,6 +8,7 @@ import {
   honChairs,
   genChairs,
   confChairs,
+  confSecretary,
   ProgramChair,
   FinChairs,
   PublicChairs,
@@ -330,6 +331,26 @@ const Committee = () => {
                   />
                 ))}
               </div>
+
+              <div>
+                 <div id="confSecretary" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                Conference Secretary
+                </h1>
+                <div className="flex gap-8 flex-wrap justify-center items-center">
+                {confSecretary.map((sec) => (
+                <ProfileCard
+                key={sec.fullName}
+                fullName={sec.fullName}
+                post=""
+                profileImage={sec.profileImage ? sec.profileImage : null}
+                 organisation={sec.organisation}
+                 />
+                 ))}
+                </div>
+              </div>
+
+ 
               <div>
                 <div
                   id="sponsorshipcochair"
