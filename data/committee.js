@@ -477,6 +477,12 @@ export const PublicityChairs = [
     organisation: "IIT Roorkee, India",
     profileImage: "/akhilesh.png",
   },
+  {
+    title: "Dr.",
+    fullName: "Abhinav Gupta",
+    organisation: "REC Sonbhadra, India",
+    profileImage: "/dr abhinav gupta.jpeg",
+  },
 ];
 
 export const confChairs = [
@@ -512,6 +518,21 @@ export const confChairs = [
   //     profileImage:'/gauravmittal.png'
   // }
 ];
+
+export const confSecretary= [
+  {
+    title: "Dr.",
+    fullName: "D K Raghuvanshi",
+    organisation: "MANIT Bhopal, India",
+    profileImage: "/dr dk raghuvanshi.jpeg",
+  },
+  {
+    title: "Dr.",
+    fullName: "Lalita Gupta ",
+    organisation: "MANIT Bhopal, India",
+    profileImage: "/dr lalita gupta.jpeg",
+  },
+]
 
 export const committeeMembers = [
   {
