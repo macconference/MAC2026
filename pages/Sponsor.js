@@ -2,6 +2,8 @@ import React from "react";
 import gradients from "../styles/customGradient.module.css";
 import cool from "../styles/track.module.css";
 import SponsorFix from "../components/SponsorFix";
+import Sponsors from "../components/Sponsors";
+import SponsorSlider from "../components/sponserSlider";
 
 const Sponsor = () => {
   return (
@@ -256,48 +258,14 @@ const Sponsor = () => {
           </div>
         </div>
       </div> */}
-      <div className="mt-8 p-2 mx-2 md:mx-8">
-        <h1 className="font-extrabold text-4xl md:text-5xl text-center">
-          <span className=" border-b-4 border-orange-500 px-0 md:px-8 pb-2 ">
-            {/* Our <span className="text-cyan-600">Sponsors</span> */}
-            Our <span style={{ color: "#0000FF" }}>Sponsors</span>
-          </span>
-        </h1>
-        <div
-          className={`mt-16 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover} p-6`}
-        >
-          {/* Diamond Heading */}
-          <h1 className="text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600">
-            Diamond
-          </h1>
+      <div>
+      
+        <SponsorSlider/>
+        
+        
 
-          {/* Sponsors Container */}
-          <div className="flex flex-col md:flex-row justify-center items-center w-full gap-8 mt-4">
-            {/* Sponsor 1 */}
-            <div className="flex flex-col items-center w-full md:w-1/2">
-              <img
-                src="/Logo-JV-Micronics.png"
-                alt="JV Micronics Logo"
-                className="w-48 md:w-60 text-center px-4 pb-4 md:pb-6 pt-2 ease-in-out transition transform hover:scale-110 md:hover:scale-125 duration-700 delay-75"
-              />
-              <p className="px-2 text-center text-xl md:text-2xl font-semibold pb-6">
-                JV Micronics
-              </p>
-            </div>
-
-            {/* Sponsor 2 */}
-            <div className="flex flex-col items-center w-full md:w-1/2">
-              <img
-                src="/6_Bronze.jpeg"
-                alt="NUMEREGION's TaraNG Logo"
-                className="w-48 md:w-60 text-center px-4 pb-4 md:pb-6 pt-2 ease-in-out transition transform hover:scale-110 md:hover:scale-125 duration-700 delay-75"
-              />
-              <p className="px-2 text-center text-xl md:text-2xl font-semibold pb-6">
-                NUMEREGION&apos;s TaraNG
-              </p>
-            </div>
-          </div>
-        </div>
+      
+      
 
         {/* <div
           className={`mt-16 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover}`}
