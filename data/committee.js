@@ -1116,6 +1116,10 @@ export const committeeMembers = [
         organisation: "IISc Banglore, India",
       },
       {
+        fullName: "Dr Arvind Kumar",
+        organisation:"VNIT Nagpur, India",
+      },
+      {
         fullName: "Dr. Tushar Sharma",
         organisation: "Renesas Electronics, San Diego, USA",
       },
