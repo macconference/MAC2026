@@ -51,9 +51,22 @@ const Dates = () => {
                     Acceptance Notification
                   </td>
                   <td class="text-center px-4 py-2 border border-black w-4/12">
-                    May 1, 2025
+                    <s>May 1, 2025</s>
+                    <br />
+                    <span class="text-red-500">May 10, 2025</span>
                   </td>
                 </tr>
+                {/* <tr>
+                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                    3.
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                    Acceptance Notification
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                    May 1, 2025
+                  </td>
+                </tr> */}
                 <tr>
                   <td class="text-center px-4 py-2 border border-black w-1/12">
                     4.
