@@ -449,7 +449,7 @@ const Registration = () => {
       </div>
 
       <div className="text-center mt-12 ">
-        <a href="https://forms.gle/zJHqkh55zGvjFkoAA">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzTqSzAu1tzNuCPVM4q70jUbzFW2bw9Elgc8JGSC6JBegPoQ/viewform?usp=sharing">
           <span className=" rounded-xl cursor-pointer font-semibold text-lg border-2 px-8 border-stone-100 btn btn-success">
             Registration Form
           </span>
