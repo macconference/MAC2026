@@ -173,7 +173,7 @@ const Sidebar = ({ setIsOpenSidebar }) => {
           </motion.div>
           <motion.div
             variants={item}
-            onClick={() => navigate("/tuned")}
+            onClick={() => navigate("/awards")}
             className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
           >
             Awards

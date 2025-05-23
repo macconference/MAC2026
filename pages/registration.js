@@ -421,6 +421,10 @@ const Registration = () => {
             <span>IFSC Code</span>
             <span className="text-right">SBIN0001608</span>
           </div>
+          <div className="w-full flex justify-between  py-2">
+            <span>Swift Code {'(for Foreign Authors only)' }</span>
+            <span className="text-right">SBININBB268</span>
+          </div>
           {/* <div className="w-full flex justify-between  py-2">
             <span>Swift Code</span>
             <span className="text-right">SBININBB828</span>
