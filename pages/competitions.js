@@ -7,12 +7,13 @@ const MAC2025Opportunities = () => {
 
         {/* XSL Antenna Competition */}
         <div className="bg-white shadow-md rounded-xl p-6">
-          <h2 className="text-2xl font-bold text-blue-700 mb-3">📡 XSL Antenna Competition 2025</h2>
+          <h2 className="text-2xl font-bold text-blue-700 mb-3">📡 XSL Antenna Competition at MAC 2025</h2>
           <p className="mb-3">
             Hosted by Xiangshan Laboratory (China) for MAC 2025 participants. Design-based competition encouraging real-world implementation.
           </p>
           <ul className="list-disc ml-6 mb-3">
-            <li>Top 3 designs get free fabrication and testing</li>
+            <li>Top 3 designs get free fabrication and testing.</li>
+            <li>Designs will be selected from the accepted papers from MAC 2025.</li>
             <li>Industry feedback & global recognition</li>
           </ul>
           <p className="mb-2">
@@ -34,9 +35,9 @@ const MAC2025Opportunities = () => {
 
         {/* RMGI Grant */}
         <div className="bg-white shadow-md rounded-xl p-6">
-          <h2 className="text-2xl font-bold text-green-700 mb-3">🎓 Raj Mittra Grant in India (RMGI) 2025</h2>
+          <h2 className="text-2xl font-bold text-green-700 mb-3">🎓 Raj Mittra Grant in India (RMGI) at MAC 2025</h2>
           <p className="mb-3">
-            Travel grant of up to ₹25,000 for Ph.D. students in India attending MAC 2025 in Bhopal.
+            Travel grant of up to ₹25,000 for the selected Ph.D. students in India attending MAC 2025 in Bhopal.
           </p>
           <ul className="list-disc ml-6 mb-3">
             <li>Train fare, hotel, and registration covered</li>
