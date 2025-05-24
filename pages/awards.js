@@ -85,11 +85,10 @@ const Gallery = () => {
                 <tr className="border-b-2 border-stone-600">
                   <td
                     className="w-[30%] md:w-1/4 text-[13px] font-semibold md:text-[20px] lg:text-lg px-2 py-2 border-b-2 border-stone-400"
-                    rowSpan={1}
                   >
                     Best Paper for Industry
                   </td>
-                  <td className="py-2 text-center">Award will be given to top 2 papers </td>
+                  <td className="py-2 text-center">Award will be given to top 2 papers</td>
                 </tr>
               </tbody>
 
@@ -98,11 +97,10 @@ const Gallery = () => {
                 <tr className="border-b-2 border-stone-600">
                   <td
                     className="w-[30%] md:w-1/4 text-[13px] font-semibold md:text-[20px] lg:text-lg px-2 py-2 border-b-2 border-stone-400"
-                    rowSpan={4}
+                    rowSpan={5}
                   >
                     IEEE Student Branch Best Paper Award
                   </td>
-                  
                   <td className="py-2 text-center">Microwave Track</td>
                 </tr>
                 <tr className="border-b-2 border-stone-400">

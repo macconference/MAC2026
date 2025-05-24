@@ -17,11 +17,16 @@ const MAC2025Opportunities = () => {
           </ul>
           <p className="mb-2">
             📅 <strong>Dates:</strong><br />
-            Register by: <strong>June 10</strong>,  Results on: <strong>June 20</strong>
+            Register by: <strong>June 10</strong>, Results on: <strong>June 20</strong>
           </p>
           <p>
             🔗 More info:{" "}
-            <a href="https://xslwireless.net/News/99.html" target="_blank" className="text-blue-600 underline">
+            <a
+              href="https://xslwireless.net/News/99.html"
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue-600 underline"
+            >
               xslwireless.net/News/99.html
             </a>
           </p>
@@ -39,7 +44,7 @@ const MAC2025Opportunities = () => {
           </ul>
           <p className="mb-2">
             📅 Apply by: <strong>June 10, 2025</strong><br />
-            📧 Email to: <strong>maifuzali@hotmail.com</strong> (Subject: "RMGI")
+            📧 Email to: <strong>maifuzali@hotmail.com</strong> (Subject: &quot;RMGI&quot;)
           </p>
         </div>
 
