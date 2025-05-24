@@ -11,7 +11,7 @@ const Gallery = () => {
         <div className="flex justify-center mt-4">
           <div className="p-1 md:p-4 border-2 border-stone-400 w-full lg:w-3/4">
             <table className="table-auto text-left text-[12px] md:text-lg w-full">
-              <thead>
+              <thead className="border-b-4 border-stone-600">
                 <tr className="h-12">
                   <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2"></th>
                   <th className="text-[13px] sm:text-[15px] md:text-xl text-center p-1 pb-2">
@@ -21,10 +21,10 @@ const Gallery = () => {
               </thead>
 
               {/* Prof. Sudarshan Tiwari Memorial Best Paper Award */}
-              <tbody>
-                <tr className="border-b-2 border-stone-600">
+              <tbody className="border-b-4 border-stone-600">
+                <tr className="border-b-2 border-stone-400">
                   <td
-                    className="w-[30%] md:w-1/4 text-[13px] font-semibold md:text-[20px] lg:text-lg px-2 py-2 border-b-2 border-stone-400"
+                    className="w-[30%] md:w-1/4 font-semibold text-[13px] md:text-[20px] lg:text-lg px-2 py-2"
                     rowSpan={4}
                   >
                     Prof. Sudarshan Tiwari Memorial Best Paper Award
@@ -43,10 +43,10 @@ const Gallery = () => {
               </tbody>
 
               {/* Prof. Satish K. Sharma Best Paper Award */}
-              <tbody>
-                <tr className="border-b-2 border-stone-600">
+              <tbody className="border-b-4 border-stone-600">
+                <tr className="border-b-2 border-stone-400">
                   <td
-                    className="w-[30%] md:w-1/4 text-[13px] font-semibold md:text-[20px] lg:text-lg px-2 py-2 border-b-2 border-stone-400"
+                    className="w-[30%] md:w-1/4 font-semibold text-[13px] md:text-[20px] lg:text-lg px-2 py-2"
                     rowSpan={3}
                   >
                     Prof. Satish K. Sharma Best Paper Award for Doctoral Students
@@ -62,29 +62,29 @@ const Gallery = () => {
               </tbody>
 
               {/* Prof. Bharat S Rawal Research Promotion Award */}
-              <tbody>
-                <tr className="border-b-2 border-stone-600">
+              <tbody className="border-b-4 border-stone-600">
+                <tr className="border-b-2 border-stone-400">
                   <td
-                    className="w-[30%] md:w-1/4 text-[13px] font-semibold md:text-[20px] lg:text-lg px-2 py-2 border-b-2 border-stone-400"
+                    className="w-[30%] md:w-1/4 font-semibold text-[13px] md:text-[20px] lg:text-lg px-2 py-2"
                     rowSpan={3}
                   >
                     Prof. Bharat S Rawal Research Promotion Award
                   </td>
-                  <td className="py-2 text-center">First INR 5000</td>
+                  <td className="py-2 text-center">First Prize INR 5000</td>
                 </tr>
                 <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">Second INR 5000</td>
+                  <td className="py-2 text-center">Second Prize INR 5000</td>
                 </tr>
                 <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">Third INR 5000</td>
+                  <td className="py-2 text-center">Third Prize INR 5000</td>
                 </tr>
               </tbody>
 
               {/* Best Paper for Industry */}
-              <tbody>
-                <tr className="border-b-2 border-stone-600">
+              <tbody className="border-b-4 border-stone-600">
+                <tr className="border-b-2 border-stone-400">
                   <td
-                    className="w-[30%] md:w-1/4 text-[13px] font-semibold md:text-[20px] lg:text-lg px-2 py-2 border-b-2 border-stone-400"
+                    className="w-[30%] md:w-1/4 font-semibold text-[13px] md:text-[20px] lg:text-lg px-2 py-2"
                   >
                     Best Paper for Industry
                   </td>
@@ -93,10 +93,10 @@ const Gallery = () => {
               </tbody>
 
               {/* IEEE Student Branch Best Paper Award */}
-              <tbody>
-                <tr className="border-b-2 border-stone-600">
+              <tbody className="border-b-4 border-stone-600">
+                <tr className="border-b-2 border-stone-400">
                   <td
-                    className="w-[30%] md:w-1/4 text-[13px] font-semibold md:text-[20px] lg:text-lg px-2 py-2 border-b-2 border-stone-400"
+                    className="w-[30%] md:w-1/4 font-semibold text-[13px] md:text-[20px] lg:text-lg px-2 py-2"
                     rowSpan={5}
                   >
                     IEEE Student Branch Best Paper Award
