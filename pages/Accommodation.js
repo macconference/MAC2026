@@ -100,7 +100,7 @@ const Accommodation = () => {
               first-come, first-serve basis.
             </p>
             <a
-              href="https://example.com/faculty-accommodation-form"
+              href="https://forms.gle/XRsYg4acq1GuX8SL7"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 underline"
@@ -122,7 +122,7 @@ const Accommodation = () => {
               Hostel accommodation will be provided to all the students.
             </p>
             <a
-              href="https://example.com/student-hostel-form"
+              href="https://forms.gle/D7Ya1s4tNN2CNwXs7"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 underline"
