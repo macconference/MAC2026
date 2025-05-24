@@ -280,7 +280,7 @@ const Navbar = () => {
               tabIndex={0}
               className="text-white text-[17px] font-semibold menu p-2 shadow bg-stone-800 rounded-xl w-52 flex flex-col items-start"
             >
-              <Link href="/tuned">
+              <Link href="/Venue">
                 <li
                   className={`${
                     router.pathname == "/tuned"
@@ -291,7 +291,7 @@ const Navbar = () => {
                   Conference venue
                 </li>
               </Link>
-              <Link href="/tuned">
+              <Link href="/Accommodation">
                 <li
                   className={`${
                     router.pathname == "/tuned"
