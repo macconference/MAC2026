@@ -58,8 +58,9 @@ const MAC2025Opportunities = () => {
             {/* 📧 Email to: <strong>maifuzali@hotmail.com</strong> (Subject: &quot;RMGI&quot;) */}
           </p>
           <a
-            href="/Advertisement_RGMI_2025.pdf"
-            download
+            href="/Advertisement_RMGI_2025.pdf"
+            
+            download={true}
             className="font-semibold text-red-700  cursor-pointer"
           >
             📄 Read full details here
