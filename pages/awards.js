@@ -120,7 +120,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <SponsorFix />
+      {/* <SponsorFix /> */}
     </div>
   );
 };

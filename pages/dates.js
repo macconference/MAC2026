@@ -75,10 +75,32 @@ const Dates = () => {
                     Early Bird Registration
                   </td>
                   <td class="text-center px-4 py-2 border border-black w-4/12">
-                    May 15, 2025
+                   Till May 15, 2025
                   </td>
                 </tr>
                 <tr>
+                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                    5.
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                    Regular Registration
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                   16 May- 15 June, 2025
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                    6.
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                   On Spot Registration
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                   After 16 June ,2025
+                  </td>
+                </tr>
+                {/* <tr>
                   <td class="text-center px-4 py-2 border border-black w-1/12">
                     5.
                   </td>
@@ -88,16 +110,18 @@ const Dates = () => {
                   <td class="text-center px-4 py-2 border border-black w-4/12">
                     June 01, 2025
                   </td>
-                </tr>
+                </tr> */}
                 <tr>
                   <td class="text-center px-4 py-2 border border-black w-1/12">
-                    6.
+                    7.
                   </td>
                   <td class="text-center px-4 py-2 border border-black w-7/12">
                     Camera Ready Paper Submission
                   </td>
                   <td class="text-center px-4 py-2 border border-black w-4/12">
-                    June 01, 2025
+                    <s>June 1, 2025</s>
+                    <br />
+                    <span class="text-red-500">June 15, 2025</span>
                   </td>
                 </tr>
               </tbody>
@@ -234,7 +258,7 @@ const Dates = () => {
 
 </div>
 */}
-      <SponsorFix />
+      {/* <SponsorFix /> */}
     </div>
   );
 };

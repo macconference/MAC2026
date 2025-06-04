@@ -5,25 +5,38 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        'marquee-track': {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
+      animation: {
+        'marquee-track': 'marquee-track 20s linear infinite',
+      },
+    },
     screens: {
       'sm': '640px',
-      // => @media (min-width: 640px) { ... }
-
       'md': '768px',
-      // => @media (min-width: 768px) { ... }
-
       'lg': '1020px',
-      // => @media (min-width: 1024px) { ... }
-
       'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
-
       '2xl': '1536px',
-      // => @media (min-width: 1536px) { ... }
-    }
+    },
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+    function ({ addUtilities }) {
+      addUtilities({
+        '.animate-paused': {
+          'animation-play-state': 'paused',
+        },
+        '.animate-running': {
+          'animation-play-state': 'running',
+        },
+      });
+    },
+  ],
   daisyui: {
     styled: true,
     themes: true,

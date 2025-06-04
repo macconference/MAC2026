@@ -91,7 +91,7 @@ const guideline = () => {
           </main>
         </div>
 
-        <SponsorFix />
+        {/* <SponsorFix /> */}
       </div>
     </main>
   );

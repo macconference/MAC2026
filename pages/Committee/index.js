@@ -717,7 +717,7 @@ const Committee = () => {
             </div>
           </div>
         </div>
-        <SponsorFix />
+        {/* <SponsorFix /> */}
       </div>
     </>
   );
