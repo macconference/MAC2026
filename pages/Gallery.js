@@ -104,7 +104,7 @@ const Gallery = () => {
           />
         </div>
       </div>
-      <SponsorFix />
+      {/* <SponsorFix /> */}
     </div>
   );
 };

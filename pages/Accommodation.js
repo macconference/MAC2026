@@ -163,7 +163,7 @@ const Accommodation = () => {
           </table>
         </div>
       </div>
-      <SponsorFix />
+      {/* <SponsorFix /> */}
     </div>
   );
 };

@@ -39,7 +39,7 @@ const Accommodation = () => {
           </div>
         </div>
       </section>
-      <SponsorFix />
+      {/* <SponsorFix /> */}
     </div>
   );
 };

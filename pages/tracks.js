@@ -62,7 +62,7 @@ Communication."
           </a>
         </div>
       </div>
-      <SponsorFix />
+      {/* <SponsorFix /> */}
     </main>
   );
 };
