@@ -14,7 +14,7 @@ import Sponsors1 from "../components/Sponsors1";
 import { IoMdNotifications } from "react-icons/io";
 import SponsorCarousel from "./SponsorCarousel";
 import NotificationCarousel from "./Notification";
-import IndustrySponsors from "./industrySponsors";
+
 import Sponsors2 from "./Sponsor2";
 
 const HomeMain = () => {
