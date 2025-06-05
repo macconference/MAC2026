@@ -95,121 +95,159 @@ const Registration = () => {
         </span>
       </h1>
 <div className="flex justify-center mt-16">
-  <div className="p-1 md:p-4 border-2 border-stone-400 overflow-x-scroll">
-    <h1 className="text-[20px] sm:text-[25px] md:text-2xl text-red-500 font-bold p-1 pb-2 text-center underline">
-      Indian Delegates
-    </h1>
-    <table className="text-left text-[12px] md:text-lg lg:text-lg w-[85rem]">
-      <tbody>
-        <tr className="h-12">
-          <th></th>
-          <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
-            Category
-          </th>
-          <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
-            <div>
-              Early Bird
-              <div className="text-[10px] sm:text-[12px] md:text-[14px]">
-                (Till May 15, 2025)
-              </div>
-            </div>
-          </th>
-          <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
-            <div>
-              Regular Registration
-              <div className="text-[10px] sm:text-[12px] md:text-[14px]">
-                (16 May–15 June, 2025)
-              </div>
-            </div>
-          </th>
-          <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
-            <div>
-              On Spot Registration
-              <div className="text-[10px] sm:text-[12px] md:text-[14px]">
-                (After 16 June, 2025)
-              </div>
-            </div>
-          </th>
-          <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
-            <div>
-              For Online Registration**
-              {/* <div className="text-[10px] sm:text-[12px] md:text-[14px]">#</div> */}
-            </div>
-          </th>
-        </tr>
+          <div className="p-1 md:p-4 border-2 border-stone-400 overflow-x-scroll">
+            <h1 className="text-[20px] sm:text-[25px] md:text-2xl text-red-500 font-bold p-1 pb-2 text-center underline">
+              Indian Delegates
+            </h1>
+            <table className="text-left text-[12px] md:text-lg lg:text-lg w-[85rem]">
+              <tbody>
+                <tr className="h-12">
+                  <th></th>
+                  <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
+                    Category
+                  </th>
+                  <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
+                    <div>
+                      Early Bird
+                      <div className="text-[10px] sm:text-[12px] md:text-[14px]">
+                        (Till May 15, 2025)
+                      </div>
+                    </div>
+                  </th>
+                  <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
+                    <div>
+                      Regular Registration
+                      <div className="text-[10px] sm:text-[12px] md:text-[14px]">
+                        (16 May–15 June, 2025)
+                      </div>
+                    </div>
+                  </th>
+                  <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
+                    <div>
+                      On Spot Registration
+                      <div className="text-[10px] sm:text-[12px] md:text-[14px]">
+                        (After 16 June, 2025)
+                      </div>
+                    </div>
+                  </th>
+                </tr>
 
-        {/* Student */}
-        <tr className="border-b-2 border-stone-600">
-          <td
-            className="w-[20%] md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400"
-            rowSpan={3}
-          >
-            <div className="flex justify-center items-center">
-              <span className="text-red-500 font-bold">Student</span>
-            </div>
-          </td>
-        </tr>
-        <tr className="border-b-2 border-stone-400">
-          <td className="py-2">IEEE</td>
-          <td className="py-2">INR 6,900</td>
-          <td className="py-2">INR 8,900</td>
-          <td className="py-2">INR 10,900</td>
-          <td className="py-2">INR 12,000</td>
-        </tr>
-        <tr className="border-b-2 border-stone-400">
-          <td className="py-2">Non-IEEE</td>
-          <td className="py-2">INR 8,400</td>
-          <td className="py-2">INR 10,400</td>
-          <td className="py-2">INR 11,900</td>
-          <td className="py-2">INR 12,000</td>
-        </tr>
+                {/* Student */}
+                <tr className="border-b-2 border-stone-600">
+                  <td
+                    className="w-[20%] md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400"
+                    rowSpan={3}
+                  >
+                    <div className="flex justify-center items-center">
+                      <span className="text-red-500 font-bold">Student</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr className="border-b-2 border-stone-400">
+                  <td className="py-2">IEEE</td>
+                  <td className="py-2">INR 6,900</td>
+                  <td className="py-2">INR 8,900</td>
+                  <td className="py-2">INR 10,900</td>
+                </tr>
+                <tr className="border-b-2 border-stone-400">
+                  <td className="py-2">Non-IEEE</td>
+                  <td className="py-2">INR 8,400</td>
+                  <td className="py-2">INR 10,400</td>
+                  <td className="py-2">INR 11,900</td>
+                </tr>
 
-        {/* Professional */}
-        <tr>
-          <td rowSpan={3} className="font-semibold">
-            <div className="flex justify-center items-center">
-              <span className="text-red-500 font-bold">Professional</span>
-            </div>
-          </td>
-        </tr>
-        <tr className="border-b-2 border-stone-400">
-          <td className="py-2">IEEE</td>
-          <td className="py-2">INR 13,900</td>
-          <td className="py-2">INR 16,900</td>
-          <td className="py-2">INR 18,900</td>
-          <td className="py-2">INR 21,000</td>
-        </tr>
-        <tr className="border-b-2 border-stone-400">
-          <td className="py-2">Non-IEEE</td>
-          <td className="py-2">INR 16,100</td>
-          <td className="py-2">INR 18,900</td>
-          <td className="py-2">INR 20,900</td>
-          <td className="py-2">INR 21,000</td>
-        </tr>
+                {/* Professional */}
+                <tr>
+                  <td rowSpan={3} className="font-semibold">
+                    <div className="flex justify-center items-center">
+                      <span className="text-red-500 font-bold">
+                        Professional
+                      </span>
+                    </div>
+                  </td>
+                </tr>
+                <tr className="border-b-2 border-stone-400">
+                  <td className="py-2">IEEE</td>
+                  <td className="py-2">INR 13,900</td>
+                  <td className="py-2">INR 16,900</td>
+                  <td className="py-2">INR 18,900</td>
+                </tr>
+                <tr className="border-b-2 border-stone-400">
+                  <td className="py-2">Non-IEEE</td>
+                  <td className="py-2">INR 16,100</td>
+                  <td className="py-2">INR 18,900</td>
+                  <td className="py-2">INR 20,900</td>
+                </tr>
 
-        {/* Poster Presentation */}
-        <tr className="border-b-2 border-stone-400">
-          <td colSpan={2} className="font-bold text-red-500 pl-4">
-            For Poster Presentation
-          </td>
-          <td colSpan={4} className="text-center font-semibold text-black py-2">
-            INR 5,000
-          </td>
-        </tr>
+                {/* Online Presentation */}
+                {/* For Online Presentation */}
+                <tr className="border-b-2 border-stone-400">
+                  <td
+                    className="w-[20%] md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400"
+                    rowSpan={3}
+                  >
+                    <div className="flex justify-center items-center">
+                      <span className="text-red-500 font-bold">
+                        Online Presentation
+                      </span>
+                    </div>
+                    <div className="text-[10px] sm:text-[12px] text-center text-black font-normal">
+                      (in unavoidable circumstances)
+                    </div>
+                  </td>
+                </tr>
+                <tr className="border-b-2 border-stone-400">
+                  <td className="py-2"></td>
+                  <td
+                    colSpan={3}
+                    className="text-center py-2 font-semibold text-black"
+                  >
+                    INR 12,000{" "}
+                    <span className="text-sm font-normal">(for Students)</span>
+                  </td>
+                </tr>
+                <tr className="border-b-2 border-stone-400">
+                  <td className="py-2"></td>
+                  <td
+                    colSpan={3}
+                    className="text-center py-2 font-semibold text-black"
+                  >
+                    INR 21,000{" "}
+                    <span className="text-sm font-normal">
+                      (for Professionals)
+                    </span>
+                  </td>
+                </tr>
 
-        {/* Attendees without Paper */}
-        <tr className="border-b-2 border-stone-400">
-          <td colSpan={2} className="font-bold text-red-500 pl-4">
-            Attendees without Paper
-          </td>
-          <td colSpan={4} className="text-center font-semibold text-black py-2">
-            INR 5,000
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+                {/* Poster Presentation */}
+                <tr className="border-b-2 border-stone-400">
+                  <td colSpan={2} className="font-bold text-red-500 pl-4">
+                    For Poster Presentation
+                  </td>
+                  <td
+                    colSpan={3}
+                    className="text-center font-semibold text-black py-2"
+                  >
+                    INR 5,000
+                  </td>
+                </tr>
+
+                {/* Attendees without Paper */}
+                <tr className="border-b-2 border-stone-400">
+                  <td colSpan={2} className="font-bold text-red-500 pl-4">
+                    Attendees without Paper
+                  </td>
+                  <td
+                    colSpan={3}
+                    className="text-center font-semibold text-black py-2"
+                  >
+                    INR 5,000
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
 
 
         <div className="flex flex-col items-center ">
