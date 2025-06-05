@@ -188,10 +188,10 @@ const Registration = () => {
                   >
                     <div className="flex justify-center items-center">
                       <span className="text-red-500 font-bold">
-                        Online Presentation
+                        Online Presentation**
                       </span>
                     </div>
-                    <div className="text-[10px] sm:text-[12px] text-center text-black font-normal">
+                    <div className="text-[10px] sm:text-[12px] text-center text-black italic ">
                       (in unavoidable circumstances)
                     </div>
                   </td>
@@ -200,22 +200,28 @@ const Registration = () => {
                   <td className="py-2"></td>
                   <td
                     colSpan={3}
-                    className="text-center py-2 font-semibold text-black"
+                    className="text-center py-2  text-black"
                   >
-                    INR 12,000{" "}
-                    <span className="text-sm font-normal">(for Students)</span>
+                    <div className="flex justify-center gap-5">
+                    <p className="font-semibold">For Students-</p>
+                    <p>INR 12,000</p>
+                  </div>
                   </td>
                 </tr>
                 <tr className="border-b-2 border-stone-400">
                   <td className="py-2"></td>
                   <td
                     colSpan={3}
-                    className="text-center py-2 font-semibold text-black"
+                    className="text-center py-2  text-black"
                   >
-                    INR 21,000{" "}
-                    <span className="text-sm font-normal">
+                  {/* <p>For Professionals   INR 21,000{" "}</p>  */}
+                  <div className="flex justify-center gap-5">
+                    <p className="font-semibold">For Professionals-</p>
+                    <p>INR 21,000</p>
+                  </div>
+                    {/* <span className="text-sm font-normal">
                       (for Professionals)
-                    </span>
+                    </span> */}
                   </td>
                 </tr>
 
