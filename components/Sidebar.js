@@ -75,56 +75,57 @@ const Sidebar = ({ setIsOpenSidebar }) => {
             Keynote
           </motion.div> */}
           <motion.div
-            variants={item}
-            className={`relative dropdown dropdown-hover text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
-          >
-            <div className="">
-              <label tabIndex={0} className="m-1">
-                Program
-              </label>
-              <ul
-                tabIndex={0}
-                className="absolute top-10 right-[2px] text-sm sm:text-md dropdown-content menu p-2 shadow bg-stone-800 rounded-box w-44 sm:w-52"
-              >
-                <li
-                  onClick={() => navigate("/tuned")}
-                  className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
-                >
-                  Keynotes
-                </li>
-                <li
-                  onClick={() => navigate("/tuned")}
-                  className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
-                >
-                  Workshop
-                </li>
-                <li
-                  onClick={() => navigate("/tuned")}
-                  className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
-                >
-                  YP
-                </li>
-                <li
-                  onClick={() => navigate("/tuned")}
-                  className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
-                >
-                  WIE
-                </li>
-                <li
-                  onClick={() => navigate("/tuned")}
-                  className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
-                >
-                  SIGHT
-                </li>
-                <li
-                  onClick={() => navigate("/tuned")}
-                  className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
-                >
-                  Conference Schedule
-                </li>
-              </ul>
-            </div>
-          </motion.div>
+  variants={item}
+  className={`relative dropdown dropdown-hover text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
+>
+  <div>
+    <label tabIndex={0} className="m-1">
+      Program
+    </label>
+    <ul
+      tabIndex={0}
+      className="absolute top-10 right-[2px] text-sm sm:text-md dropdown-content menu p-2 shadow bg-stone-800 rounded-box w-44 sm:w-52"
+    >
+      <li
+        onClick={() => navigate("/keynote1")}
+        className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
+      >
+        Keynotes
+      </li>
+      <li
+        onClick={() => navigate("/workshop")}
+        className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
+      >
+        Workshop
+      </li>
+      <li
+        onClick={() => navigate("/yp")}
+        className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
+      >
+        YP
+      </li>
+      <li
+        onClick={() => navigate("/wie")}
+        className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
+      >
+        WIE
+      </li>
+      <li
+        onClick={() => navigate("/sight")}
+        className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
+      >
+        SIGHT
+      </li>
+      <li
+        onClick={() => navigate("/conferenceSchedule")}
+        className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
+      >
+        Conference Schedule
+      </li>
+    </ul>
+  </div>
+</motion.div>
+
           <motion.div
             variants={item}
             onClick={() => navigate("/tracks")}
