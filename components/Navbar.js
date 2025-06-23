@@ -59,10 +59,10 @@ const Navbar = () => {
               tabIndex={0}
               className="text-white text-[17px] font-semibold menu p-2 shadow bg-stone-800 rounded-xl w-52 flex flex-col items-start"
             >
-              <Link href="/tuned">
+              <Link href="/keynote1">
                 <li
                   className={`${
-                    router.pathname == "/tuned"
+                    router.pathname == "/keynote1"
                       ? " hover:border-orange-400 text-orange-400"
                       : ""
                   } hover:bg-orange-300 hover:text-black rounded-lg w-full text-left p-2`}
@@ -70,10 +70,10 @@ const Navbar = () => {
                   Keynotes
                 </li>
               </Link>
-              <Link href="/tuned">
+              <Link href="/workshop">
                 <li
                   className={`${
-                    router.pathname == "/tuned"
+                    router.pathname == "/workshop"
                       ? " hover:border-orange-400 text-orange-400"
                       : ""
                   } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
@@ -81,10 +81,10 @@ const Navbar = () => {
                   Workshop
                 </li>
               </Link>
-              <Link href="/tuned">
+              <Link href="/yp">
                 <li
                   className={`${
-                    router.pathname == "/tuned"
+                    router.pathname == "/yp"
                       ? " hover:border-orange-400 text-orange-400"
                       : ""
                   } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
@@ -92,10 +92,10 @@ const Navbar = () => {
                   YP
                 </li>
               </Link>
-              <Link href="/tuned">
+              <Link href="/wie">
                 <li
                   className={`${
-                    router.pathname == "/tuned"
+                    router.pathname == "/wie"
                       ? " hover:border-orange-400 text-orange-400"
                       : ""
                   } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
@@ -103,10 +103,10 @@ const Navbar = () => {
                   WIE
                 </li>
               </Link>
-              <Link href="/tuned">
+              <Link href="/sight">
                 <li
                   className={`${
-                    router.pathname == "/tuned"
+                    router.pathname == "/sight"
                       ? " hover:border-orange-400 text-orange-400"
                       : ""
                   } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
@@ -114,10 +114,10 @@ const Navbar = () => {
                   SIGHT
                 </li>
               </Link>
-              <Link href="/tuned">
+              <Link href="/conferenceSchedule">
                 <li
                   className={`${
-                    router.pathname == "/tuned"
+                    router.pathname == "/conferenceSchedule"
                       ? " hover:border-orange-400 text-orange-400"
                       : ""
                   } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}

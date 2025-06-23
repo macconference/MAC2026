@@ -42,24 +42,18 @@ const Gallery = () => {
                 </tr>
               </tbody>
 
-              {/* Prof. Satish K. Sharma Best Paper Award */}
-              <tbody className="border-b-4 border-stone-600">
+             {/* Prof. Satish K. Sharma Best Paper Award */}
+               <tbody className="border-b-4 border-stone-600">
                 <tr className="border-b-2 border-stone-400">
-                  <td
-                    className="w-[30%] md:w-1/4 font-semibold text-[13px] md:text-[20px] lg:text-lg px-2 py-2"
-                    rowSpan={3}
-                  >
-                    Prof. Satish K. Sharma Best Paper Award for Doctoral Students
-                  </td>
-                  <td className="py-2 text-center">First Prize INR 15000</td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">Second Prize INR 10000</td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">Third Prize INR 5000</td>
+                 <td
+                  className="w-[30%] md:w-1/4 font-semibold text-[13px] md:text-[20px] lg:text-lg px-2 py-2"
+                   >
+                   Prof. Satish K. Sharma Best Paper Award for Doctoral Students
+                 </td>
+               <td className="py-2 text-center">Total Prize Money: INR 30,000</td>
                 </tr>
               </tbody>
+
 
               {/* Prof. Bharat S Rawal Research Promotion Award */}
               <tbody className="border-b-4 border-stone-600">
@@ -80,17 +74,6 @@ const Gallery = () => {
                 </tr>
               </tbody>
 
-              {/* Best Paper for Industry */}
-              <tbody className="border-b-4 border-stone-600">
-                <tr className="border-b-2 border-stone-400">
-                  <td
-                    className="w-[30%] md:w-1/4 font-semibold text-[13px] md:text-[20px] lg:text-lg px-2 py-2"
-                  >
-                    Best Paper for Industry
-                  </td>
-                  <td className="py-2 text-center">Award will be given to top 2 papers</td>
-                </tr>
-              </tbody>
 
               {/* IEEE Student Branch Best Paper Award */}
               <tbody className="border-b-4 border-stone-600">
@@ -102,9 +85,6 @@ const Gallery = () => {
                     IEEE Student Branch Best Paper Award
                   </td>
                   <td className="py-2 text-center">Microwave Track</td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">Industry Track</td>
                 </tr>
                 <tr className="border-b-2 border-stone-400">
                   <td className="py-2 text-center">Antenna Track</td>

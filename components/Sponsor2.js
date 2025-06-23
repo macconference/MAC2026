@@ -17,11 +17,23 @@ const sponsors = [
     img: "/6_Bronze.jpeg",
   },
   {
+    name: "VVDN Technologies",
+    img: "/vvdn-logo.png",
+  },
+  {
   name:"Mine Instruments Pvt Ltd",
   img:"/mine-electronics.jpeg"
 }
   // Add more sponsors here
+  
 ];
+const SilverSponsor = [
+  {
+    name: "VVDN Technologies",
+    img: "/vvdn-logo.png",
+  },
+];
+
 const BronzeSponsor=[{
   name:"Mine Instruments Pvt Ltd",
   img:"/mine-electronics.jpeg"
