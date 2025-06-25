@@ -33,6 +33,15 @@ const Schedule = () => {
             Download Conference Schedule
           </a>
         </div>
+        <div className="flex justify-center mt-10">
+          <a
+            href="/Session Details of MAC 2025 - Session Deatils (5).pdf"
+            download
+            className="w-[70%] sm:w-[40%] md:w-[20%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-4 py-2 text-center transition"
+          >
+            Download Paper Presentation Schedule
+          </a>
+        </div>
       </div>
     </section>
   );
