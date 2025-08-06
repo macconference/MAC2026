@@ -44,7 +44,7 @@ const SponsorsSection = () => {
     <div className=" p-2 mx-2 md:mx-8">
      
       <div
-        className={` bg-blue shadow-inner rounded-lg flex flex-col justify-center items-center `}
+        className={` bg-blue  rounded-lg flex flex-col justify-center items-center `}
       >
        
         <div className="w-full flex justify-center items-center mt-4">
