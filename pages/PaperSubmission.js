@@ -1,13 +1,18 @@
 import React from "react";
-import dynamic from "next/dynamic"; // ✅ Import dynamic
+import dynamic from "next/dynamic";
 import examsPreparation from "../lottieFiles/examsPreparation.json";
 import gradients from "../styles/customGradient.module.css";
-import SponsorFix from "../components/SponsorFix";
+// import SponsorFix from "../components/SponsorFix"; // optional
 
-// ✅ Dynamically import Lottie with SSR disabled
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
-const guideline = () => {
+const Guideline = () => {
+  const [isClient, setIsClient] = React.useState(false);
+
+  React.useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   return (
     <main
       className={`flex-grow overflow-x-clip bg-gray-50 pt-14 ${gradients.homePage}`}
@@ -67,9 +72,12 @@ const guideline = () => {
                     To be announced soon
                   </a>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-12">
-                  <Lottie animationData={examsPreparation} loop={true} />
-                </div>
+
+                {isClient && (
+                  <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-12">
+                    <Lottie animationData={examsPreparation} loop={true} />
+                  </div>
+                )}
               </div>
             </section>
 
@@ -84,21 +92,15 @@ const guideline = () => {
                     registered authors, will be submitted to IEEE Xplore Digital
                     Library for Possible Publication.
                   </p>
-                  {/* <p className="mb-4 leading-relaxed md:font-semibold md:text-lg">
-                    Extended version of the top 10% papers from MAC 2025 will be
-                    published in a special issue of Defence Science Journal
-                    (SCI).
-                  </p> */}
                 </div>
               </div>
             </section>
           </main>
         </div>
-
         {/* <SponsorFix /> */}
       </div>
     </main>
   );
 };
 
-export default guideline;
+export default Guideline;
