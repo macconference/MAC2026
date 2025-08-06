@@ -8,7 +8,7 @@ import SponsorSlider from "../components/sponserSlider";
 const Sponsor = () => {
   return (
     <div
-      className={`py-20 ${gradients.homePage} text-black`}
+      className={`py-20 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 text-black`}
       style={{ fontFamily: "Cambria" }}
     >
       <div className="mt-6 p-2">

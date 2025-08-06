@@ -44,7 +44,7 @@ const Sidebar = ({ setIsOpenSidebar }) => {
         animate={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: 100 }}
         transition={{ type: "linear", duration: 0.2 }}
-        className=" bg-black w-[50%] md:w-[30%] h-full"
+        className=" bg-gradient-to-r from-indigo-900 via-blue-700 to-blue-900 w-[50%] md:w-[30%] h-full"
       >
         <motion.div
           variants={container}

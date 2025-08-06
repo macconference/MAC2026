@@ -54,7 +54,7 @@ For more information please visit the website of Uttar Pradesh Tourism.
     */}
       <section
         id="venue"
-        className="text-gray-600 body-font relative mx-6 pb-16 "
+        className="text-blue-600 body-font relative mx-6 pb-16 "
       >
         <div className=" px-0 sm:px-5 py-2 mt-8 md:mx-4 lg:mx-12 ">
           <div className="mt-8 pb-4 flex flex-col items-center justify-center">
@@ -62,7 +62,7 @@ For more information please visit the website of Uttar Pradesh Tourism.
               Venue
             </h1>
           </div>
-          <div className="w-full h-[400px] md:h-[580px] bg-gray-300 rounded-lg overflow-hidden  p-10 flex items-end justify-start relative ">
+          <div className="w-full h-[400px] md:h-[580px] bg-white rounded-lg overflow-hidden  p-10 flex items-end justify-start relative ">
             <iframe
               width="100%"
               height="100%"
@@ -74,7 +74,7 @@ For more information please visit the website of Uttar Pradesh Tourism.
               scrolling="no"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.630879498129!2d81.86363567520296!3d25.493047722149165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3985323dfd8c5e9d%3A0xf0de3a2730b4d24f!2sMotilal%20Nehru%20National%20Institute%20of%20Technology%20(MNNIT)%2C%20Prayagraj%2C%20Uttar%20Pradesh%20211004!5e0!3m2!1sen!2sin!4v1717886560000!5m2!1sen!2sin" 
             ></iframe>
-            <div className="bg-white hover:bg-gray-50 relative py-6 rounded shadow-lg ">
+            <div className="bg-blue-50 hover:bg-gray-50 relative py-6 rounded shadow-lg ">
               <div className=" px-6">
                 <h2 className="title-font text-base font-bold text-gray-900 tracking-widest">
                   ADDRESS

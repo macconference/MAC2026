@@ -14,7 +14,7 @@ const sponsors = [
   },
   {
     name: "NUMEREGION's TaraNG",
-    img: "/6_Bronze.jpeg",
+    img: "/6_Bronze-2.png",
   },
   // Add more sponsors here
 ];
@@ -28,7 +28,7 @@ const SilverSponsor = [
 
 const BronzeSponsor=[{
   name:"Mine Instruments Pvt Ltd",
-  img:"/mine-electronics.jpeg"
+  img:"/mine-electronics-2.png"
 }]
 
 const SponsorsSection = () => {
@@ -40,7 +40,7 @@ const SponsorsSection = () => {
         </span>
       </h1>
       <div
-        className={`mt-16 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover} p-6`}
+        className={`mt-16 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover} p-6`}
       >
         <h1 className="text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600">
           Diamond
@@ -56,7 +56,7 @@ const SponsorsSection = () => {
               disableOnInteraction: false,
             }}
             modules={[Autoplay]}
-            className="mySwiper w-[90%] md:w-[70%] h-[200px] lg:h-[300px] bg-white rounded-lg"
+            className="mySwiper w-[90%] md:w-[70%] h-[200px] lg:h-[300px]  rounded-lg"
           >
             {sponsors.map((sponsor, index) => (
               <SwiperSlide
@@ -79,7 +79,7 @@ const SponsorsSection = () => {
         </div>
       </div>
       <div
-  className={`mt-16 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover} p-6`}
+  className={`mt-16  shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover} p-6`}
 >
   <h1 className="text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600">
     Silver
@@ -95,7 +95,7 @@ const SponsorsSection = () => {
         disableOnInteraction: false,
       }}
       modules={[Autoplay]}
-      className="mySwiper w-[90%] md:w-[70%] h-[200px] lg:h-[300px] bg-white rounded-lg"
+      className="mySwiper w-[90%] md:w-[70%] h-[200px] lg:h-[300px]  rounded-lg"
     >
       {SilverSponsor.map((sponsor, index) => (
         <SwiperSlide
@@ -119,7 +119,7 @@ const SponsorsSection = () => {
 </div>
 
       <div
-        className={`mt-16 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover} p-6`}
+        className={`mt-16 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover} p-6`}
       >
         <h1 className="text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600">
           Bronze
@@ -135,7 +135,7 @@ const SponsorsSection = () => {
               disableOnInteraction: false,
             }}
             modules={[Autoplay]}
-            className="mySwiper w-[90%] md:w-[70%] h-[200px] lg:h-[300px] bg-white rounded-lg"
+            className="mySwiper w-[90%] md:w-[70%] h-[200px] lg:h-[300px] rounded-lg"
           >
             {BronzeSponsor.map((sponsor, index) => (
               <SwiperSlide

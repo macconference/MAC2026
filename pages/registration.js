@@ -551,7 +551,7 @@ const Registration = () => {
 */
 const Registration = () => {
   return (
-    <div className="mt-20 py-20 bg-slate-200 text-black flex justify-center items-center text-center">
+    <div className="mt-20 py-20 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 text-black flex justify-center items-center text-center">
       <h1 className="text-2xl md:text-4xl font-bold text-red-600">
         Registration Details Will Be Announced Soon
       </h1>

@@ -119,7 +119,7 @@ const MAC2025Opportunities = () => {
 
 const MAC2025Opportunities = () => {
   return (
-    <div className="mt-14 py-20 bg-gray-50 text-gray-800 flex justify-center items-center min-h-[200px]">
+    <div className="mt-14 py-20 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 text-gray-800 flex justify-center items-center min-h-[200px]">
       <h2 className="text-3xl font-semibold text-gray-700 italic">
         Will be announced soon.
       </h2>

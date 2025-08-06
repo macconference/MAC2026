@@ -2,7 +2,7 @@ import React from "react";
 
 const Wie = () => {
   return (
-    <section className="bg-white text-gray-800 body-font mx-4 sm:mx-6 md:mx-12 pb-16">
+    <section className="bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 text-gray-800 body-font mx-4 sm:mx-6 md:mx-12 pb-16">
       <div className="px-0 sm:px-5 py-2 mt-8">
         {/* Section Heading */}
         <div className="mt-8 pb-4 flex flex-col items-center justify-center">
@@ -14,7 +14,7 @@ const Wie = () => {
         {/* About Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center px-4 md:px-16 lg:px-24 mb-10">
           <div className="text-base sm:text-lg leading-relaxed">
-            <h2 className="text-2xl font-bold text-pink-400 mb-2">About IEEE WIE</h2>
+            <h2 className="text-2xl font-bold text-pink-500 mb-2">About IEEE WIE</h2>
             <p>
               IEEE Women in Engineering (WIE) is a global network of IEEE members and
               volunteers dedicated to promoting women engineers and scientists and
@@ -34,7 +34,7 @@ const Wie = () => {
         {/* About IEEE */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center px-4 md:px-16 lg:px-24 mb-10">
           <div className="text-base sm:text-lg leading-relaxed">
-            <h2 className="text-2xl font-bold text-pink-400 mb-2">About IEEE</h2>
+            <h2 className="text-2xl font-bold text-pink-500 mb-2">About IEEE</h2>
             <p>
               IEEE is the world’s largest technical professional organization dedicated to
               advancing technology for the benefit of humanity.
@@ -51,7 +51,7 @@ const Wie = () => {
 
         {/* Mission */}
         <div className="px-4 md:px-16 lg:px-24 mb-10">
-          <h2 className="text-2xl font-bold text-pink-400 mb-2">The WIE Mission</h2>
+          <h2 className="text-2xl font-bold text-pink-500 mb-2">The WIE Mission</h2>
           <p className="text-base sm:text-lg leading-relaxed">
             To connect, support, and inspire women and girls worldwide, and facilitate their
             recruitment and retention in STEM fields, fostering technological innovation and
@@ -61,7 +61,7 @@ const Wie = () => {
 
         {/* IEEE WIE Strives To */}
         <div className="px-4 md:px-16 lg:px-24 mb-12">
-          <h2 className="text-2xl font-bold text-pink-400 mb-4">IEEE WIE Strives To</h2>
+          <h2 className="text-2xl font-bold text-pink-500 mb-4">IEEE WIE Strives To</h2>
           <ul className="list-disc pl-6 text-base sm:text-lg space-y-2">
             <li>Assist with forming new IEEE WIE Affinity Groups and support ongoing activities.</li>
             <li>
@@ -91,7 +91,7 @@ const Wie = () => {
 
         {/* About Heading */}
         <div className="flex justify-center mt-8 mb-4">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-pink-400 text-center">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-pink-500 text-center">
             About IEEE WIE
           </h1>
         </div>

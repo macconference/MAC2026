@@ -2,7 +2,7 @@ import React from "react";
 
 const YoungProfessionals = () => {
   return (
-    <section className="bg-white text-gray-800 body-font mx-4 sm:mx-6 md:mx-12 pb-16">
+    <section className="bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 text-gray-800 body-font mx-4 sm:mx-6 md:mx-12 pb-16">
       <div className="px-0 sm:px-5 py-2 mt-8">
         {/* Section Heading */}
         <div className="mt-8 pb-4 flex flex-col items-center justify-center">
@@ -12,7 +12,7 @@ const YoungProfessionals = () => {
         </div>
 
         {/* About Description */}
-        <div className="text-justify text-base sm:text-lg text-gray-700 px-4 md:px-16 lg:px-24 leading-relaxed mb-12">
+        <div className="text-justify text-base sm:text-lg text-gray-800 px-4 md:px-16 lg:px-24 leading-relaxed mb-12">
           <p className="mb-6">
             IEEE Young Professionals (YP) is a vibrant global community for early-career
             engineers and technologists. It connects enthusiastic innovators through mentorship,
@@ -29,7 +29,7 @@ const YoungProfessionals = () => {
               <img src="/yp wiki.webp" alt="Wiki" className="w-full h-full object-contain p-2" />
             </div>
             <h2 className="text-xl font-bold text-gray-800 mb-2">YP Leadership Wiki</h2>
-            <p className="text-gray-600 mb-4 px-2">
+            <p className="text-gray-700 mb-4 px-2">
               Plug into one of the most powerful networks within IEEE. This wiki incorporates
               suggestions from Society/Council YP reps, Technical Activities Staff, and YP Committee Members.
             </p>
@@ -49,7 +49,7 @@ const YoungProfessionals = () => {
               <img src="/yp directory.webp" alt="Directory" className="w-full h-full object-contain p-2" />
             </div>
             <h2 className="text-xl font-bold text-gray-800 mb-2">YP Volunteers Directory</h2>
-            <p className="text-gray-600 mb-4 px-2">
+            <p className="text-gray-700 mb-4 px-2">
               Make great connections with IEEE Volunteers from your home country and around
               the world. Discover opportunities to collaborate and grow with a diverse network of professionals.
             </p>
@@ -69,7 +69,7 @@ const YoungProfessionals = () => {
               <img src="/yp executive.webp" alt="Executive" className="w-full h-full object-contain p-2" />
             </div>
             <h2 className="text-xl font-bold text-gray-800 mb-2">YP Executive Committee</h2>
-            <p className="text-gray-600 mb-4 px-2">
+            <p className="text-gray-700 mb-4 px-2">
               The executive team collaborates with volunteer leaders across IEEE regions and
               societies to ensure consistent and high-quality YP programs worldwide.
             </p>
@@ -86,21 +86,21 @@ const YoungProfessionals = () => {
 
         {/* 3 Circular Images Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-6">
-          <div className="rounded-full overflow-hidden shadow-md border border-gray-200 w-[80%] mx-auto aspect-square">
+          <div className="rounded-full overflow-hidden shadow-md border border-gray-300 w-[80%] mx-auto aspect-square">
             <img
               src="/yp3.jpg"
               alt="YP Event 1"
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="rounded-full overflow-hidden shadow-md border border-gray-200 w-[80%] mx-auto aspect-square">
+          <div className="rounded-full overflow-hidden shadow-md border border-gray-300 w-[80%] mx-auto aspect-square">
             <img
               src="/yp1.jpg"
               alt="YP Event 2"
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="rounded-full overflow-hidden shadow-md border border-gray-200 w-[80%] mx-auto aspect-square">
+          <div className="rounded-full overflow-hidden shadow-md border border-gray-300 w-[80%] mx-auto aspect-square">
             <img
               src="/yp2.jpeg"
               alt="YP Event 3"

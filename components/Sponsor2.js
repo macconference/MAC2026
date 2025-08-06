@@ -14,7 +14,7 @@ const sponsors = [
   },
   {
     name: "NUMEREGION's TaraNG",
-    img: "/6_Bronze.jpeg",
+    img: "/6_Bronze-2.png",
   },
   {
     name: "VVDN Technologies",
@@ -22,7 +22,7 @@ const sponsors = [
   },
   {
   name:"Mine Instruments Pvt Ltd",
-  img:"/mine-electronics.jpeg"
+  img:"/mine-electronics-2.png"
 }
   // Add more sponsors here
   
@@ -36,7 +36,7 @@ const SilverSponsor = [
 
 const BronzeSponsor=[{
   name:"Mine Instruments Pvt Ltd",
-  img:"/mine-electronics.jpeg"
+  img:"/mine-electronics-2.png"
 }]
 
 const SponsorsSection = () => {
@@ -44,7 +44,7 @@ const SponsorsSection = () => {
     <div className=" p-2 mx-2 md:mx-8">
      
       <div
-        className={` bg-white shadow-inner rounded-lg flex flex-col justify-center items-center `}
+        className={` bg-blue shadow-inner rounded-lg flex flex-col justify-center items-center `}
       >
        
         <div className="w-full flex justify-center items-center mt-4">
@@ -58,7 +58,7 @@ const SponsorsSection = () => {
               disableOnInteraction: false,
             }}
             modules={[Autoplay]}
-            className="mySwiper w-[90%] md:w-[70%] h-[100px] lg:h-[300px] bg-white rounded-lg"
+            className="mySwiper w-[90%] md:w-[70%] h-[100px] lg:h-[300px] bg-blue rounded-lg"
           >
             {sponsors.map((sponsor, index) => (
               <SwiperSlide

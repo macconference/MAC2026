@@ -7,7 +7,7 @@ import { BsTwitter, BsInstagram } from "react-icons/bs";
 const Footer = () => {
   return (
     <>
-      <footer className="relative bg-stone-50 body-font border-t-2 border-stone-600">
+      <footer className="relative bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 body-font border-t-2 border-stone-600">
         <div className=" px-5 py-12 mx-auto flex sm:items-start sm:flex-row  flex-wrap flex-col">
           <div className="lg:w-1/5 sm:w-1/2 w-full flex-shrink-0 justify-center mx-auto text-center ">
             {/* <a className="flex title-font font-medium items-center text-center justify-center text-gray-900">

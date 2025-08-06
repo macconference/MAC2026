@@ -12,7 +12,7 @@ const Navbar = () => {
   const [isOpenSidebar, setIsOpenSidebar] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-black flex h-[72px] items-center p-6">
+    <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-indigo-900 via-blue-700 to-blue-900 flex h-[72px] items-center p-6">
       <div className={`flex-1 font-bold text-3xl`}>
         <div className=" flex flex-start">
           <Link href="/">
