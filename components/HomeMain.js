@@ -39,7 +39,7 @@ const HomeMain = () => {
                     </span>
                   </Link>
                   <span className="text-sm sm:text-base">
-                    Date to be announced soon
+                    October 23-24, 2026
                   </span>
                 </div>
 
@@ -50,7 +50,7 @@ const HomeMain = () => {
                     </span>
                   </Link>
                   <span className="text-sm sm:text-base">
-                    MNNIT ALLAHABAD, U.P. India
+                    MNNIT Allahabad, India
                   </span>
                 </div>
               </div>
@@ -90,32 +90,21 @@ const HomeMain = () => {
               <h1 className="text-4xl md:text-6xl font-bold border-b-4 border-cyan-600 pb-4 mb-4">
                 <span className="text-orange-500">MAC</span>2026
               </h1>
-              <h2 className="text-lg font-semibold mb-2">Co-Organised By</h2>
+              <h2 className="text-lg font-semibold mb-2">Organised By</h2>
               <p className="text-xl font-bold text-orange-600">
-                MNNIT Allahabad, RGPV Bhopal, MANIT Bhopal
+                DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING,
+MNNIT ALLAHABAD
               </p>
               <p className="mt-6 leading-relaxed text-lg text-justify font-medium">
-                Welcome to the International Conference on Microwave, Antenna,
-                and Communication (MAC-2026)! Join us in the scenic city of
-                Bhopal, Madhya Pradesh, India, from June 27-29, 2026, for an
-                enriching experience of knowledge, research and innovation.
-                Technically sponsored by IEEE UP section, MAC 2026 is jointly
-                organised by MANIT Bhopal, RGPV Bhopal and MNNIT Allahabad.
-                MAC-2026 serves as a dynamic platform, bringing together
-                researchers, academicians, industry professionals, and startups
-                to showcase their cutting-edge research, share innovative ideas,
-                and explore the emerging trends of Microwave, Antenna and
-                Communication technologies. MAC-2026 will also feature a special
-                track on Young Professionals, Women in Engineering and SIGHT,
-                which will provide opportunities for networking, mentoring and
-                career development. The conference will feature keynote
-                speeches, invited talks, panel discussions, technical sessions,
-                poster presentations and exhibitions. Let us engage in
-                thought-provoking technical sessions, delve into recent
-                developments, and foster collaborative discussions. MAC-2026 is
-                an opportunity for collaboration and networking with
-                international experts. We invite you to join us at MAC-2026 and
-                be a part of this exciting event!
+                Welcome to the 4th International Conference on Microwave, Antenna, and Communication (MAC2026)! Join us in the scenic city of Prayagraj, Uttar Pradesh, India, from October 23-24, 2026, for
+an enriching experience of knowledge, research and innovation. Technically sponsored by IEEE,
+MAC 2026 is being organized Department of Electronics and Communication Engineering, MNNIT
+Allahabad. MAC-2026 serves as a dynamic platform, bringing together researchers,
+academicians, industry professionals, and startups to showcase their cutting-edge research,
+share innovative ideas, and explore the emerging trends of Microwave, Antenna and
+Communication technologies. The conference will feature keynote speeches, invited talks, panel
+discussions, technical sessions, poster presentations and exhibitions. MAC-2026 is an opportunity
+to you for collaboration and networking with international experts. We invite you to join us at MAC2026 and be a part of this exciting event!
               </p>
             </div>
             <div className="md:w-1/2">

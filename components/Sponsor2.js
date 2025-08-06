@@ -44,7 +44,7 @@ const SponsorsSection = () => {
     <div className=" p-2 mx-2 md:mx-8">
      
       <div
-        className={` bg-blue  rounded-lg flex flex-col justify-center items-center `}
+        className={` bg-blue   flex flex-col justify-center items-center `}
       >
        
         <div className="w-full flex justify-center items-center mt-4">
@@ -58,7 +58,7 @@ const SponsorsSection = () => {
               disableOnInteraction: false,
             }}
             modules={[Autoplay]}
-            className="mySwiper w-[90%] md:w-[70%] h-[100px] lg:h-[300px] bg-blue rounded-lg"
+            className="mySwiper w-[90%] md:w-[70%] h-[100px] lg:h-[300px] bg-blue "
           >
             {sponsors.map((sponsor, index) => (
               <SwiperSlide

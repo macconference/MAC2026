@@ -1,38 +1,38 @@
 export const cheifpatrons = [
-  {
+ /* {
     title: "Dr.",
     fullName: "B. K. Das",
     organisation: "DRDO",
     profileImage: "/bkdas.png",
-  },
+  },*/
 ];
 
-export const patrons = [
-  // {
-  //   title: "Mr.",
-  //   fullName: "L. C. Mangal",
-  //   organisation: "Director (DEAL), DRDO, Dehradun ,India",
-  //   profileImage: "/lcmangal.png",
-  // },
-  // {
-  //   title: "Dr.",
-  //   fullName: "Sharad Kumar Pradhan",
-  //   organisation:
-  //     "Director, THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
-  //   profileImage: "/drsharad.webp",
-  // },
-  {
-    title: "Dr.",
-    fullName: " K. K. Shukla",
-    organisation: "Director, MANIT Bhopal ",
-    profileImage: "/kksingh.png",
-  },
-  {
-    title: "Prof.",
-    fullName: " Rajeev Tripathi",
-    organisation: "Vice Chancellor, RGPV, Bhopal",
-    profileImage: "/rajeev.webp",
-  },
+ export const patrons = [
+//   // {
+//   //   title: "Mr.",
+//   //   fullName: "L. C. Mangal",
+//   //   organisation: "Director (DEAL), DRDO, Dehradun ,India",
+//   //   profileImage: "/lcmangal.png",
+//   // },
+//   // {
+//   //   title: "Dr.",
+//   //   fullName: "Sharad Kumar Pradhan",
+//   //   organisation:
+//   //     "Director, THDC Institute of Hydropower Engineering and Technology, Tehri, Uttarakhand, India",
+//   //   profileImage: "/drsharad.webp",
+//   // },
+//   {
+//   //   title: "Dr.",
+//   //   fullName: " K. K. Shukla",
+//   //   organisation: "Director, MANIT Bhopal ",
+//   //   profileImage: "/kksingh.png",
+//   },
+//   {
+//   //   title: "Prof.",
+//   //   fullName: " Rajeev Tripathi",
+//   //   organisation: "Vice Chancellor, RGPV, Bhopal",
+//   //   profileImage: "/rajeev.webp",
+//   },
 ];
 
 export const honChairs = [
@@ -46,7 +46,7 @@ export const honChairs = [
     title: "Prof.",
     fullName: "Cristiano Tomassoni",
     organisation: "University of Perugia, Italy",
-    profileImage: "/Tomassoni_Cristiano (2).png",
+    profileImage: "/tommasani.png",
   },
   {
     title: "Dr.",
@@ -56,9 +56,9 @@ export const honChairs = [
   },
   {
     title: "Prof.",
-    fullName: "G. S. Tomar",
-    organisation: "Director, REC Sonbhadra, India",
-    profileImage: "/gstomar.png",
+    fullName: "DC Pande",
+    organisation: "DRDO, India",
+    profileImage: "/DC_pande.png",
   },
   // {
   //   title: "Prof.",
@@ -127,17 +127,17 @@ export const ProgramChair = [
   //   profileImage: "/ravikr1.png",
   // },
   {
-    title: "Dr.",
-    fullName: "Om Jee Pandey",
-    organisation: "IIT BHU Varanasi, India",
-    profileImage: "/omjee.png",
+     title: "Dr.",
+     fullName: "Vinay Kumar",
+    organisation: "MNNIT Allahabad, India",
+     profileImage: "/vinaykumar.png",
   },
-  {
-    title: "Dr.",
-    fullName: "R.N. Yadav ",
-    organisation: "MANIT Bhopal,India",
-    profileImage: "/rnyadav.png",
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "R.N. Yadav ",
+  //   organisation: "MANIT Bhopal,India",
+  //   profileImage: "/rnyadav.png",
+  // },
   // {
   //   title: "Dr.",
   //   fullName: "Gaurav Mittal",
@@ -222,9 +222,9 @@ export const IndustryInteractionChair = [
   // },
   {
     title: "Dr.",
-    fullName: "Vikrant Varshney",
-    organisation: "Synopsys, Bengaluru, India",
-    profileImage: "/vikrantv.png",
+    fullName: "Arun Kumar Saurabh",
+    organisation: "MNNIT Allahabad, India",
+    profileImage: "/arun.png",
   },
 ];
 
@@ -235,12 +235,12 @@ export const AcademicOutreachChair = [
   //   organisation: "Scientist F(DEAL), DRDO,Dehradun,India",
   //   profileImage: "/sonali.png",
   // },
-  {
-    title: "Dr.",
-    fullName: "Amalendu Patnaik",
-    organisation: "IIT Roorkee",
-    profileImage: "/Amalendu.png",
-  },
+ // {
+   // title: "Dr.",
+    //fullName: "Amalendu Patnaik",
+    //organisation: "IIT Roorkee",
+    //profileImage: "/Amalendu.png",
+  //},
 ];
 
 export const EventManagementChair = [
@@ -295,7 +295,7 @@ export const SocialMediaChair = [
 ];
 
 export const PublicityCoChair = [
-  {
+  /*{
     title: "Mr.",
     fullName: "Sanjay",
     organisation: "Scientist F",
@@ -306,7 +306,7 @@ export const PublicityCoChair = [
     fullName: "D P Tripathi",
     organisation: "Scientist E",
     profileImage: "/sonali.png",
-  },
+  },*/
 ];
 
 export const EventManagementCoChair = [
@@ -349,7 +349,7 @@ export const SponsorshipCoChair = [
   //   organisation: "Scientist D",
   //   profileImage: "/sonali.png",
   // },
-  {
+ /* {
     title: "",
     fullName: "Shashwat Pathak",
     organisation: "CEO,AIC GNITS foundation, India",
@@ -366,7 +366,7 @@ export const SponsorshipCoChair = [
     fullName: "Ravi Kumar Gangwar",
     organisation: "IIT(ISM) Dhanbad, India",
     profileImage: "/ravikr1.png",
-  },
+  },*/
 ];
 export const RegistrationCoChair = [
   // {
@@ -399,12 +399,12 @@ export const FinChairs = [
     organisation: "MNNIT Allahabad, India",
     profileImage: "/dranand.png",
   },
-  {
+ /* {
     title: "Dr.",
     fullName: "Suryakant Gautam",
     organisation: "MANIT Bhopal, India",
     profileImage: "/suryakantgautam.png",
-  },
+  },*/
 ];
 
 export const OrgChair = [
@@ -423,22 +423,22 @@ export const OrgChair = [
 ];
 
 export const TPC = [
-  {
+ /* {
     title: "Dr.",
     fullName: "Prashant Ranjan",
     organisation: "UEM Jaipur, India",
     profileImage: "/prashant.png",
-  },
+  },*/
   {
     title: "Dr.",
     fullName: "Sandeep Kumar Singh",
     organisation: "MNNIT Allahabad, India",
-    profileImage: "/sandeepsingh.jpeg",
+    profileImage: "/sandeepksingh.png",
   },
 ];
 
 export const PublicChairs = [
-  {
+  /*{
     title: "Dr.",
     fullName: "Rajan Mishra",
     organisation: "MMMUT Gorakhpur, India",
@@ -455,7 +455,7 @@ export const PublicChairs = [
     fullName: "Tilakdhari Singh",
     organisation: "MNNIT Allahabad, India",
     profileImage: "/SD.jpg",
-  },
+  },*/
 ];
 
 export const PublicityChairs = [
@@ -463,9 +463,9 @@ export const PublicityChairs = [
     title: "Dr.",
     fullName: "Piyush Kumar Mishra",
     organisation: "IISc Bangalore, India",
-    profileImage: "/Piyush_kMishra.png",
+    profileImage: "/piyushkmishra.png",
   },
-  {
+  /*{
     title: "Dr.",
     fullName: "Ravi Kumar Arya",
     organisation: "ZICUST, China",
@@ -482,7 +482,7 @@ export const PublicityChairs = [
     fullName: "Abhinav Gupta",
     organisation: "REC Sonbhadra, India",
     profileImage: "/dr abhinav gupta.jpeg",
-  },
+  },*/
 ];
 
 export const confChairs = [
@@ -494,9 +494,9 @@ export const confChairs = [
   },
   {
     title: "Dr.",
-    fullName: "Atul Kumar ",
-    organisation: "MANIT Bhopal, India",
-    profileImage: "/atulkumar.png",
+    fullName: "Dharmendra Dixit",
+    organisation: "MNNIT Allahabad, India",
+    profileImage: "/dharmendradixit.png",
   },
 
   // {
@@ -520,7 +520,7 @@ export const confChairs = [
 ];
 
 export const confSecretary= [
-  {
+  /*{
     title: "Dr.",
     fullName: "D K Raghuvanshi",
     organisation: "MANIT Bhopal, India",
@@ -531,11 +531,11 @@ export const confSecretary= [
     fullName: "Lalita Gupta ",
     organisation: "MANIT Bhopal, India",
     profileImage: "/dr lalita gupta.jpeg",
-  },
+  },*/
 ]
 
 export const committeeMembers = [
-  {
+ /* {
     title: "Executive Committee",
     name: "executiveCommittee",
     data: [
@@ -1507,5 +1507,5 @@ export const committeeMembers = [
         organisation: "MANIT BHOPAL, India",
       },
     ],
-  },
+  },*/
 ];

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+/*import React, { useState, useEffect } from "react";
 import gradients from "../../styles/customGradient.module.css";
 import ProfileCard from "../../components/ProfileCard";
 import Accordion from "../../components/Accordion";
@@ -39,7 +39,7 @@ import { useScrollLock, useViewportSize } from "@mantine/hooks";
 import CommitteeSidebar from "../../components/CommitteeSidebar";
 import SponsorFix from "../../components/SponsorFix";
 
-/*const Committee = () => {
+const Committee = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrollLocked, setScrollLocked] = useScrollLock(false);
   const { height, width } = useViewportSize();
@@ -244,9 +244,9 @@ import SponsorFix from "../../components/SponsorFix";
                     />
                   ))}
                 </div>
-              </div> }
+              </div> */
 
-            {/* <div>
+            /* <div>
                 <div id="hospitalitychair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -266,9 +266,9 @@ import SponsorFix from "../../components/SponsorFix";
                     />
                   ))}
                 </div>
-              </div> }
+              </div> */
 
-            {/* <div>
+            /* <div>
               <div id="academicout" className="h-20 mb-16 md:mb-0"></div>
               <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                 {" "}
@@ -399,9 +399,9 @@ import SponsorFix from "../../components/SponsorFix";
                     />
                   ))}
                 </div>
-              </div> }
+              </div> */
 
-              {/* <div>
+              /* <div>
                 <div id="sponsorshipchair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -421,9 +421,9 @@ import SponsorFix from "../../components/SponsorFix";
                     />
                   ))}
                 </div>
-              </div> }
+              </div> */
 
-              {/* <div>
+              /* <div>
                 <div id="marketingchair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -443,9 +443,9 @@ import SponsorFix from "../../components/SponsorFix";
                     />
                   ))}
                 </div>
-              </div> }
+              </div> */
 
-              {/* <div>
+              /* <div>
                 <div id="socialmdchair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -465,8 +465,9 @@ import SponsorFix from "../../components/SponsorFix";
                     />
                   ))}
                 </div>
-              </div> }
-              {/* <div>
+              </div> */
+
+              /* <div>
                 <div id="websitechair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -486,9 +487,9 @@ import SponsorFix from "../../components/SponsorFix";
                     />
                   ))}
                 </div>
-              </div> }
+              </div> */
 
-              {/* <div>
+              /* <div>
                 <div id="workshopchair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -508,9 +509,9 @@ import SponsorFix from "../../components/SponsorFix";
                     />
                   ))}
                 </div>
-              </div> }
+              </div> */
 
-              {/* <div>
+              /* <div>
                 <div id="workshopcochair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -530,9 +531,9 @@ import SponsorFix from "../../components/SponsorFix";
                     />
                   ))}
                 </div>
-              </div> }
+              </div> */
 
-              {/*               
+              /*               
               <div>
                 <div id="regchair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
@@ -553,9 +554,9 @@ import SponsorFix from "../../components/SponsorFix";
                     />
                   ))}
                 </div>
-              </div> }
+              </div> */
 
-              {/* <div>
+              /* <div>
                 <div id="regcochair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
                   {" "}
@@ -575,8 +576,8 @@ import SponsorFix from "../../components/SponsorFix";
                     />
                   ))}
                 </div>
-              </div> }
-              {/* <div>
+              </div> */
+              /* <div>
                 <div
                   id="localarrangechair"
                   className="h-20 mb-16 md:mb-0"
@@ -599,8 +600,8 @@ import SponsorFix from "../../components/SponsorFix";
                     />
                   ))}
                 </div>
-              </div> }
-              {/* <div>
+              </div> */
+              /* <div>
                 <div
                   id="localarrangecochair"
                   className="h-20 mb-16 md:mb-0"
@@ -686,7 +687,7 @@ import SponsorFix from "../../components/SponsorFix";
                 <div id="publchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                   {" "}
-                  Publicity Chair
+                  Publication Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
                   {PublicityChairs.map((chair) => (
@@ -721,14 +722,227 @@ import SponsorFix from "../../components/SponsorFix";
     </>
   );
 };
-*/
+
+export default Committee;*/
+
+import React, { useState, useEffect } from "react";
+import gradients from "../../styles/customGradient.module.css";
+import ProfileCard from "../../components/ProfileCard";
+import Accordion from "../../components/Accordion";
+import {
+  honChairs,
+  genChairs,
+  IndustryInteractionChair,
+  confChairs,
+  ProgramChair,
+  TPC,
+  FinChairs,
+  PublicityChairs,
+  // If using PublicationChairs, import accordingly
+  // PublicationChairs,
+} from "../../data/committee";
+import { useScrollLock, useViewportSize } from "@mantine/hooks";
+import CommitteeSidebar from "../../components/CommitteeSidebar";
+// import SponsorFix from "../../components/SponsorFix";
+
 const Committee = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [scrollLocked, setScrollLocked] = useScrollLock(false);
+  const { height, width } = useViewportSize();
+
+  useEffect(() => {
+    if (width > 768) {
+      setIsOpen(true);
+      setScrollLocked(false);
+    } else {
+      setScrollLocked(false);
+    }
+  }, [width]);
+
   return (
-    <div className="mt-14 py-20 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 text-black flex justify-center items-center min-h-[200px]">
-      <h2 className="text-3xl font-semibold text-gray-700 italic">
-        Will be announced soon.
-      </h2>
-    </div>
+    <>
+      <div className="mt-14 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 text-black">
+        <div className="relative md:flex ">
+          <CommitteeSidebar
+            width={width}
+            isOpen={isOpen}
+            setIsOpen={setIsOpen}
+          />
+
+          <div className="md:w-[70%] lg:w-[75%] pb-8 ">
+            <div className="mt-2 mx-2 p-8 rounded-box flex flex-col gap-2 items-center">
+
+              {/* Honorary Chair */}
+              <div>
+                <div id="honchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                  Honorary Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap justify-center items-center">
+                  {honChairs.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={
+                        chair.profileImage ? chair.profileImage : null
+                      }
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              {/* General Chair */}
+              <div>
+                <div id="genchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                  General Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap justify-center items-center">
+                  {genChairs.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={chair.profileImage}
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              {/* Industry Interaction Chair */}
+              <div>
+                <div id="industryintchair" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                  Industry Interaction Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap justify-center items-center">
+                  {IndustryInteractionChair.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={
+                        chair.profileImage ? chair.profileImage : null
+                      }
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              {/* Conference Organising Chair */}
+              <div>
+                <div id="confchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                  Conference Organising Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap justify-center items-center">
+                  {confChairs.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={
+                        chair.profileImage ? chair.profileImage : null
+                      }
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              {/* Program Chair */}
+              <div>
+                <div id="programchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                  Program Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap justify-center items-center">
+                  {ProgramChair.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={
+                        chair.profileImage ? chair.profileImage : null
+                      }
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              {/* Technical Program Committee Chair */}
+              <div>
+                <div id="tpcchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                  Technical Program Committee Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap justify-center items-center">
+                  {TPC.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={chair.profileImage}
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              {/* Finance Chair */}
+              <div>
+                <div id="finchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                  Finance Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap justify-center items-center">
+                  {FinChairs.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={chair.profileImage}
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              {/* Publication Chair */}
+              <div>
+                <div id="pubchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                  Publication Chair
+                </h1>
+                <div className="flex gap-8 flex-wrap justify-center items-center">
+                  {PublicityChairs.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={chair.profileImage}
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              {/* 
+                // All other chair/role sections are commented out below!
+                // To restore any, just uncomment. 
+              */}
+
+            </div>
+          </div>
+        </div>
+        {/* <SponsorFix /> */}
+      </div>
+    </>
   );
 };
 
