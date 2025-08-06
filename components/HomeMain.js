@@ -1,10 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import HomeImageGallery from "./HomeImageGallery";
 import { MdLocationOn } from "react-icons/md";
 import { BsFillCalendarCheckFill } from "react-icons/bs";
 import gradients from "../styles/customGradient.module.css";
-import Lottie from "lottie-react";
-import research from "../lottieFiles/research.json";
 import { useRouter } from "next/router";
 import Map from "./Map";
 import TechCollabGallery from "./TechCollabGallery";
@@ -14,7 +12,6 @@ import Sponsors1 from "../components/Sponsors1";
 import { IoMdNotifications } from "react-icons/io";
 import SponsorCarousel from "./SponsorCarousel";
 import NotificationCarousel from "./Notification";
-
 import Sponsors2 from "./Sponsor2";
 
 const HomeMain = () => {
@@ -26,28 +23,9 @@ const HomeMain = () => {
 
   return (
     <>
-      {/* <div className={`container mx-auto flex flex-wrap justify-center bg-transparent ${gradients.homePage}`}>
-  <div className={`w-full flex justify-center ${gradients.homePage}`} style={{ marginTop: "85px", marginBottom: "-35px" }}>
-    <div className="flex justify-between items-center overflow-x-scroll w-full md:w-[90%] xl:w-[80%] bg-transparent ">
-      <img src="apslogo1.png" alt="Logo 1" className="h-20 md:h-24 xl:h-32 mx-2" />
-      <img src="ieeeUP.jpg" alt="Logo 2" className="h-20 md:h-24 xl:h-32 mx-2" />
-      <img src="apslogo1.png" alt="Logo 1" className="h-20 md:h-24 xl:h-32 mx-2" />
-      <img src="ieeeUP.jpg" alt="Logo 2" className="h-20 md:h-24 xl:h-32 mx-2" />
-      <img src="apslogo1.png" alt="Logo 1" className="h-20 md:h-24 xl:h-32 mx-2" />
-    </div>
-  </div>
-</div> */}
+      {/* Commented code remains untouched */}
 
-      {/* <SponsorCarousel />
-      <NotificationCarousel />
-      <img
-        src="Standee1.jpg"
-        className="h-[60%] w-[60%] object-contain mx-auto"
-      /> */}
-
-      <div
-        className={`h-[60vh] md:h-[95vh] mt-[80px] relative ${gradients.homePage}`}
-      >
+      <div className={`h-[60vh] md:h-[95vh] mt-[80px] relative ${gradients.homePage}`}>
         <HomeImageGallery />
         <div className="absolute top-10 flex flex-col justify-center items-center sm:flex-row sm:gap-10 ">
           <div className="md:top-[20%] lg:top-[20%] xl:top-[5%] left-0 z-10 w-[90%] md:w-[65%] lg:w-[60%]  md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10 ">
@@ -61,7 +39,7 @@ const HomeMain = () => {
               <span className="text-white">Communication </span>{" "}
               <span className="text-white">2026 </span>
               <span className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-                <br></br>
+                <br />
               </span>
             </div>
             <div className="w-full my-2 sm:pl-0 flex flex-col justify-center gap-4 lg:justify-start lg:gap-10 font-semibold">
@@ -99,27 +77,25 @@ const HomeMain = () => {
           </div>
           <div className="top-[10%] md:top-[10%] lg:top-[20%] xl:top-[5%] py-8 px-4 w-[90%] md:w-[30%] lg:w-[30%] flex flex-col justify-center items-center text-white rounded-2xl z-10 ">
             <a
-
               href="#"
               download={true}
-              // className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
               className="block w-[50%] text-blue-900 bg-blue-200 hover:bg-orange-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-300 dark:hover:bg-green-500 dark:focus:ring-blue-900"
             >
-              Call For Papers <br/>(Announcing soon)
+              Call For Papers <br />
+              (Announcing soon)
             </a>
 
             <a
               href=""
-              // className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
               className="block w-[50%] text-blue-900 bg-blue-200 hover:bg-orange-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-300 dark:hover:bg-green-500 dark:focus:ring-blue-900"
             >
-              Submit Papers <br/>(Announcing soon)
+              Submit Papers <br />
+              (Announcing soon)
             </a>
 
-            {/* <a href="/registration" class="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Registration</a> */}
             <Link href="/registration">
               <span className="block w-[50%] text-blue-900 bg-blue-200 hover:bg-orange-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-300 dark:hover:bg-green-500 dark:focus:ring-blue-900">
-                Registration <br/> (Announcing soon)
+                Registration <br /> (Announcing soon)
               </span>
             </Link>
           </div>
@@ -138,18 +114,12 @@ const HomeMain = () => {
 
                 <p>
                   <span className="text-orange-500 font-bold text-xl block">
-                     MNNIT ALLAHABAD, India
+                    MNNIT ALLAHABAD, India
                   </span>
                   <span className="text-orange-500 font-bold text-xl block">
                     RGPV Bhopal, India
                   </span>
 
-                  {/* <span className="text-orange-500 font-bold text-xl block">
-                    VMSB UTU (THDC-IHET), Uttarakhand, India
-                  </span> */}
-                  {/* <span className="text-black-500 font-bold text-xl block">
-    &
-  </span> */}
                   <span className="text-orange-500 font-bold text-xl block">
                     MANIT Bhopal, India
                   </span>
@@ -157,48 +127,44 @@ const HomeMain = () => {
               </h2>
               <br />
               <p className="md:mb-8 leading-relaxed font-semibold text-lg text-justify">
-                Welcome to the  International Conference on Microwave,
-                Antenna, and Communication (MAC-2026)! Join us in the scenic
-                city of Bhopal, Madhya Pradesh, India, from June 27-29, 2026,
-                for an enriching experience of knowledge, research and
-                innovation.Technically sponsored by IEEE UP section, MAC 2026 is
-                jointly organised by MANIT Bhopal, RGPV Bhopal and MNNIT
-                Allahabad. MAC-2026 serves as a dynamic platform, bringing
-                together researchers, academicians, industry professionals, and
-                startups to showcase their cutting-edge research, share
-                innovative ideas, and explore the emerging trends of Microwave,
-                Antenna and Communication technologies. MAC-2026 will also
-                feature a special track on Young Professionals, Women in
-                Engineering and SIGHT, which will provide opportunities for
-                networking, mentoring and career development. The conference
-                will feature keynote speeches, invited talks, panel discussions,
-                technical sessions, poster presentations and exhibitions. Let us
-                engage in thought-provoking technical sessions, delve into
-                recent developments, and foster collaborative discussions.
-                MAC-2026 is an opportunity to you for collaboration and
-                networking with international experts. We invite you to join us
-                at MAC-2026 and be a part of this exciting event!
+                Welcome to the International Conference on Microwave, Antenna,
+                and Communication (MAC-2026)! Join us in the scenic city of
+                Bhopal, Madhya Pradesh, India, from June 27-29, 2026, for an
+                enriching experience of knowledge, research and innovation.
+                Technically sponsored by IEEE UP section, MAC 2026 is jointly
+                organised by MANIT Bhopal, RGPV Bhopal and MNNIT Allahabad.
+                MAC-2026 serves as a dynamic platform, bringing together
+                researchers, academicians, industry professionals, and startups
+                to showcase their cutting-edge research, share innovative ideas,
+                and explore the emerging trends of Microwave, Antenna and
+                Communication technologies. MAC-2026 will also feature a special
+                track on Young Professionals, Women in Engineering and SIGHT,
+                which will provide opportunities for networking, mentoring and
+                career development. The conference will feature keynote
+                speeches, invited talks, panel discussions, technical sessions,
+                poster presentations and exhibitions. Let us engage in
+                thought-provoking technical sessions, delve into recent
+                developments, and foster collaborative discussions. MAC-2026 is
+                an opportunity for collaboration and networking with
+                international experts. We invite you to join us at MAC-2026 and
+                be a part of this exciting event!
               </p>
             </div>
 
             <div className="w-full lg:w-[40%] bg-red-100">
-              <img
-                className="object-cover object-center"
-                alt="hero"
-                src="/conf.webp"
-              />
+              <img className="object-cover object-center" alt="hero" src="/conf.webp" />
             </div>
           </div>
         </section>
 
         <section id="callforpaper" className="body-font">
           <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 order-last md:order-first mt-8 md:mt-0">
-              <Lottie animationData={research} loop={true} />
-            </div>
             <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
               <h1 className="title-font text-4xl md:text-[5vw] lg:text-6xl mb-4 font-bold border-b-4 pb-4 border-cyan-600">
-                <span className="pr-6">Call For Papers <br/>(Announcing soon)</span>
+                <span className="pr-6">
+                  Call For Papers <br />
+                  (Announcing soon)
+                </span>
               </h1>
               <h2 className="text-orange-600 font-bold text-xl mb-6">
                 MICROWAVE , ANTENNA AND COMMUNICATION
@@ -216,9 +182,7 @@ const HomeMain = () => {
                   events:
                 </p>
                 <ul className="pl-6 font-semibold pt-4 text-left text-lg">
-                  <li className="list-disc">
-                    Paper Presentations and best paper awards
-                  </li>
+                  <li className="list-disc">Paper Presentations and best paper awards</li>
                   <li className="list-disc">Key Note Lectures</li>
                   <li className="list-disc">Special Sessisons</li>
                   <li className="list-disc">Panel Discussions</li>
@@ -239,50 +203,34 @@ const HomeMain = () => {
               >
                 To be announced soon
               </a>
-
-              {/* <h1 className="title-font text-orange-600 sm:text-3xl text-2xl mb-1 mt-8 md:mt-2 font-medium text-gray-900 block">
-                Mode of Conduction:
-              </h1>
-              <h1 className="title-font sm:text-2xl text-2xl mb-4 mt-1 md:mt-2 font-medium text-gray-900 block">
-                Hybrid Mode
-              </h1> */}
-              <p className="px-16 md:px-0 mb-4 leading-relaxed  md:font-semibold md:text-lg"></p>
             </div>
           </div>
         </section>
 
         <Map />
+
         <section className="p-6">
-          {/* <div className=" container mx-auto flex md:px-5 py-2 flex-col">
-            <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">
-              In Partnership with
-            </h1>
-            <h2>*Will be announced soon</h2>
-             <Sponsors1 /> 
-          </div> */}
+          {/* Commented out Sponsors1 section */}
         </section>
 
         <section className="p-6">
-          <div className=" container mx-auto flex md:px-5 py-2 flex-col">
+          <div className="container mx-auto flex md:px-5 py-2 flex-col">
             <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">
-             Past Technical Co-Sponsors
+              Past Technical Co-Sponsors
             </h1>
-            {/* <h2>*Will be announced soon</h2> */}
             <Sponsors />
           </div>
         </section>
+
         <section className="p-6">
-          <div className=" container mx-auto flex md:px-5 py-2 flex-col">
+          <div className="container mx-auto flex md:px-5 py-2 flex-col">
             <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">
-            Past  Industrial Sponsors
+              Past Industrial Sponsors
             </h1>
-            {/* <h2>*Will be announced soon</h2> */}
             <Sponsors2 />
           </div>
         </section>
-        
       </div>
-      
     </>
   );
 };
