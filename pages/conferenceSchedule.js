@@ -1,5 +1,6 @@
 import React from "react";
 
+/*
 const Schedule = () => {
   return (
     <section
@@ -7,14 +8,14 @@ const Schedule = () => {
       className="bg-stone-100 text-gray-800 body-font relative mx-4 sm:mx-6 md:mx-12 pb-16"
     >
       <div className="px-0 sm:px-5 py-2 mt-8">
-        {/* Heading */}
+        {/* Heading }
         <div className="mt-8 pb-4 flex flex-col items-center justify-center">
           <h1 className="title-font text-center font-bold text-3xl sm:text-4xl text-gray-900 border-b-4 border-blue-500 pb-2">
             Conference Schedule
           </h1>
         </div>
 
-        {/* Image of the schedule */}
+        {/* Image of the schedule }
         <div className="w-full flex justify-center mt-6">
           <img
             src="/MAC_2025_Schedule[1]updated[1]-1.png"
@@ -23,7 +24,7 @@ const Schedule = () => {
           />
         </div>
 
-        {/* Download Button */}
+        {/* Download Button }
         <div className="flex justify-center mt-10">
           <a
             href="/MAC_2025_Schedule[1]updated[1].pdf"
@@ -44,6 +45,17 @@ const Schedule = () => {
         </div>
       </div>
     </section>
+  );
+};
+*/
+
+const Schedule = () => {
+  return (
+    <div className="mt-14 py-20 bg-stone-100 text-gray-800 flex justify-center items-center min-h-[200px]">
+      <h2 className="text-3xl font-semibold text-gray-700 italic">
+        Will be announced soon.
+      </h2>
+    </div>
   );
 };
 

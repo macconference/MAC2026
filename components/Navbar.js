@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link href="/">
             <p className=" cursor-pointer font-extrabold">
               <span className="text-orange-400">MAC</span>
-              <span className="text-white">2025</span>
+              <span className="text-white">2026</span>
             </p>
           </Link>
         </div>

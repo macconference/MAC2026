@@ -39,7 +39,7 @@ import { useScrollLock, useViewportSize } from "@mantine/hooks";
 import CommitteeSidebar from "../../components/CommitteeSidebar";
 import SponsorFix from "../../components/SponsorFix";
 
-const Committee = () => {
+/*const Committee = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrollLocked, setScrollLocked] = useScrollLock(false);
   const { height, width } = useViewportSize();
@@ -78,7 +78,7 @@ const Committee = () => {
                   organisation="DRDO, India"
                   profileImage="/bkdas.png"
                 />
-              </div> */}
+              </div> }
               <div>
                 <div id="patron" className="h-20 mb-16 md:mb-0 "></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
@@ -98,7 +98,7 @@ const Committee = () => {
                 </div>
               </div>
 
-              {/* Commented out "Honorary Chairs" */}
+              {/* Commented out "Honorary Chairs" }
               <div>
                 <div id="honchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
@@ -137,7 +137,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
               <div>
                 <div id="genchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
@@ -199,7 +199,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
 
             {/* <div>
                 <div
@@ -224,7 +224,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
 
             {/* <div>
                 <div id="keynotechair" className="h-20 mb-16 md:mb-0"></div>
@@ -244,7 +244,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
 
             {/* <div>
                 <div id="hospitalitychair" className="h-20 mb-16 md:mb-0"></div>
@@ -266,7 +266,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
 
             {/* <div>
               <div id="academicout" className="h-20 mb-16 md:mb-0"></div>
@@ -288,7 +288,7 @@ const Committee = () => {
                   />
                 ))}
               </div>
-            </div> */}
+            </div> }
 
             <div>
               <div id="industryintchair" className="h-20 mb-16 md:mb-0"></div>
@@ -399,7 +399,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
 
               {/* <div>
                 <div id="sponsorshipchair" className="h-20 mb-16 md:mb-0"></div>
@@ -421,7 +421,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
 
               {/* <div>
                 <div id="marketingchair" className="h-20 mb-16 md:mb-0"></div>
@@ -443,7 +443,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
 
               {/* <div>
                 <div id="socialmdchair" className="h-20 mb-16 md:mb-0"></div>
@@ -465,8 +465,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
-
+              </div> }
               {/* <div>
                 <div id="websitechair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold">
@@ -487,7 +486,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
 
               {/* <div>
                 <div id="workshopchair" className="h-20 mb-16 md:mb-0"></div>
@@ -509,7 +508,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
 
               {/* <div>
                 <div id="workshopcochair" className="h-20 mb-16 md:mb-0"></div>
@@ -531,7 +530,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
 
               {/*               
               <div>
@@ -554,7 +553,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
 
               {/* <div>
                 <div id="regcochair" className="h-20 mb-16 md:mb-0"></div>
@@ -576,7 +575,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
               {/* <div>
                 <div
                   id="localarrangechair"
@@ -600,7 +599,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
               {/* <div>
                 <div
                   id="localarrangecochair"
@@ -624,7 +623,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div> */}
+              </div> }
               <div>
                 <div id="tpcchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
@@ -717,9 +716,19 @@ const Committee = () => {
             </div>
           </div>
         </div>
-        {/* <SponsorFix /> */}
+        {/* <SponsorFix /> }
       </div>
     </>
+  );
+};
+*/
+const Committee = () => {
+  return (
+    <div className="mt-14 py-20 bg-slate-200 text-black flex justify-center items-center min-h-[200px]">
+      <h2 className="text-3xl font-semibold text-gray-700 italic">
+        Will be announced soon.
+      </h2>
+    </div>
   );
 };
 

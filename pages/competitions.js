@@ -1,10 +1,11 @@
 import React from "react";
 
+/*
 const MAC2025Opportunities = () => {
   return (
     <div className="bg-gray-50 min-h-screen p-16 mt-6 font-sans text-gray-800">
       <div className="max-w-4xl mx-auto space-y-8">
-        {/* XSL Antenna Competition */}
+        {/* XSL Antenna Competition }
         <div className="bg-white shadow-md rounded-xl p-6">
           <h2 className="text-2xl font-bold text-blue-700 mb-3">
             📡 XSL Antenna Competition at MAC 2025
@@ -39,7 +40,7 @@ const MAC2025Opportunities = () => {
           </p>
         </div>
 
-        {/* RMGI Grant */}
+        {/* RMGI Grant }
         <div className="bg-white shadow-md rounded-xl p-6">
           <h2 className="text-2xl font-bold text-green-700 mb-3">
             🎓 Raj Mittra Grant in India (RMGI) at MAC 2025
@@ -55,11 +56,10 @@ const MAC2025Opportunities = () => {
           <p className="mb-2">
             📅 Apply by: <strong>June 15, 2025</strong>
             <br />
-            {/* 📧 Email to: <strong>maifuzali@hotmail.com</strong> (Subject: &quot;RMGI&quot;) */}
+            {/* 📧 Email to: <strong>maifuzali@hotmail.com</strong> (Subject: "RMGI") }
           </p>
           <a
             href="/Advertisement_RMGI_2025.pdf"
-            
             download={true}
             className="font-semibold text-red-700  cursor-pointer"
           >
@@ -67,7 +67,7 @@ const MAC2025Opportunities = () => {
           </a>
         </div>
 
-        {/* TaraNG Research Competition */}
+        {/* TaraNG Research Competition }
         <div className="bg-white shadow-md rounded-xl p-6">
           <h2 className="text-2xl font-bold text-purple-700 mb-3">
             🛰️ TaraNG Research Competition @ MAC 2025
@@ -112,6 +112,17 @@ const MAC2025Opportunities = () => {
           </ul>
         </div>
       </div>
+    </div>
+  );
+};
+*/
+
+const MAC2025Opportunities = () => {
+  return (
+    <div className="mt-14 py-20 bg-gray-50 text-gray-800 flex justify-center items-center min-h-[200px]">
+      <h2 className="text-3xl font-semibold text-gray-700 italic">
+        Will be announced soon.
+      </h2>
     </div>
   );
 };

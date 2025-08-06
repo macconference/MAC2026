@@ -23,18 +23,18 @@ const Sponsor = () => {
         >
           <p className="text-justify">
             The International Conference on Microwave, Antenna, and
-            Communications (MAC 2025) is a premier 3-days event bringing
+            Communications (MAC 2026) is a premier 3-days event bringing
             together researchers, engineers, and industry leaders from around
             the world to exchange knowledge, share insights, and explore the
             latest advancements in microwave engineering, antenna technologies,
-            and communication systems. MAC 2025 expects participation from
+            and communication systems. MAC 2026 expects participation from
             various countries along with Indian organizations like ISRO, BARC,
             DRDO, CSIR, DST-SERB, and academic institutes like IISc, IITs, NITs,
             IIITs, etc.
           </p>
           <br />
           <p className="text-justify">
-            MAC 2025 provides an ideal platform to showcase state-of-the-art
+            MAC 2026 provides an ideal platform to showcase state-of-the-art
             technologies, measurement facilities, and modeling tools available
             in the Microwave, Antenna, and Communications industries. This
             international event offers an outstanding opportunity for companies
@@ -43,10 +43,10 @@ const Sponsor = () => {
           </p>
           <br />
           <p className="text-justify">
-            On behalf of the Executive Committee of MAC 2025, it is my great
+            On behalf of the Executive Committee of MAC 2026, it is my great
             pleasure to invite you to be a valued sponsor at the event. We
             believe that your organisation has the expertise and resources to
-            make a significant contribution to the success of MAC 2025.
+            make a significant contribution to the success of MAC 2026.
           </p>
           <br />
           {/* <p className="text-justify">
@@ -59,7 +59,7 @@ const Sponsor = () => {
           </p> */}
           <br />
           <p className="text-center italic">
-            Looking forward to seeing you in the MAC 2025, at Bhopal.
+            Looking forward to seeing you in the MAC 2026, at Prayagraj.
           </p>
         </div>
       </div>

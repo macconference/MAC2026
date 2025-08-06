@@ -1,9 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
-
-// import required modules
 import { Autoplay } from "swiper";
 import { motion } from "framer-motion";
 
@@ -22,70 +18,25 @@ export default function HomeImageGallery() {
         modules={[Autoplay]}
         className="mySwiper bg-stone-500 text-center w-full h-[60vh] md:h-full"
       >
-        <SwiperSlide>
-          <div className="w-full h-full overflow-hidden">
-            <motion.img
-              initial={{ scale: 1 }}
-              animate={{ scale: 1.4 }}
-              transition={{
-                duration: 20,
-                repeat: Infinity,
-                repeatType: "reverse",
-                ease: "linear",
-              }}
-              src="/pic3.jpeg"
-              className="w-full h-full brightness-75  object-cover"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-full overflow-hidden">
-            <motion.img
-              initial={{ scale: 1 }}
-              animate={{ scale: 1.4 }}
-              transition={{
-                duration: 20,
-                repeat: Infinity,
-                repeatType: "reverse",
-                ease: "linear",
-              }}
-              src="/pic4.jpeg"
-              className="w-full h-full brightness-75  object-cover"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-full overflow-hidden">
-            <motion.img
-              initial={{ scale: 1 }}
-              animate={{ scale: 1.4 }}
-              transition={{
-                duration: 20,
-                repeat: Infinity,
-                repeatType: "reverse",
-                ease: "linear",
-              }}
-              src="/pic2.jpeg"
-              className="w-full h-full brightness-75  object-cover"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-full overflow-hidden">
-            <motion.img
-              initial={{ scale: 1 }}
-              animate={{ scale: 1.4 }}
-              transition={{
-                duration: 20,
-                repeat: Infinity,
-                repeatType: "reverse",
-                ease: "linear",
-              }}
-              src="/pic1.jpeg"
-              className="scale w-full h-full brightness-75  object-cover"
-            />
-          </div>
-        </SwiperSlide>
+        {[...Array(16)].map((_, i) => (
+          <SwiperSlide key={i}>
+            <div className="w-full h-full overflow-hidden">
+              <motion.img
+                initial={{ scale: 1 }}
+                animate={{ scale: 1.4 }}
+                transition={{
+                  duration: 20,
+                  repeat: Infinity,
+                  repeatType: "reverse",
+                  ease: "linear",
+                }}
+                src={`/p${i + 1}.jpg`}
+                className="w-full h-full brightness-75 object-cover"
+                alt={`Gallery image ${i + 1}`}
+              />
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );

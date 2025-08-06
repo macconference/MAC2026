@@ -24,7 +24,7 @@ const Accommodation = () => {
               marginHeight="0"
               marginWidth="0"
               scrolling="no"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14667.237655559507!2d77.38896753134217!3d23.213615249913445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42e43fe40941%3A0x10377d4af64ac6e9!2sMaulana%20Azad%20National%20Institute%20of%20Technology%2C%20Bhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1748068396470!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.630879498129!2d81.86363567520296!3d25.493047722149165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3985323dfd8c5e9d%3A0xf0de3a2730b4d24f!2sMotilal%20Nehru%20National%20Institute%20of%20Technology%20(MNNIT)%2C%20Prayagraj%2C%20Uttar%20Pradesh%20211004!5e0!3m2!1sen!2sin!4v1717886560000!5m2!1sen!2sin"
             ></iframe>
             <div className="bg-white hover:bg-gray-50 relative py-6 rounded shadow-lg ">
               <div className=" px-6">
@@ -32,7 +32,7 @@ const Accommodation = () => {
                   ADDRESS
                 </h2>
                 <p className="mt-1 font-medium text-gray-900">
-                  MANIT Bhopal, Madhya Pradesh, India{" "}
+                  MNNIT Allahabad, U.P. India{" "}
                 </p>
               </div>
             </div>

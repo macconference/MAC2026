@@ -1,6 +1,7 @@
 import React from "react";
 import SponsorFix from "../components/SponsorFix";
 
+/*
 const Gallery = () => {
   return (
     <div className="mt-14 py-8 bg-slate-200 text-black">
@@ -20,7 +21,7 @@ const Gallery = () => {
                 </tr>
               </thead>
 
-              {/* Prof. Sudarshan Tiwari Memorial Best Paper Award */}
+              {/* Prof. Sudarshan Tiwari Memorial Best Paper Award }
               <tbody className="border-b-4 border-stone-600">
                 <tr className="border-b-2 border-stone-400">
                   <td
@@ -42,20 +43,19 @@ const Gallery = () => {
                 </tr>
               </tbody>
 
-             {/* Prof. Satish K. Sharma Best Paper Award */}
-               <tbody className="border-b-4 border-stone-600">
+              {/* Prof. Satish K. Sharma Best Paper Award }
+              <tbody className="border-b-4 border-stone-600">
                 <tr className="border-b-2 border-stone-400">
-                 <td
-                  className="w-[30%] md:w-1/4 font-semibold text-[13px] md:text-[20px] lg:text-lg px-2 py-2"
-                   >
-                   Prof. Satish K. Sharma Best Paper Award for Doctoral Students
-                 </td>
-               <td className="py-2 text-center">Total Prize Money: INR 30,000</td>
+                  <td
+                    className="w-[30%] md:w-1/4 font-semibold text-[13px] md:text-[20px] lg:text-lg px-2 py-2"
+                  >
+                    Prof. Satish K. Sharma Best Paper Award for Doctoral Students
+                  </td>
+                  <td className="py-2 text-center">Total Prize Money: INR 30,000</td>
                 </tr>
               </tbody>
 
-
-              {/* Prof. Bharat S Rawal Research Promotion Award */}
+              {/* Prof. Bharat S Rawal Research Promotion Award }
               <tbody className="border-b-4 border-stone-600">
                 <tr className="border-b-2 border-stone-400">
                   <td
@@ -74,8 +74,7 @@ const Gallery = () => {
                 </tr>
               </tbody>
 
-
-              {/* IEEE Student Branch Best Paper Award */}
+              {/* IEEE Student Branch Best Paper Award }
               <tbody className="border-b-4 border-stone-600">
                 <tr className="border-b-2 border-stone-400">
                   <td
@@ -100,7 +99,18 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      {/* <SponsorFix /> */}
+      {/* <SponsorFix /> }
+    </div>
+  );
+};
+*/
+
+const Gallery = () => {
+  return (
+    <div className="mt-14 py-20 bg-slate-200 text-black flex justify-center items-center min-h-[200px]">
+      <h2 className="text-3xl font-semibold text-gray-700 italic">
+        Will be announced soon.
+      </h2>
     </div>
   );
 };

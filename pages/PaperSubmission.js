@@ -61,7 +61,7 @@ const guideline = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    https://cmt3.research.microsoft.com/MAC2025/
+                    To be announced soon
                   </a>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-12   ">

@@ -120,7 +120,7 @@ const Footer = () => {
               {/* <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div> */}
               <nav className="list-none mb-10 mt-3">
                 <li className="text-gray-600 hover:text-gray-800 cursor-pointer ">
-                  <b>EMAIL:</b> ieeemacmanit2025@gmail.com
+                  <b>EMAIL:</b> ieeemacmnnit2026@gmail.com
                 </li>
                 <li className="text-gray-600 hover:text-gray-800 ">
                   <b>PHONE:</b> +91 7800601025

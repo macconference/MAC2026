@@ -5,7 +5,7 @@ const Gallery = () => {
   return (
     <div className="mt-14 py-8 bg-slate-200 text-black">
       <h1 class="flex justify-center text-4xl font-bold text-blue-600 p-2 m-2">
-        Glimpse of MAC2023
+        Glimpse of MAC2023 at MNNIT Allahabad
       </h1>
 
       <div className="py-10 md:py-8 justify-center mx-auto max-w-screen-lg px-2 pt-8">

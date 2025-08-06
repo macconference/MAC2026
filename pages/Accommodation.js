@@ -1,6 +1,7 @@
 import React from "react";
 import SponsorFix from "../components/SponsorFix";
 
+/*
 const Accommodation = () => {
   const hotels = [
     {
@@ -31,7 +32,6 @@ const Accommodation = () => {
         "Near 45 Bungalow, T.T. Nagar, Bhopal, Madhya Pradesh, 462003, India",
       distance: "3.2 KM",
     },
-
     {
       id: 5,
       name: "Taj Lakefront",
@@ -70,7 +70,7 @@ const Accommodation = () => {
       id: 10,
       name: "Lemon Tree Hotel",
       category:
-        "10	Lemon Tree Hotel	240, Zone-1, M.P. Nagar, Opposite DB Mall, Bhopal, Madhya Pradesh, 462011, India	5.2 kms",
+        "10 Lemon Tree Hotel  240, Zone-1, M.P. Nagar, Opposite DB Mall, Bhopal, Madhya Pradesh, 462011, India  5.2 kms",
       distance: "5.2 KM",
     },
     {
@@ -82,6 +82,7 @@ const Accommodation = () => {
     },
   ];
 
+
   return (
     <div className="mt-14 py-8 bg-slate-200 text-black">
       <div className="p-4 md:p-6">
@@ -90,7 +91,6 @@ const Accommodation = () => {
         </h1>
 
         <div className="overflow-x-auto space-y-6">
-          {/* Faculty Section */}
           <div className="bg-gray-100 p-4 rounded-lg shadow-md">
             <h2 className="text-xl font-semibold text-gray-800 mb-2">
               For Faculty
@@ -113,7 +113,6 @@ const Accommodation = () => {
             </p>
           </div>
 
-          {/* Student Section */}
           <div className="bg-gray-100 p-4 rounded-lg shadow-md">
             <h2 className="text-xl font-semibold text-gray-800 mb-2">
               For Students
@@ -163,7 +162,18 @@ const Accommodation = () => {
           </table>
         </div>
       </div>
-      {/* <SponsorFix /> */}
+      {/* <SponsorFix /> }
+    </div>
+  );
+};
+*/
+
+const Accommodation = () => {
+  return (
+    <div className="mt-14 py-20 bg-slate-200 text-black flex justify-center items-center min-h-[200px]">
+      <h2 className="text-3xl font-semibold text-gray-700 italic">
+        Will be announced soon.
+      </h2>
     </div>
   );
 };
