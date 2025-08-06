@@ -1,6 +1,5 @@
 import React from "react";
-import Lottie from "lottie-react";
-import examsPreparation from "../lottieFiles/examsPreparation.json";
+// Removed Lottie import and animation JSON import
 import gradients from "../styles/customGradient.module.css";
 import SponsorFix from "../components/SponsorFix";
 
@@ -16,7 +15,6 @@ const guideline = () => {
               <h1 className=" text-center text-black text-4xl sm:text-5xl font-bold leading-[3rem] border-b-4 border-blue-500 pb-1 md:pb-3 ">
                 Guidelines
               </h1>
-              {/* <div className="mt-1 sm:mt-4 h-1 w-12 sm:w-20 bg-blue-600 rounded"></div> */}
             </div>
             <section className=" p-5  text-gray-600 body-font  border-rose-500 rounded mt-4 !ml-0">
               <div className=" flex gap-4 md:flex-row flex-col items-center ">
@@ -64,9 +62,7 @@ const guideline = () => {
                     To be announced soon
                   </a>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-12   ">
-                  <Lottie animationData={examsPreparation} loop={true} />
-                </div>
+                {/* Removed Lottie animation div */}
               </div>
             </section>
             <section className="text-gray-600 body-font border-rose-500 rounded !ml-0">
@@ -80,11 +76,6 @@ const guideline = () => {
                     registered authors, will be submitted to IEEE Xplore Digital
                     Library for Possible Publication.
                   </p>
-                  {/* <p className="mb-4 leading-relaxed  md:font-semibold md:text-lg">
-                    Extended version of the top 10% papers from MAC 2025 will be
-                    published in a special issue of Defence Science Journal
-                    (SCI).
-                  </p> */}
                 </div>
               </div>
             </section>
