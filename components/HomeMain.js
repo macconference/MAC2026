@@ -117,7 +117,7 @@ to you for collaboration and networking with international experts. We invite yo
         <section id="callforpaper" className=" px-6 py-12">
           <div className="container mx-auto flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2 px-10 order-last md:order-first">
-              <img src="/hm.png" alt="Call for Papers" className="rounded-xl shadow" />
+              <img src="/hp.png" alt="Call for Papers" />
             </div>
             <div className="md:w-1/2 text-blue-900">
               <h1 className="text-4xl lg:text-6xl font-bold border-b-4 border-cyan-600 pb-4 mb-4">
