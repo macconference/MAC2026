@@ -54,12 +54,12 @@ export const honChairs = [
     organisation: "University of California, Los Angeles",
     profileImage: "/asad.png",
   },
-  {
-    title: "Prof.",
-    fullName: "DC Pande",
-    organisation: "DRDO, India",
-    profileImage: "/DC_pande.png",
-  },
+ // {
+   // title: "Prof.",
+   // fullName: "DC Pande",
+   // organisation: "DRDO, India",
+   // profileImage: "/DC_pande.png",
+ //},
   // {
   //   title: "Prof.",
   //   fullName: "Sima Noghanian",
@@ -99,12 +99,12 @@ export const genChairs = [
   //   organisation: "MANIT Bhopal,India",
   //   profileImage: "/rnyadav.png",
   // },
-  {
-    title: "Prof.",
-    fullName: "Puneet Kumar Mishra",
-    organisation: "U R Rao Satellite Centre, ISRO Bengaluru",
-    profileImage: "/puneet_mishra_sir_1.png",
-  },
+ // {
+   // title: "Prof.",
+    //fullName: "Puneet Kumar Mishra",
+    //organisation: "U R Rao Satellite Centre, ISRO Bengaluru",
+    //profileImage: "/puneet_mishra_sir_1.png",
+  //},
 
   {
     title: "Prof.",
