@@ -479,24 +479,25 @@ const Registration = () => {
       </div> */}
 
       <div className="flex justify-center">
-        <div className="md:mx-28 bg-red-100 max-w-[700px] w-[90%] md:w-[70%] lg:w-[50%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl">
+        <div className="md:mx-28 bg-gradient-to-r from-blue-400 via-blue-3
+        \00 to-blue-400 max-w-[700px] w-[90%] md:w-[70%] lg:w-[50%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl">
           <div className="w-full flex justify-between  py-2">
             <span>Account Name</span>
             <span className="text-right">
-              Maulana Azad National Institute of Technology (MANIT) Bhopal
+              NON FORMAL CONTINUING OF EDU
             </span>
           </div>
           <div className="w-full flex justify-between  py-2">
             <span>Account Number</span>
-            <span className="text-right">10020150107</span>
+            <span className="text-right">10424975574</span>
           </div>
           <div className="w-full flex justify-between  py-2">
             <span>IFSC Code</span>
-            <span className="text-right">SBIN0001608</span>
+            <span className="text-right">SBIN0002580</span>
           </div>
           <div className="w-full flex justify-between  py-2">
             <span>Swift Code {'(for Foreign Authors only)' }</span>
-            <span className="text-right">SBININBB268</span>
+            <span className="text-right">SBININBB828</span>
           </div>
           {/* <div className="w-full flex justify-between  py-2">
             <span>Swift Code</span>
@@ -504,12 +505,12 @@ const Registration = () => {
           </div> */}
           <div className="w-full flex justify-between  py-2">
             <span>Bank Name</span>
-            <span className="text-right">State Bank of India</span>
+            <span className="text-right">SBI, MNNIT Allahabad</span>
           </div>
           <div className="w-full flex justify-between  py-2">
             <span>Branch</span>
             <span className="text-right">
-              MAULANA AZAD COL OF TECH (BPL) BHOPAL-1608
+              MNNIT Allahabad
             </span>
           </div>
           {/* <div className="w-full flex justify-between  py-2">
