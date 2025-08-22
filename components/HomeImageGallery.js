@@ -18,7 +18,7 @@ export default function HomeImageGallery() {
         modules={[Autoplay]}
         className="mySwiper bg-stone-500 text-center w-full h-[60vh] md:h-full"
       >
-        {[...Array(8)].map((_, i) => (
+        {[...Array(9)].map((_, i) => (
           <SwiperSlide key={i}>
             <div className="w-full h-full overflow-hidden">
               <motion.img
