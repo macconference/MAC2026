@@ -7,7 +7,7 @@ const NoticeMarquee = () => {
   const combinedText = `${message1}     ${message2}     `;
 
   return (
-    <div className="w-full overflow-hidden border py-2 ">
+    <div className="w-full overflow-hidden border-black py-2 ">
       <div className="relative whitespace-nowrap flex animate-marquee-track hover:[animation-play-state:paused] text-lg font-medium text-black">
         <span className="mr-10">{combinedText.repeat(2)}</span>
         <span className="mr-10">{combinedText.repeat(2)}</span>

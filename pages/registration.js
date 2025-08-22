@@ -96,7 +96,7 @@ const Registration = () => {
       </h1>
 <div className="flex justify-center mt-16">
           <div className="p-1 md:p-4 border-2 border-stone-400 overflow-x-scroll">
-            <h1 className="text-[20px] sm:text-[25px] md:text-2xl text-red-500 font-bold p-1 pb-2 text-center underline">
+            <h1 className="text-[20px] sm:text-[25px] md:text-2xl text-red-700 font-bold p-1 pb-2 text-center underline">
               Indian Delegates
             </h1>
             <table className="text-left text-[12px] md:text-lg lg:text-lg w-[85rem]">
@@ -139,7 +139,7 @@ const Registration = () => {
                     rowSpan={3}
                   >
                     <div className="flex justify-center items-center">
-                      <span className="text-red-500 font-bold">Student</span>
+                      <span className="text-red-700 font-bold">Student</span>
                     </div>
                   </td>
                 </tr>
@@ -160,7 +160,7 @@ const Registration = () => {
                 <tr>
                   <td rowSpan={3} className="font-semibold">
                     <div className="flex justify-center items-center">
-                      <span className="text-red-500 font-bold">
+                      <span className="text-red-700 font-bold">
                         Professional
                       </span>
                     </div>
@@ -187,7 +187,7 @@ const Registration = () => {
                     rowSpan={3}
                   >
                     <div className="flex justify-center items-center">
-                      <span className="text-red-500 font-bold">
+                      <span className="text-red-700 font-bold">
                         Online Presentation**
                       </span>
                     </div>
@@ -227,7 +227,7 @@ const Registration = () => {
 
                 {/* Poster Presentation */}
                 <tr className="border-b-2 border-stone-400">
-                  <td colSpan={2} className="font-bold text-red-500 pl-4">
+                  <td colSpan={2} className="font-bold text-red-700 pl-4">
                     For Poster Presentation
                   </td>
                   <td
@@ -240,7 +240,7 @@ const Registration = () => {
 
                 {/* Attendees without Paper */}
                 <tr className="border-b-2 border-stone-400">
-                  <td colSpan={2} className="font-bold text-red-500 pl-4">
+                  <td colSpan={2} className="font-bold text-red-700 pl-4">
                     Attendees without Paper
                   </td>
                   <td
@@ -268,7 +268,7 @@ const Registration = () => {
       
       <div className="flex justify-center mt-16">
         <div className="p-1 md:p-4 border-2 border-stone-400 overflow-x-scroll">
-          <h1 className="text-[20px] sm:text-[25px] md:text-2xl text-red-500 font-bold p-1 pb-2 text-center underline">
+          <h1 className="text-[20px] sm:text-[25px] md:text-2xl text-red-700 font-bold p-1 pb-2 text-center underline">
             Foreign Delegates
           </h1>
           <table className="text-left text-[12px] md:text-lg lg:text-lg w-[39rem] md:w-[59rem] lg:w-[67rem]">
@@ -319,7 +319,7 @@ const Registration = () => {
                       alignItems: "center",
                     }}
                   >
-                    <span className="text-red-500 font-bold">Student</span>
+                    <span className="text-red-700 font-bold">Student</span>
                   </div>
                 </td>
               </tr>
@@ -344,7 +344,7 @@ const Registration = () => {
                       alignItems: "center",
                     }}
                   >
-                    <span className="text-red-500 font-bold">Professional</span>
+                    <span className="text-red-700 font-bold">Professional</span>
                   </div>
                 </td>
               </tr>
