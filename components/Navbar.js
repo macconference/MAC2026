@@ -12,19 +12,17 @@ const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   // Load theme from localStorage or system preference
-  useEffect(() => {
-    if (
-      localStorage.theme === "dark" ||
-      (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
-      document.documentElement.classList.add("dark");
-      setDarkMode(true);
-    } else {
-      document.documentElement.classList.remove("dark");
-      setDarkMode(false);
-    }
-  }, []);
+ useEffect(() => {
+  if (localStorage.theme === "dark") {
+    document.documentElement.classList.add("dark");
+    setDarkMode(true);
+  } else {
+    document.documentElement.classList.remove("dark");
+    localStorage.setItem("theme", "light"); // ✅ force default light
+    setDarkMode(false);
+  }
+}, []);
+
 
   // Toggle theme
   const toggleDarkMode = () => {
