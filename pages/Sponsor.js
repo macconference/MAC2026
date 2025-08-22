@@ -54,7 +54,7 @@ const Sponsor = () => {
     {/* Signature Sponsor */}
     <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-pink-600 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
       <h3 className="text-lg font-semibold mb-2" style={{ color: "#de2455" }}>
-        Signature Sponsor <span className="text-blue-700 font-bold">INR 3.0 Lakh</span>
+        Signature Sponsor <span className="text-blue-700 font-bold"></span>
       </h3>
       <ul className="list-disc list-inside space-y-1 text-md">
         <li>Ten Complimentary delegate passes</li>
@@ -67,7 +67,7 @@ const Sponsor = () => {
     {/* Platinum Sponsor */}
     <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-purple-700 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
       <h3 className="text-lg font-semibold mb-2" style={{ color: "#a04fbe" }}>
-        Platinum Sponsor <span className="text-blue-700 font-bold">INR 2.0 Lakh</span>
+        Platinum Sponsor <span className="text-blue-700 font-bold"></span>
       </h3>
       <ul className="list-disc list-inside space-y-1 text-md">
         <li>Five Complimentary delegate passes</li>
@@ -79,7 +79,7 @@ const Sponsor = () => {
     {/* Diamond Sponsor */}
     <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-orange-500 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
       <h3 className="text-lg font-semibold mb-2" style={{ color: "#f17839" }}>
-        Diamond Sponsor <span className="text-blue-700 font-bold">INR 1.5 Lakh</span>
+        Diamond Sponsor <span className="text-blue-700 font-bold"></span>
       </h3>
       <ul className="list-disc list-inside space-y-1 text-md">
         <li>Four Complimentary delegate passes</li>
@@ -91,7 +91,7 @@ const Sponsor = () => {
     {/* Gold Sponsor */}
     <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-yellow-500 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
       <h3 className="text-lg font-semibold mb-2" style={{ color: "#eeb427" }}>
-        Gold Sponsor <span className="text-blue-700 font-bold">INR 1.0 Lakh</span>
+        Gold Sponsor <span className="text-blue-700 font-bold"></span>
       </h3>
       <ul className="list-disc list-inside space-y-1 text-md">
         <li>Three Complimentary delegate passes</li>
@@ -103,7 +103,7 @@ const Sponsor = () => {
     {/* Silver Sponsor */}
     <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-blue-500 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
       <h3 className="text-lg font-semibold mb-2" style={{ color: "#5581c9" }}>
-        Silver Sponsor <span className="text-blue-700 font-bold">INR 50 Thousand</span>
+        Silver Sponsor <span className="text-blue-700 font-bold"></span>
       </h3>
       <ul className="list-disc list-inside space-y-1 text-md">
         <li>Two Complimentary delegate passes</li>
