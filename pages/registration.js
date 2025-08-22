@@ -282,7 +282,7 @@ const Registration = () => {
                   <tr>
                     Early Bird
                     <tr className="text-[10px] sm:text-[12px] md:text-[14px]">
-                      (Till May 15, 2025)
+                      (Till September 20, 2026)
                     </tr>
                   </tr>
                 </th>
@@ -291,7 +291,7 @@ const Registration = () => {
                   <tr>
                     Regular Registration
                     <tr className="text-[10px] sm:text-[12px] md:text-[14px]">
-                      (16 May-15 june,2025)
+                      (21 September-10 October, 2026)
                     </tr>
                   </tr>
                 </th>
@@ -299,7 +299,7 @@ const Registration = () => {
                   <tr>
                     On Spot Registration
                     <tr className="text-[10px] sm:text-[12px] md:text-[14px]">
-                      (After 16 June,2025)
+                      (After 21 October, 2026)
                     </tr>
                   </tr>
                 </th>
