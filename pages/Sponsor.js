@@ -30,92 +30,104 @@ const Sponsor = () => {
             forward to see you in the MAC 2026, at MNNIT Allahabad, Uttar Pradesh, India.
           </p>
 
-          {/* ------ SPONSORSHIP TIERS SECTION ADDED HERE ------- */}
-          <div
-            className="my-8 p-6 rounded-lg shadow-xl"
-            style={{
-              background: "linear-gradient(135deg, #eef2fb 0%, #c7e0fa 100%)",
-              color: "#122044",
-              fontFamily: "Cambria, Segoe UI, Arial, sans-serif",
-            }}
-          >
-            <h2 className="text-center text-2xl md:text-3xl font-bold mb-6" style={{ color: "#1d4ed8" }}>
-              MAC 2026 Sponsorship Tiers & Benefits
-            </h2>
-            <div className="flex flex-wrap gap-6 justify-center">
-              {/* Signature Sponsor */}
-              <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-pink-600 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
-                <h3 className="text-lg font-semibold mb-2" style={{ color: "#de2455" }}>
-                  Signature Sponsor <span className="text-blue-700 font-bold">INR 3.0 Lakh</span>
-                </h3>
-                <ul className="list-disc list-inside space-y-1 text-md">
-                  <li>Ten Complimentary delegate passes</li>
-                  <li>Twenty-minute Banquet Keynote presentation</li>
-                  <li>One hour dedicated workshop slot</li>
-                  <li>Acknowledgement during Inaugural, Awards, Banquet &amp; Valedictory functions</li>
-                  <li>Exhibit booth at Ultra Prime Location</li>
-                </ul>
-              </div>
-              {/* Platinum Sponsor */}
-              <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-purple-700 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
-                <h3 className="text-lg font-semibold mb-2" style={{ color: "#a04fbe" }}>
-                  Platinum Sponsor <span className="text-blue-700 font-bold">INR 2.0 Lakh</span>
-                </h3>
-                <ul className="list-disc list-inside space-y-1 text-md">
-                  <li>Five Complimentary delegate passes</li>
-                  <li>Fifteen-minute presentation slot</li>
-                  <li>Acknowledgement during Awards &amp; Valedictory functions</li>
-                  <li>Exhibit booth at Prime Location</li>
-                </ul>
-              </div>
-              {/* Diamond Sponsor */}
-              <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-orange-500 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
-                <h3 className="text-lg font-semibold mb-2" style={{ color: "#f17839" }}>
-                  Diamond Sponsor <span className="text-blue-700 font-bold">INR 1.5 Lakh</span>
-                </h3>
-                <ul className="list-disc list-inside space-y-1 text-md">
-                  <li>Four Complimentary delegate passes</li>
-                  <li>Ten-minute presentation slot</li>
-                  <li>Acknowledgement during Awards &amp; Valedictory functions</li>
-                  <li>Exhibit booth at Prime Location</li>
-                </ul>
-              </div>
-              {/* Gold Sponsor */}
-              <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-yellow-500 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
-                <h3 className="text-lg font-semibold mb-2" style={{ color: "#eeb427" }}>
-                  Gold Sponsor <span className="text-blue-700 font-bold">INR 1.0 Lakh</span>
-                </h3>
-                <ul className="list-disc list-inside space-y-1 text-md">
-                  <li>Three Complimentary delegate passes</li>
-                  <li>Five-minute presentation slot</li>
-                  <li>Acknowledgement during Awards &amp; Valedictory functions</li>
-                  <li>Exhibit booth</li>
-                </ul>
-              </div>
-              {/* Silver Sponsor */}
-              <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-blue-500 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
-                <h3 className="text-lg font-semibold mb-2" style={{ color: "#5581c9" }}>
-                  Silver Sponsor <span className="text-blue-700 font-bold">INR 50 Thousand</span>
-                </h3>
-                <ul className="list-disc list-inside space-y-1 text-md">
-                  <li>Two Complimentary delegate passes</li>
-                  <li>Two-minute pre-recorded video presentation</li>
-                  <li>Acknowledgement during Valedictory function</li>
-                  <li>Exhibit booth</li>
-                  <li className="font-medium text-pink-800">Exclusive: Fifteen-minute interaction session for Startups</li>
-                </ul>
-              </div>
-            </div>
-            {/* Shared Benefits */}
-            <div className="mt-8 bg-indigo-50 rounded p-4">
-              <h4 className="font-bold text-pink-700 mb-2">All Sponsors Receive:</h4>
-              <ul className="list-disc list-inside">
-                <li>Prominent display of Name/Logo on printed materials, event backdrops, and the official website.</li>
-                <li>Company brochure placement in registration kit.</li>
-              </ul>
-            </div>
-          </div>
-          {/* ------ END SPONSORSHIP TIERS SECTION ------- */}
+        {/* ------ SPONSORSHIP TIERS SECTION ADDED HERE ------- */}
+<div
+  className="my-8 p-6 rounded-lg shadow-xl"
+  style={{
+    background: "linear-gradient(135deg, #eef2fb 0%, #c7e0fa 100%)",
+    color: "#122044",
+    fontFamily: "Cambria, Segoe UI, Arial, sans-serif",
+  }}
+>
+  <h2 className="text-center text-2xl md:text-3xl font-bold mb-6" style={{ color: "#1d4ed8" }}>
+    MAC 2026 Sponsorship Tiers & Benefits
+  </h2>
+   {/* 🆕 UPDATED: Smaller, more responsive sponsors image */}
+  <div className="mt-6 flex justify-center px-4">
+    <img
+      src="/sponser.png"
+      alt="MAC 2026 Sponsors"
+      className="w-full max-w-lg sm:max-w-xl md:max-w-2xl h-auto  "
+    />
+  </div>
+  <div className="flex flex-wrap gap-6 justify-center">
+    {/* Signature Sponsor */}
+    <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-pink-600 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
+      <h3 className="text-lg font-semibold mb-2" style={{ color: "#de2455" }}>
+        Signature Sponsor <span className="text-blue-700 font-bold">INR 3.0 Lakh</span>
+      </h3>
+      <ul className="list-disc list-inside space-y-1 text-md">
+        <li>Ten Complimentary delegate passes</li>
+        <li>Twenty-minute Banquet Keynote presentation</li>
+        <li>One hour dedicated workshop slot</li>
+        <li>Acknowledgement during Inaugural, Awards, Banquet &amp; Valedictory functions</li>
+        <li>Exhibit booth at Ultra Prime Location</li>
+      </ul>
+    </div>
+    {/* Platinum Sponsor */}
+    <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-purple-700 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
+      <h3 className="text-lg font-semibold mb-2" style={{ color: "#a04fbe" }}>
+        Platinum Sponsor <span className="text-blue-700 font-bold">INR 2.0 Lakh</span>
+      </h3>
+      <ul className="list-disc list-inside space-y-1 text-md">
+        <li>Five Complimentary delegate passes</li>
+        <li>Fifteen-minute presentation slot</li>
+        <li>Acknowledgement during Awards &amp; Valedictory functions</li>
+        <li>Exhibit booth at Prime Location</li>
+      </ul>
+    </div>
+    {/* Diamond Sponsor */}
+    <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-orange-500 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
+      <h3 className="text-lg font-semibold mb-2" style={{ color: "#f17839" }}>
+        Diamond Sponsor <span className="text-blue-700 font-bold">INR 1.5 Lakh</span>
+      </h3>
+      <ul className="list-disc list-inside space-y-1 text-md">
+        <li>Four Complimentary delegate passes</li>
+        <li>Ten-minute presentation slot</li>
+        <li>Acknowledgement during Awards &amp; Valedictory functions</li>
+        <li>Exhibit booth at Prime Location</li>
+      </ul>
+    </div>
+    {/* Gold Sponsor */}
+    <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-yellow-500 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
+      <h3 className="text-lg font-semibold mb-2" style={{ color: "#eeb427" }}>
+        Gold Sponsor <span className="text-blue-700 font-bold">INR 1.0 Lakh</span>
+      </h3>
+      <ul className="list-disc list-inside space-y-1 text-md">
+        <li>Three Complimentary delegate passes</li>
+        <li>Five-minute presentation slot</li>
+        <li>Acknowledgement during Awards &amp; Valedictory functions</li>
+        <li>Exhibit booth</li>
+      </ul>
+    </div>
+    {/* Silver Sponsor */}
+    <div className="flex-1 min-w-[270px] max-w-xs bg-white border-l-8 border-blue-500 rounded-md px-6 py-4 shadow hover:shadow-lg transition">
+      <h3 className="text-lg font-semibold mb-2" style={{ color: "#5581c9" }}>
+        Silver Sponsor <span className="text-blue-700 font-bold">INR 50 Thousand</span>
+      </h3>
+      <ul className="list-disc list-inside space-y-1 text-md">
+        <li>Two Complimentary delegate passes</li>
+        <li>Two-minute pre-recorded video presentation</li>
+        <li>Acknowledgement during Valedictory function</li>
+        <li>Exhibit booth</li>
+        <li className="font-medium text-pink-800">Exclusive: Fifteen-minute interaction session for Startups</li>
+      </ul>
+    </div>
+  </div>
+  
+ 
+  
+  {/* Shared Benefits */}
+  <div className="mt-8 bg-indigo-50 rounded p-4">
+    <h4 className="font-bold text-pink-700 mb-2">All Sponsors Receive:</h4>
+    <ul className="list-disc list-inside">
+      <li>Prominent display of Name/Logo on printed materials, event backdrops, and the official website.</li>
+      <li>Company brochure placement in registration kit.</li>
+    </ul>
+  </div>
+</div>
+{/* ------ END SPONSORSHIP TIERS SECTION ------- */}
+
 
           <br />
           {/* <p className="text-justify">
