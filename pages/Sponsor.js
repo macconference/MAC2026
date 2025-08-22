@@ -144,13 +144,13 @@ const Sponsor = () => {
           </p>
         </div>
       </div>
-      <div className="mt-6 p-2 flex justify-center">
+      {/* <div className="mt-6 p-2 flex justify-center">
         <img
           src="/Industry-2.png" // Update with your actual image path
           alt="Sponsorship Levels"
           className="w-full max-w-screen-lg h-auto rounded-lg shadow-lg"
         />
-      </div>
+      </div> */}
 
       {/* <div className="mt-6 p-2">
         <h1 className="font-extrabold text-2xl md:text-3xl text-center">
