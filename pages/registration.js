@@ -513,6 +513,13 @@ const Registration = () => {
               MNNIT Allahabad
             </span>
           </div>
+          <h1 className="text-2xl font-bold mb-4">Scan this QR Code</h1>
+      {/* ✅ Add QR code image */}
+      <img
+        src="/qr.png"   // place qr.png inside your "public" folder
+        alt="QR Code"
+        className="w-70 h-70 rotate-[-1.05deg] "
+      />
           {/* <div className="w-full flex justify-between  py-2">
             <span>Institute Name</span>
             <span className="text-right">
