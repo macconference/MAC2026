@@ -76,7 +76,7 @@ const HomeMain = () => {
               <Link href="/registration">
                 <span className="w-[80%] sm:w-[60%] text-blue-900 bg-white/80 hover:bg-orange-400 font-semibold rounded-full text-sm md:text-base px-5 py-2.5 text-center cursor-pointer">
                   Registration <br />
-                  (Announcing soon)
+                  
                 </span>
               </Link>
             </div>
