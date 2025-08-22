@@ -3,20 +3,20 @@ import Link from "next/link";
 import SponsorFix from "../components/SponsorFix";
 import NoticeMarquee from "../components/NoticeMarquee";
 
-/*const Registration = () => {
+const Registration = () => {
   return (
     <>
     {/* <div className="bg-gray-800  p-4">
   <NoticeMarquee />
-</div> }
+</div> */}
 
-    <div className="mt-14 py-8 bg-slate-200 text-black">
+    <div className="mt-14 py-8  bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 text-black">
           <NoticeMarquee />
       {/* <h1 className='text-center text-3xl font-bold mb-6'>
     <span className='md:px-8 border-b-4 border-blue-500 pb-4'>
     Important Dates
     </span>
-</h1> }
+</h1> */}
       {/* <div className='flex justify-center'>
  
 
@@ -87,11 +87,11 @@ import NoticeMarquee from "../components/NoticeMarquee";
 </div>
 <p className="md:mb-8 leading-relaxed font-semibold text-lg text-center">
                 *10% of Registration fee will be reimbursed (applicable for B.Tech./M.Tech. Students).
-</p> }
+</p> */}
       <div id="registration" className="h-12 w-full"></div>
       <h1 className="text-center text-lg sm:text-xl md:text-3xl font-bold mt-12">
         <span className="border-b-4 border-blue-500 px-4 pb-4">
-          Registration Fee 
+          Registration Fee (Including GST) 
         </span>
       </h1>
 <div className="flex justify-center mt-16">
@@ -110,7 +110,7 @@ import NoticeMarquee from "../components/NoticeMarquee";
                     <div>
                       Early Bird
                       <div className="text-[10px] sm:text-[12px] md:text-[14px]">
-                        (Till May 15, 2025)
+                        (Till September 20, 2026)
                       </div>
                     </div>
                   </th>
@@ -118,7 +118,7 @@ import NoticeMarquee from "../components/NoticeMarquee";
                     <div>
                       Regular Registration
                       <div className="text-[10px] sm:text-[12px] md:text-[14px]">
-                        (16 May–15 June, 2025)
+                        (21 September–10 October, 2026)
                       </div>
                     </div>
                   </th>
@@ -126,13 +126,13 @@ import NoticeMarquee from "../components/NoticeMarquee";
                     <div>
                       On Spot Registration
                       <div className="text-[10px] sm:text-[12px] md:text-[14px]">
-                        (After 16 June, 2025)
+                        (After 11 October, 2026)
                       </div>
                     </div>
                   </th>
                 </tr>
 
-                {/* Student }
+                {/* Student */}
                 <tr className="border-b-2 border-stone-600">
                   <td
                     className="w-[20%] md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400"
@@ -145,18 +145,18 @@ import NoticeMarquee from "../components/NoticeMarquee";
                 </tr>
                 <tr className="border-b-2 border-stone-400">
                   <td className="py-2">IEEE</td>
-                  <td className="py-2">INR 6,900</td>
-                  <td className="py-2">INR 8,900</td>
-                  <td className="py-2">INR 10,900</td>
+                  <td className="py-2">INR 5,900</td>
+                  <td className="py-2">INR 7,900</td>
+                  <td className="py-2">INR 9,900</td>
                 </tr>
                 <tr className="border-b-2 border-stone-400">
                   <td className="py-2">Non-IEEE</td>
                   <td className="py-2">INR 8,400</td>
                   <td className="py-2">INR 10,400</td>
-                  <td className="py-2">INR 11,900</td>
+                  <td className="py-2">INR 11,400</td>
                 </tr>
 
-                {/* Professional }
+                {/* Professional */}
                 <tr>
                   <td rowSpan={3} className="font-semibold">
                     <div className="flex justify-center items-center">
@@ -168,19 +168,19 @@ import NoticeMarquee from "../components/NoticeMarquee";
                 </tr>
                 <tr className="border-b-2 border-stone-400">
                   <td className="py-2">IEEE</td>
+                  <td className="py-2">INR 9,900</td>
                   <td className="py-2">INR 13,900</td>
                   <td className="py-2">INR 16,900</td>
-                  <td className="py-2">INR 18,900</td>
                 </tr>
                 <tr className="border-b-2 border-stone-400">
                   <td className="py-2">Non-IEEE</td>
-                  <td className="py-2">INR 16,100</td>
+                  <td className="py-2">INR 12,900</td>
+                  <td className="py-2">INR 16,900</td>
                   <td className="py-2">INR 18,900</td>
-                  <td className="py-2">INR 20,900</td>
                 </tr>
 
-                {/* Online Presentation }
-                {/* For Online Presentation }
+                {/* Online Presentation */}
+                {/* For Online Presentation */}
                 <tr className="border-b-2 border-stone-400">
                   <td
                     className="w-[20%] md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400"
@@ -204,7 +204,7 @@ import NoticeMarquee from "../components/NoticeMarquee";
                   >
                     <div className="flex justify-center gap-5">
                     <p className="font-semibold">For Students-</p>
-                    <p>INR 12,000</p>
+                    <p>INR 9,900</p>
                   </div>
                   </td>
                 </tr>
@@ -214,18 +214,18 @@ import NoticeMarquee from "../components/NoticeMarquee";
                     colSpan={3}
                     className="text-center py-2  text-black"
                   >
-                  {/* <p>For Professionals   INR 21,000{" "}</p>  }
+                  {/* <p>For Professionals   INR 21,000{" "}</p>  */}
                   <div className="flex justify-center gap-5">
                     <p className="font-semibold">For Professionals-</p>
-                    <p>INR 21,000</p>
+                    <p>INR 16,900</p>
                   </div>
                     {/* <span className="text-sm font-normal">
                       (for Professionals)
-                    </span> }
+                    </span> */}
                   </td>
                 </tr>
 
-                {/* Poster Presentation }
+                {/* Poster Presentation */}
                 <tr className="border-b-2 border-stone-400">
                   <td colSpan={2} className="font-bold text-red-500 pl-4">
                     For Poster Presentation
@@ -234,11 +234,11 @@ import NoticeMarquee from "../components/NoticeMarquee";
                     colSpan={3}
                     className="text-center font-semibold text-black py-2"
                   >
-                    INR 5,000
+                    INR 2,900
                   </td>
                 </tr>
 
-                {/* Attendees without Paper }
+                {/* Attendees without Paper */}
                 <tr className="border-b-2 border-stone-400">
                   <td colSpan={2} className="font-bold text-red-500 pl-4">
                     Attendees without Paper
@@ -247,7 +247,7 @@ import NoticeMarquee from "../components/NoticeMarquee";
                     colSpan={3}
                     className="text-center font-semibold text-black py-2"
                   >
-                    INR 5,000
+                    INR 2,900
                   </td>
                 </tr>
               </tbody>
@@ -305,7 +305,7 @@ import NoticeMarquee from "../components/NoticeMarquee";
                 </th>
                 {/* <th className="text-[13px] sm:text-[15px] md:text-xl p-1 pb-2">
                   Foreign Delegates
-                </th> }
+                </th> */}
               </tr>
               <tr className="border-b-2 border-stone-600">
                 <td
@@ -373,7 +373,7 @@ import NoticeMarquee from "../components/NoticeMarquee";
         *For International participants, fees for OFFLINE and ONLINE
         presentation is equal. But for Indian participants fees for ONLINE
         presentation is give in column.
-      </p> }
+      </p> */}
       {/* <div className="text-center">
         <div className="mt-24 px-4 md:px-0">
           <p className="text-[15px] font-semibold md:text-[22px] lg:text-xl">
@@ -460,7 +460,7 @@ import NoticeMarquee from "../components/NoticeMarquee";
             </table>
           </div>
         </div>
-      </div> }
+      </div> */}
 
       <h1 className="text-center text-3xl font-bold mt-12 mb-8">
         <span className="border-b-4 border-blue-500 px-4 pb-4">
@@ -476,7 +476,7 @@ import NoticeMarquee from "../components/NoticeMarquee";
         }}
       >
         <img src="/soon.webp" alt="Coming Soon" />
-      </div> }
+      </div> */}
 
       <div className="flex justify-center">
         <div className="md:mx-28 bg-red-100 max-w-[700px] w-[90%] md:w-[70%] lg:w-[50%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl">
@@ -501,7 +501,7 @@ import NoticeMarquee from "../components/NoticeMarquee";
           {/* <div className="w-full flex justify-between  py-2">
             <span>Swift Code</span>
             <span className="text-right">SBININBB828</span>
-          </div> }
+          </div> */}
           <div className="w-full flex justify-between  py-2">
             <span>Bank Name</span>
             <span className="text-right">State Bank of India</span>
@@ -521,7 +521,7 @@ import NoticeMarquee from "../components/NoticeMarquee";
           <div className="w-full flex justify-between  py-2">
             <span>GSTN</span>
             <span className="text-right">09AAAJM1116B2ZR</span>
-          </div> }
+          </div> */}
         </div>
       </div>
 
@@ -536,26 +536,6 @@ import NoticeMarquee from "../components/NoticeMarquee";
       <div className="h-12 w-full"></div>
     </div>
     </>
-  );
-};
-/*
-const Registration = () => {
-  return (
-    <div className="mt-20 py-20 bg-slate-200 text-black flex justify-center items-center text-center">
-      <h1 className="text-2xl md:text-4xl font-bold text-red-600">
-        Registration Details Will Be Announced Soon
-      </h1>
-    </div>
-  );
-};
-*/
-const Registration = () => {
-  return (
-    <div className="mt-20 py-20 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 text-black flex justify-center items-center text-center">
-      <h1 className="text-2xl md:text-4xl font-bold text-red-600">
-        Registration Details Will Be Announced Soon
-      </h1>
-    </div>
   );
 };
 

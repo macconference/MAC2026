@@ -2,7 +2,7 @@ import React from "react";
 
 const NoticeMarquee = () => {
   const message1 = "Registrations are open for attendees without paper.";
-  const message2 = "Participants can present online with a fee of INR 12000 (students) / INR 21000 (professionals).";
+  const message2 = "Participants can present online with a fee of INR 9900 (students) / INR 16900 (professionals).";
 
   const combinedText = `${message1}     ${message2}     `;
 
