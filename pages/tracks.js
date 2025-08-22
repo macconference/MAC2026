@@ -7,11 +7,11 @@ const Tracks = () => {
   return (
     <main className="flex-grow overflow-x-clip pt-14">
       {/* Gradient background applied here */}
-      <div className="min-h-full bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200">
+      <div className="min-h-full bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 dark:from-gray-900 dark:via-gray-800 dark:to-black">
         <div className="relative flex-grow items-start justify-start space-x-2 px-4 md:flex md:flex-row md:px-8 xl:px-10">
           <main className="w-full space-x-6 pt-4 md:flex-grow">
             <div className="flex flex-col items-center justify-center px-4 py-2 sm:p-6">
-              <h1 className="text-center text-black text-4xl sm:text-6xl font-bold leading-[3rem] border-b-4 border-blue-500 pb-1 md:pb-3">
+              <h1 className="text-center text-black dark:text-gray-100 text-4xl sm:text-6xl font-bold leading-[3rem] border-b-4 border-blue-500 dark:border-blue-400 pb-1 md:pb-3">
                 Tracks
               </h1>
             </div>

@@ -4,112 +4,107 @@ import SponsorFix from "../components/SponsorFix";
 
 const Dates = () => {
   return (
-    <div className="mt-14 py-8 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 text-black">
-      <h1 className="text-center text-3xl font-bold mb-6">
-        <span className="md:px-8 border-b-4 border-blue-500 pb-4">
+    <div className="mt-14 py-8 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 dark:from-gray-900 dark:via-gray-800 dark:to-black text-black dark:text-gray-100">
+      <h1 className="text-center text-3xl font-bold mb-6 text-gray-900 dark:text-gray-100">
+        <span className="md:px-8 border-b-4 border-blue-500 dark:border-blue-400 pb-4">
           Important Dates
         </span>
       </h1>
-      <div class="flex justify-center">
+      <div className="flex justify-center">
         <div className="flex flex-col w-full items-center justify-center">
           <div className="w-full text-sm md:text-lg mb-4 mt-8 flex flex-col items-center font-bold italic">
-            <p className="w-full md:w-auto leading-relaxed font-semibold text-lg text-center md:text-left mt-4 whitespace-nowrap">
+            <p className="w-full md:w-auto leading-relaxed font-semibold text-lg text-center md:text-left mt-4 whitespace-nowrap text-gray-900 dark:text-gray-200">
               Papers are accepted in multiple stages.
             </p>
 
-            <table class="text-[12px] md:text-lg lg:text-lg w-full max-w-3xl mx-auto">
+            <table className="text-[12px] md:text-lg lg:text-lg w-full max-w-3xl mx-auto">
               <tbody>
-            
                 <tr>
-                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-1/12 text-gray-900 dark:text-gray-100">
                     1.
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-7/12 text-gray-900 dark:text-gray-100">
                     Last Date for Paper Submission
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-4/12">
-          
-                    <span class="">June 20, 2026</span>
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-4/12 text-gray-900 dark:text-gray-100">
+                    <span className="">June 20, 2026</span>
                   </td>
                 </tr>
                 <tr>
-                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-1/12 text-gray-900 dark:text-gray-100">
                     2.
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-7/12 text-gray-900 dark:text-gray-100">
                     Acceptance Notification
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-4/12">
-                  
-                    <span class="">August 20, 2026</span>
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-4/12 text-gray-900 dark:text-gray-100">
+                    <span className="">August 20, 2026</span>
                   </td>
                 </tr>
                 {/* <tr>
-                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                  <td className="text-center px-4 py-2 border border-black w-1/12">
                     3.
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                  <td className="text-center px-4 py-2 border border-black w-7/12">
                     Acceptance Notification
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                  <td className="text-center px-4 py-2 border border-black w-4/12">
                     May 1, 2025
                   </td>
                 </tr> */}
                 <tr>
-                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-1/12 text-gray-900 dark:text-gray-100">
                     3.
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-7/12 text-gray-900 dark:text-gray-100">
                     Early Bird Registration Ends
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-4/12 text-gray-900 dark:text-gray-100">
                     September 20, 2026
                   </td>
                 </tr>
                 <tr>
-                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-1/12 text-gray-900 dark:text-gray-100">
                     4.
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-7/12 text-gray-900 dark:text-gray-100">
                     Regular Registration
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-4/12 text-gray-900 dark:text-gray-100">
                    21 September - <br/>10 October, 2026
                   </td>
                 </tr>
                 <tr>
-                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-1/12 text-gray-900 dark:text-gray-100">
                     5.
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-7/12 text-gray-900 dark:text-gray-100">
                    On Spot Registration
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-4/12 text-gray-900 dark:text-gray-100">
                    After 11 October, 2026
                   </td>
                 </tr>
                 {/* <tr>
-                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                  <td className="text-center px-4 py-2 border border-black w-1/12">
                     5.
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                  <td className="text-center px-4 py-2 border border-black w-7/12">
                     Registration Deadline
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                  <td className="text-center px-4 py-2 border border-black w-4/12">
                     June 01, 2025
                   </td>
                 </tr> */}
                 <tr>
-                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-1/12 text-gray-900 dark:text-gray-100">
                     6.
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-7/12 text-gray-900 dark:text-gray-100">
                     Camera Ready Paper Submission
                   </td>
-                  <td class="text-center px-4 py-2 border border-black w-4/12">
-                    
-                  
-                    <span class="">October 01, 2026</span>
+                  <td className="text-center px-4 py-2 border border-black dark:border-gray-400 w-4/12 text-gray-900 dark:text-gray-100">
+                    <span className="">October 01, 2026</span>
                   </td>
                 </tr>
               </tbody>
@@ -117,7 +112,7 @@ const Dates = () => {
           </div>
         </div>
       </div>
-      {/* <p class="md:mb-8 leading-relaxed font-semibold text-lg text-center mt-4">
+      {/* <p className="md:mb-8 leading-relaxed font-semibold text-lg text-center mt-4">
         *10% of Registration fee will be reimbursed (applicable to only
         B.Tech./M.Tech. Students who have registered as first author).
       </p> */}
@@ -190,6 +185,7 @@ const Dates = () => {
 </div>
 </div>
 
+
 <h1 className='text-center text-3xl font-bold mt-12 mb-8' >
     <span className='border-b-4 border-blue-500 px-4 pb-4'>
     Bank Details
@@ -198,6 +194,7 @@ const Dates = () => {
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
 <img src="/soon.webp" alt="Coming Soon" />
 </div>
+
 
 <div className='flex justify-center'>
 <div className='md:mx-28 bg-red-100 max-w-[700px] w-[90%] md:w-[70%] lg:w-[50%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl'>
@@ -234,6 +231,7 @@ const Dates = () => {
     <span className='text-right'>09AAAJM1116B2ZR</span>
 </div>
 
+
 </div>
 </div>
 */}
@@ -242,7 +240,9 @@ const Dates = () => {
     <Link href="/tuned" ><span className=' rounded-xl cursor-pointer font-semibold text-lg border-2 px-8 border-stone-100 btn btn-success'>Registration Form</span></Link>
 </div>
 
+
 <div className='h-12 w-full'>
+
 
 </div>
 */}

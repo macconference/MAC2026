@@ -45,12 +45,13 @@ const KeynoteSchedule = () => {
 
 const KeynoteSchedule = () => {
   return (
-    <div className="mt-14 py-20 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 text-black flex justify-center items-center">
-      <h2 className="text-3xl font-semibold text-gray-700 italic">
+    <div className="mt-14 py-20 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 dark:from-gray-900 dark:via-gray-800 dark:to-black text-black dark:text-gray-100 flex justify-center items-center">
+      <h2 className="text-3xl font-semibold text-gray-700 dark:text-gray-300 italic">
         Will be announced soon.
       </h2>
     </div>
   );
 };
+
 
 export default KeynoteSchedule;

@@ -1,327 +1,158 @@
-import React, { useState } from "react";
-import fonts from "../styles/customFont.module.css";
-import Sidebar from "./Sidebar";
+import React, { useState, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { FaMoon, FaSun } from "react-icons/fa";
 import Link from "next/link";
 import { AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
-import Gallery from "./../pages/Gallery";
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
   const router = useRouter();
   const [isOpenSidebar, setIsOpenSidebar] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
+
+  // Load theme from localStorage or system preference
+  useEffect(() => {
+    if (
+      localStorage.theme === "dark" ||
+      (!("theme" in localStorage) &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
+    ) {
+      document.documentElement.classList.add("dark");
+      setDarkMode(true);
+    } else {
+      document.documentElement.classList.remove("dark");
+      setDarkMode(false);
+    }
+  }, []);
+
+  // Toggle theme
+  const toggleDarkMode = () => {
+    if (darkMode) {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+      setDarkMode(false);
+    } else {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+      setDarkMode(true);
+    }
+  };
+
+  // Reusable NavLink component
+  const NavLink = ({ href, label }) => (
+    <Link href={href}>
+      <span
+        className={`${
+          router.pathname === href
+            ? "text-orange-400"
+            : "text-white dark:text-gray-200"
+        } cursor-pointer px-3 py-2 w-fit text-center border-b-2 border-transparent hover:font-bold hover:text-orange-400 hover:border-orange-400`}
+      >
+        {label}
+      </span>
+    </Link>
+  );
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-indigo-900 via-blue-700 to-blue-900 flex h-[72px] items-center p-6">
-      <div className={`flex-1 font-bold text-3xl`}>
-        <div className=" flex flex-start">
-          <Link href="/">
-            <p className=" cursor-pointer font-extrabold">
-              <span className="text-orange-400">MAC</span>
-              <span className="text-white">2026</span>
-            </p>
-          </Link>
-        </div>
-      </div>
+    <div className="fixed top-0 left-0 right-0 z-50 
+      bg-gradient-to-r from-indigo-900 via-blue-700 to-blue-900 
+      dark:from-gray-900 dark:via-gray-800 dark:to-black 
+      flex h-[72px] items-center px-6">
 
-      <div className="hidden lg:flex lg:gap-2 text-lg font-semibold">
+      {/* Left Side: Dark mode toggle + Logo */}
+      <div className="flex items-center gap-4 flex-1">
+        <button
+          onClick={toggleDarkMode}
+          className="p-2 rounded-full bg-white/20 dark:bg-black/40 
+            hover:scale-110 transition text-yellow-300 dark:text-white"
+        >
+          {darkMode ? <FaSun size={18} /> : <FaMoon size={18} />}
+        </button>
+
         <Link href="/">
-          <span
-            className={`${
-              router.pathname == "/" ? "  text-orange-400 " : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
-          >
-            About
-          </span>
-        </Link>
-        <Link href="/Committee">
-          <span
-            className={`${
-              router.pathname == "/Committee"
-                ? " text-orange-400"
-                : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
-          >
-            Committee
-          </span>
-        </Link>
-        <span
-          className={` text-orange-400 hover:border-orange-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
-        >
-          <label
-            tabIndex={0}
-            className=" hover:text-orange-400 m-1 relative text-white"
-          >
-            Program{" "}
-          </label>
-          <div className="absolute top-[42px] -left-10 dropdown-content p-4">
-            <ul
-              tabIndex={0}
-              className="text-white text-[17px] font-semibold menu p-2 shadow bg-stone-800 rounded-xl w-52 flex flex-col items-start"
-            >
-              <Link href="/keynote1">
-                <li
-                  className={`${
-                    router.pathname == "/keynote1"
-                      ? " hover:border-orange-400 text-orange-400"
-                      : ""
-                  } hover:bg-orange-300 hover:text-black rounded-lg w-full text-left p-2`}
-                >
-                  Keynotes
-                </li>
-              </Link>
-              <Link href="/workshop">
-                <li
-                  className={`${
-                    router.pathname == "/workshop"
-                      ? " hover:border-orange-400 text-orange-400"
-                      : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
-                >
-                  Workshop
-                </li>
-              </Link>
-              <Link href="/yp">
-                <li
-                  className={`${
-                    router.pathname == "/yp"
-                      ? " hover:border-orange-400 text-orange-400"
-                      : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
-                >
-                  YP
-                </li>
-              </Link>
-              <Link href="/wie">
-                <li
-                  className={`${
-                    router.pathname == "/wie"
-                      ? " hover:border-orange-400 text-orange-400"
-                      : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
-                >
-                  WIE
-                </li>
-              </Link>
-              <Link href="/sight">
-                <li
-                  className={`${
-                    router.pathname == "/sight"
-                      ? " hover:border-orange-400 text-orange-400"
-                      : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
-                >
-                  SIGHT
-                </li>
-              </Link>
-              <Link href="/conferenceSchedule">
-                <li
-                  className={`${
-                    router.pathname == "/conferenceSchedule"
-                      ? " hover:border-orange-400 text-orange-400"
-                      : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
-                >
-                  Conference Schedule
-                </li>
-              </Link>
-            </ul>
-          </div>
-        </span>
-        <Link href="/tracks">
-          <span
-            className={`${
-              router.pathname == "/tracks" ? " text-orange-400" : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
-          >
-            Tracks
-          </span>
-        </Link>
-        <span
-          className={` text-orange-400 hover:border-orange-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
-        >
-          <label
-            tabIndex={0}
-            className=" hover:text-orange-400 m-1 relative text-white"
-          >
-            Authors{" "}
-          </label>
-          <div className="absolute top-[42px] -left-10 dropdown-content p-4">
-            <ul
-              tabIndex={0}
-              className="text-white text-[17px] font-semibold menu p-2 shadow bg-stone-800 rounded-xl w-52 flex flex-col items-start"
-            >
-              <Link href="/PaperSubmission">
-                <li
-                  className={`${
-                    router.pathname == "/PaperSubmission"
-                      ? " hover:border-orange-400 text-orange-400"
-                      : ""
-                  } hover:bg-orange-300 hover:text-black rounded-lg w-full text-left p-2`}
-                >
-                  Paper Submission
-                </li>
-              </Link>
-              <Link href="/dates">
-                <li
-                  className={`${
-                    router.pathname == "/dates"
-                      ? " hover:border-orange-400 text-orange-400"
-                      : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
-                >
-                  Important Dates
-                </li>
-              </Link>
-              <Link href="/tracks" scroll={false}>
-                <li
-                  className={`${
-                    router.pathname == "/tracks"
-                      ? " hover:border-orange-400 text-orange-400"
-                      : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
-                >
-                  Call For Papers
-                </li>
-              </Link>
-              {/*<a href='/MAC_2023_SCHEDULE.pdf' download={true}>
-    <li className='hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2'>Download Schedule</li>
-  </a>*/}
-            </ul>
-          </div>
-        </span>
-        <span
-          className={` text-orange-400 hover:border-orange-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
-        >
-          <label
-            tabIndex={0}
-            className=" hover:text-orange-400 m-1 relative text-white"
-          >
-            Awards{" "}
-          </label>
-          <div className="absolute top-[42px] -left-10 dropdown-content p-4">
-            <ul
-              tabIndex={0}
-              className="text-white text-[17px] font-semibold menu p-2 shadow bg-stone-800 rounded-xl w-52 flex flex-col items-start"
-            >
-              <Link href="/awards">
-                <li
-                  className={`${
-                    router.pathname == "/PaperSubmission"
-                      ? " hover:border-orange-400 text-orange-400"
-                      : ""
-                  } hover:bg-orange-300 hover:text-black rounded-lg w-full text-left p-2`}
-                >
-                  Best Paper Award
-                </li>
-              </Link>
-              <Link href="/competitions">
-                <li
-                  className={`${
-                    router.pathname == "/dates"
-                      ? " hover:border-orange-400 text-orange-400"
-                      : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
-                >
-                 Competitions
-                </li>
-              </Link>
-             
-              {/*<a href='/MAC_2023_SCHEDULE.pdf' download={true}>
-    <li className='hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2'>Download Schedule</li>
-  </a>*/}
-            </ul>
-          </div>
-        </span>
-        
-        {/* <Link href="/awards">
-          <span
-            className={`${
-              router.pathname == "/tuned" ? " text-orange-400" : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
-          >
-            Awards
-            
-          </span>
-          
-        </Link> */}
-        <Link href="/Sponsor">
-          <span
-            className={`${
-              router.pathname == "/Sponsor" ? " text-orange-400" : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
-          >
-            Sponsors
-          </span>
-        </Link>
-        <Link href="/registration">
-          <span
-            className={`${
-              router.pathname == "/registration"
-                ? " text-orange-400"
-                : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
-          >
-            Registration
-          </span>
-        </Link>
-
-        <span
-          className={` text-orange-400 hover:border-orange-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}
-        >
-          <label
-            tabIndex={0}
-            className=" hover:text-orange-400 m-1 relative text-white"
-          >
-            Accommodation{" "}
-          </label>
-          <div className="absolute top-[42px] -left-10 dropdown-content p-4">
-            <ul
-              tabIndex={0}
-              className="text-white text-[17px] font-semibold menu p-2 shadow bg-stone-800 rounded-xl w-52 flex flex-col items-start"
-            >
-              <Link href="/Venue">
-                <li
-                  className={`${
-                    router.pathname == "/tuned"
-                      ? " hover:border-orange-400 text-orange-400"
-                      : ""
-                  } hover:bg-orange-300 hover:text-black rounded-lg w-full text-left p-2`}
-                >
-                  Conference venue
-                </li>
-              </Link>
-              <Link href="/Accommodation">
-                <li
-                  className={`${
-                    router.pathname == "/tuned"
-                      ? " hover:border-orange-400 text-orange-400"
-                      : ""
-                  } hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}
-                >
-                  Accommodation
-                </li>
-              </Link>
-            </ul>
-          </div>
-        </span>
-        <Link href="/Gallery">
-          <span
-            className={`${
-              router.pathname == "/Gallery" ? " text-orange-400" : "text-white"
-            }  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}
-          >
-            Gallery
-          </span>
+          <p className="cursor-pointer font-extrabold text-3xl">
+            <span className="text-orange-400">MAC</span>
+            <span className="text-white dark:text-gray-200">2026</span>
+          </p>
         </Link>
       </div>
 
+      {/* Desktop Navigation */}
+      <div className="hidden lg:flex lg:gap-4 text-base font-semibold items-center">
+        <NavLink href="/" label="About" />
+        <NavLink href="/Committee" label="Committee" />
+
+        {/* Dropdown: Program */}
+        <div className="relative group">
+          <span className="cursor-pointer px-3 py-2 text-white dark:text-gray-200 hover:text-orange-400">
+            Program ▾
+          </span>
+          <div className="absolute hidden group-hover:flex flex-col mt-2 p-2 w-56 
+            bg-stone-800 dark:bg-gray-900 rounded-xl shadow-md">
+            <NavLink href="/keynote1" label="Keynotes" />
+            <NavLink href="/workshop" label="Workshop" />
+            <NavLink href="/yp" label="YP" />
+            <NavLink href="/wie" label="WIE" />
+            <NavLink href="/sight" label="SIGHT" />
+            <NavLink href="/conferenceSchedule" label="Conference Schedule" />
+          </div>
+        </div>
+
+        <NavLink href="/tracks" label="Tracks" />
+
+        {/* Dropdown: Authors */}
+        <div className="relative group">
+          <span className="cursor-pointer px-3 py-2 text-white dark:text-gray-200 hover:text-orange-400">
+            Authors ▾
+          </span>
+          <div className="absolute hidden group-hover:flex flex-col mt-2 p-2 w-56 
+            bg-stone-800 dark:bg-gray-900 rounded-xl shadow-md">
+            <NavLink href="/PaperSubmission" label="Paper Submission" />
+            <NavLink href="/dates" label="Important Dates" />
+            <NavLink href="/tracks" label="Call For Papers" />
+          </div>
+        </div>
+
+        {/* Dropdown: Awards */}
+        <div className="relative group">
+          <span className="cursor-pointer px-3 py-2 text-white dark:text-gray-200 hover:text-orange-400">
+            Awards ▾
+          </span>
+          <div className="absolute hidden group-hover:flex flex-col mt-2 p-2 w-56 
+            bg-stone-800 dark:bg-gray-900 rounded-xl shadow-md">
+            <NavLink href="/awards" label="Best Paper Award" />
+            <NavLink href="/competitions" label="Competitions" />
+          </div>
+        </div>
+
+        <NavLink href="/Sponsor" label="Sponsors" />
+        <NavLink href="/registration" label="Registration" />
+
+        {/* Dropdown: Accommodation */}
+        <div className="relative group">
+          <span className="cursor-pointer px-3 py-2 text-white dark:text-gray-200 hover:text-orange-400">
+            Accommodation ▾
+          </span>
+          <div className="absolute hidden group-hover:flex flex-col mt-2 p-2 w-56 
+            bg-stone-800 dark:bg-gray-900 rounded-xl shadow-md">
+            <NavLink href="/Venue" label="Conference Venue" />
+            <NavLink href="/Accommodation" label="Accommodation" />
+          </div>
+        </div>
+
+        <NavLink href="/Gallery" label="Gallery" />
+      </div>
+
+      {/* Mobile Sidebar Toggle */}
       <span
         className="block lg:hidden"
         onClick={() => setIsOpenSidebar((prev) => !prev)}
       >
-        <GiHamburgerMenu className="w-6 h-6 text-white" />
+        <GiHamburgerMenu className="w-6 h-6 text-white dark:text-gray-200" />
       </span>
+
+      {/* Sidebar for mobile */}
       <AnimatePresence>
         {isOpenSidebar && <Sidebar setIsOpenSidebar={setIsOpenSidebar} />}
       </AnimatePresence>

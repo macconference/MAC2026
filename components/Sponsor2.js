@@ -69,7 +69,7 @@ const SponsorsSection = () => {
                   <img
                     src={sponsor.img}
                     alt={sponsor.name}
-                    className={`${styles.responsive} l` }
+                    className={`${styles.responsive} dark:opacity-90` }
                   />
                 </div>
                 
@@ -79,9 +79,9 @@ const SponsorsSection = () => {
         </div>
       </div>
       {/* <div
-        className={`mt-16 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover} p-6`}
+        className={`mt-16 bg-stone-100 dark:bg-gray-800 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover} p-6`}
       >
-        <h1 className="text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600">
+        <h1 className="text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600 dark:text-cyan-400">
           Bronze
         </h1>
         <div className="w-full flex justify-center items-center mt-4">
@@ -95,7 +95,7 @@ const SponsorsSection = () => {
               disableOnInteraction: false,
             }}
             modules={[Autoplay]}
-            className="mySwiper w-[90%] md:w-[70%] h-[200px] lg:h-[300px] bg-white rounded-lg"
+            className="mySwiper w-[90%] md:w-[70%] h-[200px] lg:h-[300px] bg-white dark:bg-gray-900 rounded-lg"
           >
             {BronzeSponsor.map((sponsor, index) => (
               <SwiperSlide
@@ -106,10 +106,10 @@ const SponsorsSection = () => {
                   <img
                     src={sponsor.img}
                     alt={sponsor.name}
-                    className={`${styles.responsive}`}
+                    className={`${styles.responsive} dark:opacity-90`}
                   />
                 </div>
-                <p className="px-2 text-center text-lg md:text-xl font-semibold pt-2">
+                <p className="px-2 text-center text-lg md:text-xl font-semibold pt-2 dark:text-gray-200">
                   {sponsor.name}
                 </p>
               </SwiperSlide>

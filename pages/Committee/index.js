@@ -761,7 +761,7 @@ const Committee = () => {
 
   return (
     <>
-      <div className="mt-14 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 text-black">
+      <div className="mt-14 bg-gradient-to-r from-indigo-200 via-blue-300 to-blue-200 dark:from-blue-900 dark:via-blue-700 dark:to-blue-800 text-black dark:text-blue-100">
         <div className="relative md:flex ">
           <CommitteeSidebar
             width={width}
@@ -775,7 +775,7 @@ const Committee = () => {
               {/* Honorary Chair */}
               <div>
                 <div id="honchairs" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center dark:text-blue-100">
                   Honorary Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
@@ -796,7 +796,7 @@ const Committee = () => {
               {/* General Chair */}
               <div>
                 <div id="genchairs" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center dark:text-blue-100">
                   General Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
@@ -815,7 +815,7 @@ const Committee = () => {
               {/* Industry Interaction Chair */}
               <div>
                 <div id="industryintchair" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center dark:text-blue-100">
                   Industry Interaction Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
@@ -836,7 +836,7 @@ const Committee = () => {
               {/* Conference Organising Chair */}
               <div>
                 <div id="confchairs" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center dark:text-blue-100">
                   Conference Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
@@ -857,7 +857,7 @@ const Committee = () => {
               {/* Program Chair */}
               <div>
                 <div id="programchairs" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center dark:text-blue-100">
                   Program Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
@@ -878,7 +878,7 @@ const Committee = () => {
               {/* Technical Program Committee Chair */}
               <div>
                 <div id="tpcchairs" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center dark:text-blue-100">
                   Technical Program Committee Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
@@ -897,7 +897,7 @@ const Committee = () => {
               {/* Finance Chair */}
               <div>
                 <div id="finchairs" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center dark:text-blue-100">
                   Finance Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
@@ -916,7 +916,7 @@ const Committee = () => {
               {/* Publication Chair */}
               <div>
                 <div id="pubchairs" className="h-20 mb-16 md:mb-0"></div>
-                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center dark:text-blue-100">
                   Publication Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">

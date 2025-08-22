@@ -44,7 +44,7 @@ const Sidebar = ({ setIsOpenSidebar }) => {
         animate={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: 100 }}
         transition={{ type: "linear", duration: 0.2 }}
-        className=" bg-gradient-to-r from-indigo-900 via-blue-700 to-blue-900 w-[50%] md:w-[30%] h-full"
+        className=" bg-gradient-to-r from-indigo-900 via-blue-700 to-blue-900 dark:from-gray-900 dark:via-gray-800 dark:to-black w-[50%] md:w-[30%] h-full"
       >
         <motion.div
           variants={container}
@@ -56,86 +56,79 @@ const Sidebar = ({ setIsOpenSidebar }) => {
           <motion.div
             variants={item}
             onClick={() => navigate("/")}
-            className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
+            className={` text-stone-300 dark:text-gray-200 hover:text-white dark:hover:text-gray-100 cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
           >
             About
           </motion.div>
           <motion.div
             variants={item}
             onClick={() => navigate("/Committee")}
-            className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
+            className={` text-stone-300 dark:text-gray-200 hover:text-white dark:hover:text-gray-100 cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
           >
             Committee
           </motion.div>
-          {/* <motion.div
-            variants={item}
-            onClick={() => navigate("/tuned")}
-            className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
-          >
-            Keynote
-          </motion.div> */}
           <motion.div
-  variants={item}
-  className={`relative dropdown dropdown-hover text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
->
-  <div>
-    <label tabIndex={0} className="m-1">
-      Program
-    </label>
-    <ul
-      tabIndex={0}
-      className="absolute top-10 right-[2px] text-sm sm:text-md dropdown-content menu p-2 shadow bg-stone-800 rounded-box w-44 sm:w-52"
-    >
-      <li
-        onClick={() => navigate("/keynote1")}
-        className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
-      >
-        Keynotes
-      </li>
-      <li
-        onClick={() => navigate("/workshop")}
-        className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
-      >
-        Workshop
-      </li>
-      <li
-        onClick={() => navigate("/yp")}
-        className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
-      >
-        YP
-      </li>
-      <li
-        onClick={() => navigate("/wie")}
-        className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
-      >
-        WIE
-      </li>
-      <li
-        onClick={() => navigate("/sight")}
-        className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
-      >
-        SIGHT
-      </li>
-      <li
-        onClick={() => navigate("/conferenceSchedule")}
-        className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
-      >
-        Conference Schedule
-      </li>
-    </ul>
-  </div>
-</motion.div>
+            variants={item}
+            className={`relative dropdown dropdown-hover text-stone-300 dark:text-gray-200 hover:text-white dark:hover:text-gray-100 cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
+          >
+            <div>
+              <label tabIndex={0} className="m-1">
+                Program
+              </label>
+              <ul
+                tabIndex={0}
+                className="absolute top-10 right-[2px] text-sm sm:text-md dropdown-content menu p-2 shadow bg-stone-800 dark:bg-gray-800 rounded-box w-44 sm:w-52"
+              >
+                <li
+                  onClick={() => navigate("/keynote1")}
+                  className="py-2 px-4 hover:bg-white hover:text-black dark:hover:bg-gray-300 dark:hover:text-black rounded-lg text-white dark:text-gray-200"
+                >
+                  Keynotes
+                </li>
+                <li
+                  onClick={() => navigate("/workshop")}
+                  className="py-2 px-4 hover:bg-white hover:text-black dark:hover:bg-gray-300 dark:hover:text-black rounded-lg text-white dark:text-gray-200"
+                >
+                  Workshop
+                </li>
+                <li
+                  onClick={() => navigate("/yp")}
+                  className="py-2 px-4 hover:bg-white hover:text-black dark:hover:bg-gray-300 dark:hover:text-black rounded-lg text-white dark:text-gray-200"
+                >
+                  YP
+                </li>
+                <li
+                  onClick={() => navigate("/wie")}
+                  className="py-2 px-4 hover:bg-white hover:text-black dark:hover:bg-gray-300 dark:hover:text-black rounded-lg text-white dark:text-gray-200"
+                >
+                  WIE
+                </li>
+                <li
+                  onClick={() => navigate("/sight")}
+                  className="py-2 px-4 hover:bg-white hover:text-black dark:hover:bg-gray-300 dark:hover:text-black rounded-lg text-white dark:text-gray-200"
+                >
+                  SIGHT
+                </li>
+                <li
+                  onClick={() => navigate("/conferenceSchedule")}
+                  className="py-2 px-4 hover:bg-white hover:text-black dark:hover:bg-gray-300 dark:hover:text-black rounded-lg text-white dark:text-gray-200"
+                >
+                  Conference Schedule
+                </li>
+              </ul>
+            </div>
+          </motion.div>
 
           <motion.div
             variants={item}
             onClick={() => navigate("/tracks")}
-            className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
+            className={` text-stone-300 dark:text-gray-200 hover:text-white dark:hover:text-gray-100 cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
           >
             Tracks
           </motion.div>
           <motion.div
             variants={item}
-            className={`relative dropdown dropdown-hover text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
+            className={`relative dropdown dropdown-hover text-stone-300 dark:text-gray-200 hover:text-white dark:hover:text-gray-100 cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
           >
             <div className="">
               <label tabIndex={0} className="m-1">
@@ -143,39 +136,33 @@ const Sidebar = ({ setIsOpenSidebar }) => {
               </label>
               <ul
                 tabIndex={0}
-                className="absolute top-10 right-[2px] text-sm sm:text-md dropdown-content menu p-2 shadow bg-stone-800 rounded-box w-44 sm:w-52"
+                className="absolute top-10 right-[2px] text-sm sm:text-md dropdown-content menu p-2 shadow bg-stone-800 dark:bg-gray-800 rounded-box w-44 sm:w-52"
               >
                 <li
                   onClick={() => navigate("/PaperSubmission")}
-                  className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
+                  className="py-2 px-4 hover:bg-white hover:text-black dark:hover:bg-gray-300 dark:hover:text-black rounded-lg text-white dark:text-gray-200"
                 >
                   Paper Submission
                 </li>
                 <li
                   onClick={() => navigate("/dates")}
-                  className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
+                  className="py-2 px-4 hover:bg-white hover:text-black dark:hover:bg-gray-300 dark:hover:text-black rounded-lg text-white dark:text-gray-200"
                 >
                   Important Dates
                 </li>
                 <li
                   onClick={() => navigate("/tracks")}
-                  className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
+                  className="py-2 px-4 hover:bg-white hover:text-black dark:hover:bg-gray-300 dark:hover:text-black rounded-lg text-white dark:text-gray-200"
                 >
                   Call For Papers
                 </li>
-                {/*<a download={true} href='/MAC_2023_SCHEDULE.pdf'>
-                  <li className='py-2 px-4 hover:bg-white hover:text-black rounded-lg'>
-                    Download Schedule
-                  </li>
-                  </a>
-                */}
               </ul>
             </div>
           </motion.div>
 
-                   <motion.div
+          <motion.div
             variants={item}
-            className={`relative dropdown dropdown-hover text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
+            className={`relative dropdown dropdown-hover text-stone-300 dark:text-gray-200 hover:text-white dark:hover:text-gray-100 cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
           >
             <div className="">
               <label tabIndex={0} className="m-1">
@@ -183,55 +170,41 @@ const Sidebar = ({ setIsOpenSidebar }) => {
               </label>
               <ul
                 tabIndex={0}
-                className="absolute top-10 right-[2px] text-sm sm:text-md dropdown-content menu p-2 shadow bg-stone-800 rounded-box w-44 sm:w-52"
+                className="absolute top-10 right-[2px] text-sm sm:text-md dropdown-content menu p-2 shadow bg-stone-800 dark:bg-gray-800 rounded-box w-44 sm:w-52"
               >
                 <li
                   onClick={() => navigate("/awards")}
-                  className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
+                  className="py-2 px-4 hover:bg-white hover:text-black dark:hover:bg-gray-300 dark:hover:text-black rounded-lg text-white dark:text-gray-200"
                 >
                   Best Paper Award
                 </li>
                 <li
                   onClick={() => navigate("/competitions")}
-                  className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
+                  className="py-2 px-4 hover:bg-white hover:text-black dark:hover:bg-gray-300 dark:hover:text-black rounded-lg text-white dark:text-gray-200"
                 >
                   Competitions
                 </li>
-                
-                {/*<a download={true} href='/MAC_2023_SCHEDULE.pdf'>
-                  <li className='py-2 px-4 hover:bg-white hover:text-black rounded-lg'>
-                    Download Schedule
-                  </li>
-                  </a>
-                */}
               </ul>
             </div>
           </motion.div>
 
-          {/* <motion.div
-            variants={item}
-            onClick={() => navigate("/awards")}
-            className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
-          >
-            Awards
-          </motion.div> */}
           <motion.div
             variants={item}
             onClick={() => navigate("/Sponsor")}
-            className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
+            className={` text-stone-300 dark:text-gray-200 hover:text-white dark:hover:text-gray-100 cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
           >
             Sponsor
           </motion.div>
           <motion.div
             variants={item}
             onClick={() => navigate("/registration/#registration")}
-            className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
+            className={` text-stone-300 dark:text-gray-200 hover:text-white dark:hover:text-gray-100 cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
           >
             Registration
           </motion.div>
           <motion.div
             variants={item}
-            className={`relative dropdown dropdown-hover text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
+            className={`relative dropdown dropdown-hover text-stone-300 dark:text-gray-200 hover:text-white dark:hover:text-gray-100 cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
           >
             <div className="">
               <label tabIndex={0} className="m-1">
@@ -239,17 +212,17 @@ const Sidebar = ({ setIsOpenSidebar }) => {
               </label>
               <ul
                 tabIndex={0}
-                className="absolute top-10 right-[2px] text-sm sm:text-md dropdown-content menu p-2 shadow bg-stone-800 rounded-box w-44 sm:w-52"
+                className="absolute top-10 right-[2px] text-sm sm:text-md dropdown-content menu p-2 shadow bg-stone-800 dark:bg-gray-800 rounded-box w-44 sm:w-52"
               >
                 <li
                   onClick={() => navigate("/Venue")}
-                  className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
+                  className="py-2 px-4 hover:bg-white hover:text-black dark:hover:bg-gray-300 dark:hover:text-black rounded-lg text-white dark:text-gray-200"
                 >
                   Conference Venue
                 </li>
                 <li
                   onClick={() => navigate("/Accommodation")}
-                  className="py-2 px-4 hover:bg-white hover:text-black rounded-lg"
+                  className="py-2 px-4 hover:bg-white hover:text-black dark:hover:bg-gray-300 dark:hover:text-black rounded-lg text-white dark:text-gray-200"
                 >
                   Accommodation
                 </li>
@@ -259,17 +232,17 @@ const Sidebar = ({ setIsOpenSidebar }) => {
           <motion.div
             variants={item}
             onClick={() => navigate("/Gallery")}
-            className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
+            className={` text-stone-300 dark:text-gray-200 hover:text-white dark:hover:text-gray-100 cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}
           >
             Gallery
           </motion.div>
         </motion.div>
 
         <div
-          className="hover:bg-stone-500 mx-10 rounded-full cursor-pointer my-12 flex justify-center"
+          className="hover:bg-stone-500 dark:hover:bg-gray-600 mx-10 rounded-full cursor-pointer my-12 flex justify-center"
           onClick={() => setIsOpenSidebar(false)}
         >
-          <IoMdClose className="w-14 h-14 text-white" />
+          <IoMdClose className="w-14 h-14 text-white dark:text-gray-200" />
         </div>
       </motion.div>
     </div>
