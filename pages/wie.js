@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const Wie = () => {
   return (
@@ -15,7 +14,9 @@ const Wie = () => {
         {/* About Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center px-4 md:px-16 lg:px-24 mb-10">
           <div className="text-base sm:text-lg leading-relaxed">
-            <h2 className="text-2xl font-bold text-pink-500 dark:text-pink-400 mb-2">About IEEE WIE</h2>
+            <h2 className="text-2xl font-bold text-pink-500 dark:text-pink-400 mb-2">
+              About IEEE WIE
+            </h2>
             <p className="dark:text-gray-300">
               IEEE Women in Engineering (WIE) is a global network of IEEE members and
               volunteers dedicated to promoting women engineers and scientists and
@@ -24,11 +25,9 @@ const Wie = () => {
             </p>
           </div>
           <div className="flex justify-center">
-            <Image
+            <img
               src="/wie1.webp"
-              alt="IEEE Women in Engineering Logo"
-              width={200}
-              height={200}
+              alt="WIE Logo"
               className="w-[180px] sm:w-[200px] rounded-xl bg-white dark:bg-gray-700 p-2 dark:opacity-90"
             />
           </div>
@@ -37,18 +36,18 @@ const Wie = () => {
         {/* About IEEE */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center px-4 md:px-16 lg:px-24 mb-10">
           <div className="text-base sm:text-lg leading-relaxed">
-            <h2 className="text-2xl font-bold text-pink-500 dark:text-pink-400 mb-2">About IEEE</h2>
+            <h2 className="text-2xl font-bold text-pink-500 dark:text-pink-400 mb-2">
+              About IEEE
+            </h2>
             <p className="dark:text-gray-300">
-              IEEE is the world's largest technical professional organization dedicated to
+              IEEE is the world&apos;s largest technical professional organization dedicated to
               advancing technology for the benefit of humanity.
             </p>
           </div>
           <div className="flex justify-center">
-            <Image
+            <img
               src="/IEEE-Logo-250.webp"
-              alt="IEEE Organization Logo"
-              width={200}
-              height={200}
+              alt="IEEE Logo"
               className="w-[180px] sm:w-[200px] rounded-xl bg-white dark:bg-gray-700 p-2 dark:opacity-90"
             />
           </div>
@@ -56,7 +55,9 @@ const Wie = () => {
 
         {/* Mission */}
         <div className="px-4 md:px-16 lg:px-24 mb-10">
-          <h2 className="text-2xl font-bold text-pink-500 dark:text-pink-400 mb-2">The WIE Mission</h2>
+          <h2 className="text-2xl font-bold text-pink-500 dark:text-pink-400 mb-2">
+            The WIE Mission
+          </h2>
           <p className="text-base sm:text-lg leading-relaxed dark:text-gray-300">
             To connect, support, and inspire women and girls worldwide, and facilitate their
             recruitment and retention in STEM fields, fostering technological innovation and
@@ -66,7 +67,9 @@ const Wie = () => {
 
         {/* IEEE WIE Strives To */}
         <div className="px-4 md:px-16 lg:px-24 mb-12">
-          <h2 className="text-2xl font-bold text-pink-500 dark:text-pink-400 mb-4">IEEE WIE Strives To</h2>
+          <h2 className="text-2xl font-bold text-pink-500 dark:text-pink-400 mb-4">
+            IEEE WIE Strives To
+          </h2>
           <ul className="list-disc pl-6 text-base sm:text-lg space-y-2 dark:text-gray-300">
             <li>Assist with forming new IEEE WIE Affinity Groups and support ongoing activities.</li>
             <li>
@@ -80,9 +83,7 @@ const Wie = () => {
             <li>
               Advocate leadership roles for its members in IEEE governance and career advancement.
             </li>
-            <li>
-              Promote member grade advancement to Senior Member and Fellow.
-            </li>
+            <li>Promote member grade advancement to Senior Member and Fellow.</li>
             <li>
               Facilitate the development of programs that promote the entry and retention of
               members in engineering programs.
@@ -111,7 +112,10 @@ const Wie = () => {
               Geographic Activities (MGA) Board, reporting through the MGA Member Engagement and
               Life Cycle Committee (MELCC), as defined in the IEEE MGA Operations Manual.
             </p>
-            <a href="https://wie.ieee.org/about/governance/" className="text-blue-600 dark:text-blue-400 font-semibold hover:underline">
+            <a
+              href="https://wie.ieee.org/about/governance/"
+              className="text-blue-600 dark:text-blue-400 font-semibold hover:underline"
+            >
               Read More
             </a>
           </div>
@@ -124,7 +128,10 @@ const Wie = () => {
               Geographic Activities (MGA) Board, reporting through the MGA Member Engagement and
               Life Cycle Committee (MELCC).
             </p>
-            <a href="https://wie.ieee.org/about/wie-committee/" className="text-blue-600 dark:text-blue-400 font-semibold hover:underline">
+            <a
+              href="https://wie.ieee.org/about/wie-committee/"
+              className="text-blue-600 dark:text-blue-400 font-semibold hover:underline"
+            >
               Read More
             </a>
           </div>
@@ -135,7 +142,10 @@ const Wie = () => {
             <p className="text-gray-800 dark:text-gray-300 mb-3">
               Got a question about WIE? Find answers to the most commonly asked questions.
             </p>
-            <a href="https://wie.ieee.org/about/faqs/" className="text-blue-600 dark:text-blue-400 font-semibold hover:underline">
+            <a
+              href="https://wie.ieee.org/about/faqs/"
+              className="text-blue-600 dark:text-blue-400 font-semibold hover:underline"
+            >
               Read More
             </a>
           </div>
@@ -147,7 +157,10 @@ const Wie = () => {
               To effectively reach all audiences, IEEE WIE ensures all materials maintain a
               consistent look and theme.
             </p>
-            <a href="https://wie.ieee.org/about/ieee-wie-brand/" className="text-blue-600 dark:text-blue-400 font-semibold hover:underline">
+            <a
+              href="https://wie.ieee.org/about/ieee-wie-brand/"
+              className="text-blue-600 dark:text-blue-400 font-semibold hover:underline"
+            >
               Read More
             </a>
           </div>
