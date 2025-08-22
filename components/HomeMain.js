@@ -155,6 +155,8 @@ to you for collaboration and networking with international experts. We invite yo
                 >
                   To be announced soon
                 </a>
+                <br/>
+                <h2 className="font-medium">* The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</h2>
               </div>
             </div>
           </div>
