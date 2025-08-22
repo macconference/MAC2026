@@ -39,7 +39,7 @@ const HomeMain = () => {
                     </span>
                   </Link>
                   <span className="text-sm sm:text-base">
-                    October 23-24, 2026
+                    October 23-25, 2026
                   </span>
                 </div>
 
