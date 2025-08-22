@@ -87,7 +87,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                 "#confchairs"
               )}`}
             >
-              Conference Organising Chair
+              Conference  Chair
             </li>
 
             {/* Program Chair */}

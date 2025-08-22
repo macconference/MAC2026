@@ -837,7 +837,7 @@ const Committee = () => {
               <div>
                 <div id="confchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
-                  Conference Organising Chair
+                  Conference Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
                   {confChairs.map((chair) => (
