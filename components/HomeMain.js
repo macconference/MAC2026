@@ -169,7 +169,7 @@ to you for collaboration and networking with international experts. We invite yo
         <section className="p-6">
           <div className="container mx-auto flex flex-col">
             <h1 className="text-2xl text-blue-900 md:text-4xl font-bold border-b-4 pb-4 border-cyan-600 w-full md:w-[60%] mb-4">
-              Past Technical Co-Sponsors
+              Technical Co-Sponsors
             </h1>
             <Sponsors />
           </div>
@@ -178,7 +178,7 @@ to you for collaboration and networking with international experts. We invite yo
         <section className="p-6">
           <div className="container mx-auto flex flex-col">
             <h1 className="text-2xl text-blue-900  md:text-4xl font-bold border-b-4 pb-4 border-cyan-600 w-full md:w-[60%] mb-4">
-              Past Industrial Sponsors
+              Industrial Sponsors
             </h1>
             <Sponsors2 />
           </div>
