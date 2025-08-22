@@ -95,7 +95,7 @@ const Registration = () => {
         </span>
       </h1>
 <div className="flex justify-center mt-16">
-          <div className="p-1 md:p-4 border-2 border-stone-400 overflow-x-scroll">
+          <div className="p-1 md:p-4 border-2 border-stone-800 overflow-x-scroll">
             <h1 className="text-[20px] sm:text-[25px] md:text-2xl text-red-700 font-bold p-1 pb-2 text-center underline">
               Indian Delegates
             </h1>
@@ -133,9 +133,9 @@ const Registration = () => {
                 </tr>
 
                 {/* Student */}
-                <tr className="border-b-2 border-stone-600">
+                <tr className="border-b-2 border-stone-800">
                   <td
-                    className="w-[20%] md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400"
+                    className="w-[20%] md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-800"
                     rowSpan={3}
                   >
                     <div className="flex justify-center items-center">
@@ -143,13 +143,13 @@ const Registration = () => {
                     </div>
                   </td>
                 </tr>
-                <tr className="border-b-2 border-stone-400">
+                <tr className="border-b-2 border-stone-800">
                   <td className="py-2">IEEE</td>
                   <td className="py-2">INR 5,900</td>
                   <td className="py-2">INR 7,900</td>
                   <td className="py-2">INR 9,900</td>
                 </tr>
-                <tr className="border-b-2 border-stone-400">
+                <tr className="border-b-2 border-stone-800">
                   <td className="py-2">Non-IEEE</td>
                   <td className="py-2">INR 8,400</td>
                   <td className="py-2">INR 10,400</td>
@@ -166,13 +166,13 @@ const Registration = () => {
                     </div>
                   </td>
                 </tr>
-                <tr className="border-b-2 border-stone-400">
+                <tr className="border-b-2 border-stone-800">
                   <td className="py-2">IEEE</td>
                   <td className="py-2">INR 9,900</td>
                   <td className="py-2">INR 13,900</td>
                   <td className="py-2">INR 16,900</td>
                 </tr>
-                <tr className="border-b-2 border-stone-400">
+                <tr className="border-b-2 border-stone-800">
                   <td className="py-2">Non-IEEE</td>
                   <td className="py-2">INR 12,900</td>
                   <td className="py-2">INR 16,900</td>
@@ -181,9 +181,9 @@ const Registration = () => {
 
                 {/* Online Presentation */}
                 {/* For Online Presentation */}
-                <tr className="border-b-2 border-stone-400">
+                <tr className="border-b-2 border-stone-800">
                   <td
-                    className="w-[20%] md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400"
+                    className="w-[20%] md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-800"
                     rowSpan={3}
                   >
                     <div className="flex justify-center items-center">
@@ -196,7 +196,7 @@ const Registration = () => {
                     </div>
                   </td>
                 </tr>
-                <tr className="border-b-2 border-stone-400">
+                <tr className="border-b-2 border-stone-800">
                   <td className="py-2"></td>
                   <td
                     colSpan={3}
@@ -208,7 +208,7 @@ const Registration = () => {
                   </div>
                   </td>
                 </tr>
-                <tr className="border-b-2 border-stone-400">
+                <tr className="border-b-2 border-stone-800">
                   <td className="py-2"></td>
                   <td
                     colSpan={3}
@@ -226,7 +226,7 @@ const Registration = () => {
                 </tr>
 
                 {/* Poster Presentation */}
-                <tr className="border-b-2 border-stone-400">
+                <tr className="border-b-2 border-stone-800">
                   <td colSpan={2} className="font-bold text-red-700 pl-4">
                     For Poster Presentation
                   </td>
@@ -239,7 +239,7 @@ const Registration = () => {
                 </tr>
 
                 {/* Attendees without Paper */}
-                <tr className="border-b-2 border-stone-400">
+                <tr className="border-b-2 border-stone-800">
                   <td colSpan={2} className="font-bold text-red-700 pl-4">
                     Attendees without Paper
                   </td>
@@ -267,7 +267,7 @@ const Registration = () => {
         </div>
       
       <div className="flex justify-center mt-16">
-        <div className="p-1 md:p-4 border-2 border-stone-400 overflow-x-scroll">
+        <div className="p-1 md:p-4 border-2 border-stone-800 overflow-x-scroll">
           <h1 className="text-[20px] sm:text-[25px] md:text-2xl text-red-700 font-bold p-1 pb-2 text-center underline">
             Foreign Delegates
           </h1>
@@ -307,9 +307,9 @@ const Registration = () => {
                   Foreign Delegates
                 </th> */}
               </tr>
-              <tr className="border-b-2 border-stone-600">
+              <tr className="border-b-2 border-stone-800">
                 <td
-                  className="w-[20%] md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400"
+                  className="w-[20%] md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-800"
                   rowSpan={3}
                 >
                   <div
@@ -323,13 +323,13 @@ const Registration = () => {
                   </div>
                 </td>
               </tr>
-              <tr className="border-b-2 border-stone-400">
+              <tr className="border-b-2 border-stone-800">
                 <td className="py-2">IEEE</td>
                 <td className="py-2">USD 100</td>
                 <td className="py-2">USD 160</td>
                 <td className="py-2">USD 220</td>
               </tr>
-              <tr className="border-b-2 border-stone-400">
+              <tr className="border-b-2 border-stone-800">
                 <td className="py-2">Non-IEEE</td>
                 <td className="py-2">USD 150</td>
                 <td className="py-2">USD 200</td>
@@ -348,13 +348,13 @@ const Registration = () => {
                   </div>
                 </td>
               </tr>
-              <tr className="border-b-2 border-stone-400">
+              <tr className="border-b-2 border-stone-800">
                 <td className="py-2">IEEE</td>
                 <td className="py-2">USD 210</td>
                 <td className="py-2">USD 240</td>
                 <td className="py-2">USD 270</td>
               </tr>
-              <tr className="border-b-2 border-stone-400">
+              <tr className="border-b-2 border-stone-800">
                 <td className="py-2">Non-IEEE</td>
                 <td className="py-2">USD 250</td>
                 <td className="py-2">USD 300</td>
