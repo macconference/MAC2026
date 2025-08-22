@@ -480,7 +480,7 @@ const Registration = () => {
 
       <div className="flex justify-center">
         <div className="md:mx-28 bg-gradient-to-r from-blue-400 via-blue-3
-        \00 to-blue-400 max-w-[700px] w-[90%] md:w-[70%] lg:w-[50%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-400 rounded-2xl">
+        \00 to-blue-400 max-w-[700px] w-[90%] md:w-[70%] lg:w-[50%] text-sm md:text-lg p-4 mt-8 flex flex-col items-center border-2 border-stone-800 rounded-2xl">
           <div className="w-full flex justify-between  py-2">
             <span>Account Name</span>
             <span className="text-right">
@@ -528,7 +528,7 @@ const Registration = () => {
 
       <div className="text-center mt-12 ">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzTqSzAu1tzNuCPVM4q70jUbzFW2bw9Elgc8JGSC6JBegPoQ/viewform?usp=sharing">
-          <span className=" rounded-xl cursor-pointer font-semibold text-lg border-2 px-8 border-stone-100 btn btn-success">
+          <span className=" rounded-xl cursor-pointer font-semibold text-lg border-2 px-8 border-stone-800 btn btn-success">
             Registration Form
           </span>
         </a>

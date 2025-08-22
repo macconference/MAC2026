@@ -97,7 +97,7 @@ MNNIT ALLAHABAD
               </p>
               <p className="mt-6 leading-relaxed text-lg text-justify font-medium">
                 Welcome to the 4th International Conference on Microwave, Antenna, and Communication (MAC2026)! Join us in the scenic city of Prayagraj, Uttar Pradesh, India, from October 23-24, 2026, for
-an enriching experience of knowledge, research and innovation. Technically sponsored by IEEE,
+an enriching experience of knowledge, research and innovation. 
 MAC 2026 is being organized Department of Electronics and Communication Engineering, MNNIT
 Allahabad. MAC-2026 serves as a dynamic platform, bringing together researchers,
 academicians, industry professionals, and startups to showcase their cutting-edge research,
