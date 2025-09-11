@@ -1,4 +1,4 @@
-export const cheifpatrons = [];
+// export const cheifpatrons = [];
 
 export const patrons = [
   {
@@ -83,11 +83,11 @@ export const ProgramChair = [
   },
 ];
 
-export const KeynoteChair = [];
-export const MarketingChair = [];
-export const WorkshopChair = [];
-export const WorkshopCoChair = [];
-export const WebsiteChair = [];
+// export const KeynoteChair = [];
+// export const MarketingChair = [];
+// export const WorkshopChair = [];
+// export const WorkshopCoChair = [];
+// export const WebsiteChair = [];
 
 export const IndustryInteractionChair = [
   {
@@ -139,7 +139,7 @@ export const AcademicOutreachChair = [
   }
 ];
 
-export const EventManagementChair = [];
+// export const EventManagementChair = [];
 export const SponsorshipChair = [
   {
     title: "Dr.",
@@ -153,8 +153,8 @@ export const SponsorshipChair = [
     profileImage: "/dpunetha.png",
   }
 ];
-export const LocalArrangementsChair = [];
-export const RegistrationChair = [];
+// export const LocalArrangementsChair = [];
+// export const RegistrationChair = [];
 export const SocialMediaChair = [
    {
      title: "Dr.",
@@ -164,24 +164,24 @@ export const SocialMediaChair = [
    },
 ];
 
-export const PublicityCoChair = [
-  // {
-  //   title: "Mr.",
-  //   fullName: "Sanjay",
-  //   organisation: "Scientist F",
-  //   profileImage: "/sonali.png",
-  // },
-  // {
-  //   title: "Mr.",
-  //   fullName: "D P Tripathi",
-  //   organisation: "Scientist E",
-  //   profileImage: "/sonali.png",
-  // },
-];
+// export const PublicityCoChair = [
+//   // {
+//   //   title: "Mr.",
+//   //   fullName: "Sanjay",
+//   //   organisation: "Scientist F",
+//   //   profileImage: "/sonali.png",
+//   // },
+//   // {
+//   //   title: "Mr.",
+//   //   fullName: "D P Tripathi",
+//   //   organisation: "Scientist E",
+//   //   profileImage: "/sonali.png",
+//   // },
+// ];
 
-export const EventManagementCoChair = [];
-export const IndustryInteractionCoChair = [];
-export const HospitalityChair = [];
+// export const EventManagementCoChair = [];
+// export const IndustryInteractionCoChair = [];
+// export const HospitalityChair = [];
 
 export const SponsorshipCoChair = [
   {
@@ -204,8 +204,8 @@ export const SponsorshipCoChair = [
   },
 ];
 
-export const RegistrationCoChair = [];
-export const LocalArrangementsCoChair = [];
+// export const RegistrationCoChair = [];
+// export const LocalArrangementsCoChair = [];
 
 export const FinChairs = [
   {
@@ -216,7 +216,7 @@ export const FinChairs = [
   },
 ];
 
-export const OrgChair = [];
+// export const OrgChair = [];
 
 export const TPC = [
   {
@@ -653,7 +653,7 @@ export const PublicityChairs = [
   }
  ];
 
-// export const committeeMembers = [
+export const committeeMembers = [
   // {
   //   title: "Executive Committee",
   //   name: "execcommittee",
@@ -1212,4 +1212,4 @@ export const PublicityChairs = [
 //       },
 //     ],
 //   },
-// ];
+ ];
