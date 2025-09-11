@@ -4,6 +4,7 @@ import ProfileCard from "../../components/ProfileCard";
 import Accordion from "../../components/Accordion";
 import {
   cheifpatrons,
+  advisorycommittee,
   patrons,
   honChairs,
   genChairs,
@@ -34,6 +35,7 @@ import {
   TPC,
   committeeMembers,
   PublicityChairs,
+  execCommittee
 } from "../../data/committee";
 import { useScrollLock, useViewportSize } from "@mantine/hooks";
 import CommitteeSidebar from "../../components/CommitteeSidebar";
@@ -255,6 +257,44 @@ const Committee = () => {
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
                   {PublicChairs.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={chair.profileImage}
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              {/* Executive Committee */}
+              <div>
+                <div id="pubchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center dark:text-blue-100">
+                  Executive Committee
+                </h1>
+                <div className="flex gap-8 flex-wrap justify-center items-center">
+                  {execCommittee.map((chair) => (
+                    <ProfileCard
+                      key={chair.fullName}
+                      fullName={chair.fullName}
+                      post=""
+                      profileImage={chair.profileImage}
+                      organisation={chair.organisation}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              {/* Advisory Committee */}
+              <div>
+                <div id="pubchairs" className="h-20 mb-16 md:mb-0"></div>
+                <h1 className="mb-6 text-xl md:text-3xl font-bold text-center dark:text-blue-100">
+                  Advisory Committee
+                </h1>
+                <div className="flex gap-8 flex-wrap justify-center items-center">
+                  {advisorycommittee.map((chair) => (
                     <ProfileCard
                       key={chair.fullName}
                       fullName={chair.fullName}
