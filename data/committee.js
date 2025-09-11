@@ -1,6 +1,14 @@
 export const cheifpatrons = [];
 
-export const patrons = [];
+export const patrons = [
+  {
+    title: "Prof.",
+    fullName: "Director",
+    organisation: " MNNIT Allahabad, India",
+    profileImage: "/blank.png",
+  }
+
+];
 
 export const honChairs = [
   {
@@ -19,7 +27,7 @@ export const honChairs = [
     title: "Dr.",
     fullName: "V.N. Mishra",
     organisation: "IIT B.H.U., Varanasi",
-    profileImage: "/vnmishra.jpg",
+    profileImage: "/vnmishra.png",
   },
 ];
 
@@ -44,12 +52,34 @@ export const genChairs = [
   },
 ];
 
-export const ProgramChair = [
+export const GeneralCoChair = [
+  {
+    title: "Prof.",
+    fullName: "Preetam Kumar",
+    organisation: "IIT Patna, India",
+    profileImage: "/pkumar.png",
+  },
   {
     title: "Dr.",
-    fullName: "Vinay Kumar",
-    organisation: "MNNIT Allahabad, India",
-    profileImage: "/vinaykumar.png",
+    fullName: "Manish Mishra",
+    organisation: "",
+    profileImage: "/blank.png",
+  },
+  {
+    title: "Prof.",
+    fullName: "Deepak Nagaria",
+    organisation: "BIET Jhansi, India",
+    profileImage: "/dpnagaria.png",
+  }
+];
+
+export const ProgramChair = [
+  
+   {
+    title: "Dr.",
+    fullName: "Gaurav Upadhyay ",
+    organisation: "MANIT Bhopal, India",
+    profileImage: "/drgaurav.png",
   },
 ];
 
@@ -66,42 +96,87 @@ export const IndustryInteractionChair = [
     organisation: "Tejas Networks, India",
     profileImage: "/gctripathi.png",
   },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Arun Kumar Saurabh",
+  //   organisation: "MNNIT Allahabad, India",
+  //   profileImage: "/arun.png",
+  // },
   {
     title: "Dr.",
-    fullName: "Arun Kumar Saurabh",
-    organisation: "MNNIT Allahabad, India",
-    profileImage: "/arun.png",
-  },
+    fullName: "Nikhil Mitaliya",
+    organisation: "Tabor Electronics, India",
+    profileImage: "/nikhilmitaliya.png",
+  }
 ];
-
-export const AcademicOutreachChair = [
+export const PublicationChair = [
   {
     title: "Dr.",
-    fullName: "Amalendu Patnaik",
-    organisation: "IIT Roorkee",
-    profileImage: "/Amalendu.png",
+    fullName: "Aditya Pal",
+    organisation: "MNNIT Allahabad, India",
+    profileImage: "/ap1.png",
   },
+  {
+    title: "Dr.",
+    fullName: "Pawan Shukla",
+    organisation: "MNNIT Allahabad, India",
+    profileImage: "/psa.png",
+  }
+];
+export const AcademicOutreachChair = [
+
+  {
+    title: "Dr.",
+    fullName: "Ravi Gangwar",
+    organisation: "IIT(ISM) Dhanbad, India",
+    profileImage: "/ravikr1.png",
+  },
+  {
+    title: "Dr.",
+    fullName: "Promod Tiwari",
+    organisation: "IIT Patna, India",
+    profileImage: "/ptiwari.png",
+  }
 ];
 
 export const EventManagementChair = [];
-export const SponsorshipChair = [];
+export const SponsorshipChair = [
+  {
+    title: "Dr.",
+    fullName: "Shivesh Tripathi",
+    organisation: "IIT Roorkee, India",
+    profileImage: "/blank.png",
+  },{
+    title: "Dr.",
+    fullName: "Deepak Punetha",
+    organisation: "MNNIT Allahabad, India",
+    profileImage: "/dpunetha.png",
+  }
+];
 export const LocalArrangementsChair = [];
 export const RegistrationChair = [];
-export const SocialMediaChair = [];
+export const SocialMediaChair = [
+   {
+     title: "Dr.",
+     fullName: "Piyush Kumar Mishra",
+     organisation: "IISc Bangalore, India",
+     profileImage: "/piyushkmishra.png",
+   },
+];
 
 export const PublicityCoChair = [
-  {
-    title: "Mr.",
-    fullName: "Sanjay",
-    organisation: "Scientist F",
-    profileImage: "/sonali.png",
-  },
-  {
-    title: "Mr.",
-    fullName: "D P Tripathi",
-    organisation: "Scientist E",
-    profileImage: "/sonali.png",
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Sanjay",
+  //   organisation: "Scientist F",
+  //   profileImage: "/sonali.png",
+  // },
+  // {
+  //   title: "Mr.",
+  //   fullName: "D P Tripathi",
+  //   organisation: "Scientist E",
+  //   profileImage: "/sonali.png",
+  // },
 ];
 
 export const EventManagementCoChair = [];
@@ -150,408 +225,435 @@ export const TPC = [
     organisation: "MNNIT Allahabad, India",
     profileImage: "/sandeepksingh.png",
   },
+  {
+    title: "Prof.",
+    fullName: "Akhilesh Mohan",
+    organisation: "IIT Roorkee, India",
+    profileImage: "/am.png",
+  },
+  {
+    title: "Dr.",
+    fullName: "Om Jee Pandey",
+    organisation: "IIT BHU Varanasi, India",
+    profileImage: "/om.png",
+  },
+
 ];
 
-export const PublicChairs = [
+// export const PublicChairs = [
+//  
+// ];
+
+export const PublicityChairs = [
   {
     title: "Dr.",
-    fullName: "Piyush Kumar Mishra",
-    organisation: "IISc Bangalore, India",
-    profileImage: "/piyushkmishra.png",
-  },
+    fullName: "Ashwni Kumar",
+    organisation: "Delhi University, South Campus",
+    profileImage: "/ashwni.png",
+  }
 ];
 
-export const PublicityChairs = [];
+// export const confChairs = [
+ 
+//   
+// ];
 
-export const confChairs = [
-  {
-    title: "Dr.",
-    fullName: "Gaurav Upadhyay ",
-    organisation: "MANIT Bhopal, India",
-    profileImage: "/drgaurav.png",
-  },
-  {
-    title: "Dr.",
-    fullName: "Dharmendra Dixit",
-    organisation: "MNNIT Allahabad, India",
-    profileImage: "/dharmendradixit.png",
-  },
-];
-
-export const confSecretary = [
-  {
-    title: "Dr.",
-    fullName: "D K Raghuvanshi",
-    organisation: "MANIT Bhopal, India",
-    profileImage: "/dr dk raghuvanshi.jpeg",
-  },
-  {
-    title: "Dr.",
-    fullName: "Lalita Gupta ",
-    organisation: "MANIT Bhopal, India",
-    profileImage: "/dr lalita gupta.jpeg",
-  },
-];
+// export const confSecretary = [
+//   
+// ];
  export const execCommittee=[
-  {
-    title:"Dr.",
-    fullName:"S.K. Varshney",
-    organisation:"Adviser/Scientist G, DST, Government of India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"C.J. Reddy",
-    organisation:"Business Development at Altair Engineering, Inc. USA",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Nasimuddin",
-    organisation:"Institute for Infocomm Research, Singapore",
-    profileImage:"",
-  },
-  {
-    title:"Prof.",
-    fullName:"Ghanshyam Singh",
-    organisation:"University of Johannesburg, South Africa",
-    profileImage:"",
-  },
-  {
-    title:"Prof.",
-    fullName:"Shiban K. Koul",
-    organisation:"IIT Delhi, India",
-    profileImage:"",
-  },
-  {
-    title:"Prof.",
-    fullName:"Kumar Vaibhav Srivastava",
-    organisation:"IIT Kanpur, India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Ravi Kumar Arya",
-    organisation:"ZICUST, China",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Chandrakanta Kumar",
-    organisation:"ISRO, India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Shubhankar Majumdar",
-    organisation:"IIT Kharagpur, India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Satish Kumar Singh",
-    organisation:"IIIT Allahabad, India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Amit Kumar Singh",
-    organisation:"IIT Patna, India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Taimoor Khan",
-    organisation:"NIT Silchar, India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Prabhakar Tiwari",
-    organisation:"MMMUT Gorakhpur, India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Sanjeev Yadav",
-    organisation:"Central University of Jammu, India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Nagendra Prasad Yadav",
-    organisation:"Hubei Polytechnic University, China",
-    profileImage:"",
-  },
-  {
-    title:"Prof.",
-    fullName:"Dilip Kumar Sharma",
-    organisation:"GLA, Mathura",
-    profileImage:"",
-  },
-  {
-    title:"Prof",
-    fullName:"Brijesh Kumar",
-    organisation:"Indira Gandhi Delhi Technical University, Delhi, India",
-    profileImage:"",
-  },
+  // {
+  //   title:"Dr.",
+  //   fullName:"S.K. Varshney",
+  //   organisation:"Adviser/Scientist G, DST, Government of India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"C.J. Reddy",
+  //   organisation:"Business Development at Altair Engineering, Inc. USA",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Nasimuddin",
+  //   organisation:"Institute for Infocomm Research, Singapore",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Prof.",
+  //   fullName:"Ghanshyam Singh",
+  //   organisation:"University of Johannesburg, South Africa",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Prof.",
+  //   fullName:"Shiban K. Koul",
+  //   organisation:"IIT Delhi, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Prof.",
+  //   fullName:"Kumar Vaibhav Srivastava",
+  //   organisation:"IIT Kanpur, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Ravi Kumar Arya",
+  //   organisation:"ZICUST, China",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Chandrakanta Kumar",
+  //   organisation:"ISRO, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Shubhankar Majumdar",
+  //   organisation:"IIT Kharagpur, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Satish Kumar Singh",
+  //   organisation:"IIIT Allahabad, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Amit Kumar Singh",
+  //   organisation:"IIT Patna, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Taimoor Khan",
+  //   organisation:"NIT Silchar, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Prabhakar Tiwari",
+  //   organisation:"MMMUT Gorakhpur, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Sanjeev Yadav",
+  //   organisation:"Central University of Jammu, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Nagendra Prasad Yadav",
+  //   organisation:"Hubei Polytechnic University, China",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Prof.",
+  //   fullName:"Dilip Kumar Sharma",
+  //   organisation:"GLA, Mathura",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Prof",
+  //   fullName:"Brijesh Kumar",
+  //   organisation:"Indira Gandhi Delhi Technical University, Delhi, India",
+  //   profileImage:"",
+  // },
   {
     title:"",
     fullName:"Domenico Zito",
     organisation:"AGH University of Science and Technology, Krakow, Poland",
-    profileImage:"",
+    profileImage:"dz.png",
   },
   {
     title:"",
     fullName:"Harikrishnan Ramiah",
     organisation:"Universiti Malaya",
-    profileImage:"",
+    profileImage:"hr.png",
   },
   {
     title:"",
     fullName:"Bighnaraj Panigrahi",
     organisation:"",
-    profileImage:"",
+    profileImage:"bp.png",
   },
   {
     title:"",
     fullName:"Manoj Saxena",
     organisation:"Deen Dayal Upadhyaya College, University of Delhi, New Delhi, India",
-    profileImage:"",
+    profileImage:"ms1.png",
   },
   {
     title:"",
     fullName:"Ramgopal Rao",
     organisation:"BITS, Pilani (Birla Institute of Technology & Science, Pilani)",
-    profileImage:"",
+    profileImage:"rr.png",
   },
   {
     title:"",
     fullName:"Ajit Panda",
     organisation:"National Institute of Science & Technology (NIST)",
-    profileImage:"",
+    profileImage:"blank.png",
   },
+  {
+    title:"",
+    fullName:"Veer Pratap Meena",
+    organisation:"IEEE Delhi Section- Rajasthan",
+    profileImage:"vpm.png",
+  },
+  {
+    title:"",
+    fullName:"Madhumita Chakravarti",
+    organisation:"IEEE Hyderabad Section",
+    profileImage:"blank.png",
+  },
+  {
+    title:"",
+    fullName:"Sreelal Pillai",
+    organisation:"IEEE Kerala Section",
+    profileImage:"sp.png",
+  },
+
  ];
  export const  advisorycommittee=[
-  {
-    title:"Dr.",
-    fullName:"Ramesh K. Gupta",
-    organisation:"VP, Satellite Network Engineering and Operations, USA",
-    profileImage:"",
-  },
-  {
-    title:"Prof.",
-    fullName:"Satish Sharma",
-    organisation:"San Diego State University, USA",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Sudhakar Rao",
-    organisation:"Northrop Grumman Space Systems, USA",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Ajay K. Poddar",
-    organisation:"Synergy Microwave, NJ, USA",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"D.C Pande",
-    organisation:"LRDE, DRDO , India",
-    profileImage:"",
-  },
-  {
-    title:"Prof.",
-    fullName:"M. Jaleel Akhtar",
-    organisation:"IIT Kanpur, India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Kumar Krishen",
-    organisation:"University of Houston, USA",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Leon T. Geter",
-    organisation:"Benedict College, Columbia, USA",
-    profileImage:"",
-  },
-  {
-    title:"Prof.",
-    fullName:"Animesh Biswas",
-    organisation:"IIT Kanpur, India",
-    profileImage:"",
-  },
-  {
-    title:"Prof.",
-    fullName:"Arvind Choubey",
-    organisation:"NIT Jamshedpur, India",
-    profileImage:"",
-  },
-   {
-    title:"Prof.",
-    fullName:"Sembiam R. Rengarajan",
-    organisation:"California State University, Northridge, USA",
-    profileImage:"",
-  },
-   {
-    title:"Dr.",
-    fullName:"R. K. Bharadwaj",
-    organisation:"Scientist F, DEAL, DRDO",
-    profileImage:"",
-  },
-  {
-    title:"Prof.",
-    fullName:"K. Subramaniyan",
-    organisation:"IGNOU, India",
-    profileImage:"",
-  },
-   {
-    title:"Prof.",
-    fullName:"Asheesh K. Singh",
-    organisation:"MNNIT Allahabad, India",
-    profileImage:"",
-  },
-  {
-    title:"Prof.",
-    fullName:"Manoj Kumar Meshram",
-    organisation:"IIT BHU, India",
-    profileImage:"",
-  },
-  {
-    title:"Prof.",
-    fullName:"Mahesh P.Abegaonkar",
-    organisation:"IIT Delhi,India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Anthony Ghiotto",
-    organisation:"University of Bordeaux, France",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Mirza Mohammad Zaheer",
-    organisation:"ISRO, India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Chinmoy Saha",
-    organisation:"IIST, Thiruvananthapuram, India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Dilip Kumar Kothari",
-    organisation:"Professor Emeritus, Ganpat University, India",
-    profileImage:"",
-  },
-  {
-    title:"Dr.",
-    fullName:"Chow Yen Desmond Sim",
-    organisation:"Feng Chia University, Taichung, Taiwan",
-    profileImage:"",
-  },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Ramesh K. Gupta",
+  //   organisation:"VP, Satellite Network Engineering and Operations, USA",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Prof.",
+  //   fullName:"Satish Sharma",
+  //   organisation:"San Diego State University, USA",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Sudhakar Rao",
+  //   organisation:"Northrop Grumman Space Systems, USA",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Ajay K. Poddar",
+  //   organisation:"Synergy Microwave, NJ, USA",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"D.C Pande",
+  //   organisation:"LRDE, DRDO , India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Prof.",
+  //   fullName:"M. Jaleel Akhtar",
+  //   organisation:"IIT Kanpur, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Kumar Krishen",
+  //   organisation:"University of Houston, USA",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Leon T. Geter",
+  //   organisation:"Benedict College, Columbia, USA",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Prof.",
+  //   fullName:"Animesh Biswas",
+  //   organisation:"IIT Kanpur, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Prof.",
+  //   fullName:"Arvind Choubey",
+  //   organisation:"NIT Jamshedpur, India",
+  //   profileImage:"",
+  // },
+  //  {
+  //   title:"Prof.",
+  //   fullName:"Sembiam R. Rengarajan",
+  //   organisation:"California State University, Northridge, USA",
+  //   profileImage:"",
+  // },
+  //  {
+  //   title:"Dr.",
+  //   fullName:"R. K. Bharadwaj",
+  //   organisation:"Scientist F, DEAL, DRDO",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Prof.",
+  //   fullName:"K. Subramaniyan",
+  //   organisation:"IGNOU, India",
+  //   profileImage:"",
+  // },
+  //  {
+  //   title:"Prof.",
+  //   fullName:"Asheesh K. Singh",
+  //   organisation:"MNNIT Allahabad, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Prof.",
+  //   fullName:"Manoj Kumar Meshram",
+  //   organisation:"IIT BHU, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Prof.",
+  //   fullName:"Mahesh P.Abegaonkar",
+  //   organisation:"IIT Delhi,India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Anthony Ghiotto",
+  //   organisation:"University of Bordeaux, France",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Mirza Mohammad Zaheer",
+  //   organisation:"ISRO, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Chinmoy Saha",
+  //   organisation:"IIST, Thiruvananthapuram, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Dilip Kumar Kothari",
+  //   organisation:"Professor Emeritus, Ganpat University, India",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"Dr.",
+  //   fullName:"Chow Yen Desmond Sim",
+  //   organisation:"Feng Chia University, Taichung, Taiwan",
+  //   profileImage:"",
+  // },
   {
     title:"",
     fullName:"Wei Liu",
     organisation:"Hong Kong Polytechnic University, Hong Kong",
-    profileImage:"",
+    profileImage:"wl.png",
   },
   {
     title:"Dr.",
     fullName:"Sima Noghanian",
     organisation:"CommScope Ruckus Networks, Sunnyvale, California, USA",
-    profileImage:"",
+    profileImage:"sn.png",
   },
   {
     title:"",
     fullName:"Rui Dinis",
     organisation:"FCT-UNL, Instituto de Telecomunicações, Aveiro, Portugal",
-    profileImage:"",
+    profileImage:"rd.png",
   },
   {
     title:"",
     fullName:"Jacopo Iannacci",
     organisation:"University of Bologna, Italy",
-    profileImage:"",
+    profileImage:"jl.png",
   },
   {
     title:"",
     fullName:"Miroslav Skoric",
     organisation:"",
-    profileImage:"",
+    profileImage:"ms.png",
   },
   {
     title:"",
     fullName:"Houbing Herbert Song",
-    organisation:"",
-    profileImage:"",
+    organisation:"IEEE Austria Section, Austria",
+    profileImage:"hhs.png",
   },
    {
     title:"Dr.",
     fullName:"Kumar Vijay Mishra",
     organisation:"United States Army Research Laboratory (ARL)",
-    profileImage:"",
+    profileImage:"kvm.png",
   },
    {
     title:"",
     fullName:"Josiane Zerubia",
-    organisation:"",
-    profileImage:"",
+    organisation:" Director of Research at INRIA (DRCE), Université Côte d'Azur",
+    profileImage:"jz.png",
   },
    {
     title:"Prof.",
     fullName:"Gulab Singh",
     organisation:"Centre of Studies in Resources Engineering (CSRE), IIT Bombay, India",
-    profileImage:"",
+    profileImage:"gs.png",
   },
   {
     title:"",
     fullName:"Pai-Yen Chen",
-    organisation:"",
-    profileImage:"",
+    organisation:"Professor & University Scholar, University of Illinois Chicago, USA",
+    profileImage:"pyc.png",
   },
   {
     title:"",
     fullName:"Vijay Arora",
     organisation:"IEEE-EDS Distinguished Lecturer, Global Distinguished Visiting Professor, Wilkes University Professor",
-    profileImage:"",
+    profileImage:"blank.png",
   },
-  {
-    title:"",
-    fullName:"Veer Pratap Meena",
-    organisation:"",
-    profileImage:"",
-  },
-  {
-    title:"",
-    fullName:"Madhumita Chakravarti",
-    organisation:"",
-    profileImage:"",
-  },
-  {
-    title:"",
-    fullName:"Sreelal Pillai",
-    organisation:"",
-    profileImage:"",
-  },
-  {
-    title:"",
-    fullName:"Sreelal",
-    organisation:"",
-    profileImage:"",
-  },
+  // {
+  //   title:"",
+  //   fullName:"Veer Pratap Meena",
+  //   organisation:"",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"",
+  //   fullName:"Madhumita Chakravarti",
+  //   organisation:"",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"",
+  //   fullName:"Sreelal Pillai",
+  //   organisation:"",
+  //   profileImage:"",
+  // },
+  // {
+  //   title:"",
+  //   fullName:"Sreelal",
+  //   organisation:"",
+  //   profileImage:"",
+  // },
  ]
 
-export const committeeMembers = [
+ export const InternationalChair = [
+  {
+    title: "Dr.",
+    fullName: "Ravi Kumar Arya",
+    organisation: "ZICUST, China",
+    profileImage: "/rka.png",
+  },{
+    title: "Dr.",
+    fullName: "NP Yadav",
+    organisation: "Hubei Polytechnic University, China",
+    profileImage: "/np.png",
+  }
+ ];
+
+// export const committeeMembers = [
   // {
   //   title: "Executive Committee",
   //   name: "execcommittee",
@@ -798,316 +900,316 @@ export const committeeMembers = [
   //     // }
   //   ],
   // },
-  {
-    title: "Technical Program Committee",
-    name: "technicalcommittee",
-    data: [
-      {
-        fullName: "Dr. Prashant Ranjan",
-        organisation: "UEM Jaipur, India",
-      },
-      {
-        fullName: "Dr. Rajat Kumar Singh",
-        organisation: "IIIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. R. K. Chaudhary",
-        organisation: "IIT Kanpur, India",
-      },
-      {
-        fullName: "Dr. Ravi Kumar Gangwar",
-        organisation: "IIT(ISM) Dhanbad, India",
-      },
-      {
-        fullName: "Dr. Akhilesh Mohan",
-        organisation: "IIT Roorkee, India",
-      },
-      {
-        fullName: "Dr. Diptiranjan Samantaray",
-        organisation: "University of Delhi, India",
-      },
-      {
-        fullName: "Dr. Niraj Pratap Singh",
-        organisation: "NIT Kurukshetra, India",
-      },
-      {
-        fullName: "Dr. Ravi Panwar",
-        organisation: " IIT BHU Varanasi, India",
-      },
-      {
-        fullName: "Dr. Om Jee Pandey",
-        organisation: " IIT BHU Varanasi, India",
-      },
-      {
-        fullName: "Dr. Zubair Akhter",
-        organisation: " Technology Innovation Institute (TII), UAE",
-      },
-      {
-        fullName: "Dr. Arun Kumar Saurabh",
-        organisation: " MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. Sandeep Kumar Singh",
-        organisation: " MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. Nand Kishore",
-        organisation: "HBTU Kanpur, India",
-      },
-      {
-        fullName: "Mr. Subradeep Chakraborty",
-        organisation: "CSIR, Ceeri Pilani",
-      },
-      {
-        fullName: "Dr. Vivek Rajpoot",
-        organisation: "VIT Vellore, India",
-      },
-      {
-        fullName: "Dr. S. Yuvaraj",
-        organisation: "IIIT Kancheepuram, India",
-      },
-      {
-        fullName: "Dr. Shivesh Tripathi",
-        organisation: "IIT Roorkee, India",
-      },
-      {
-        fullName: "Dr. Deepak Punetha",
-        organisation: "MNNIT Allahabad , India",
-      },
-      {
-        fullName: "Dr. Vinay Kumar",
-        organisation: "MNNIT Allahabad , India",
-      },
-    ],
-  },
-  {
-    title: "Young Professionals",
-    name: "youngprofessionals",
-    data: [
-      {
-        fullName: "Dr. Debdeep Sarkar",
-        organisation: "IISc Banglore, India",
-      },
-      {
-        fullName: "Dr Arvind Kumar",
-        organisation: "VNIT Nagpur, India",
-      },
-      {
-        fullName: "Dr. Tushar Sharma",
-        organisation: "Renesas Electronics, San Diego, USA",
-      },
-      {
-        fullName: "Dr. Abhishek Sharma",
-        organisation: "Stevens Institute of Technology, New Jersey, USA",
-      },
-      {
-        fullName: "Dr. Thummaluru Sreenath Reddy",
-        organisation: "IIIT Kanchipuram, India",
-      },
-      {
-        fullName: "Dr. Devesh Tiwari",
-        organisation: "Graphic Era Hill dehradun,India",
-      },
-      {
-        fullName: "Dr. Pinku ranjan",
-        organisation: "IIIT Gwalior,India",
-      },
-      {
-        fullName: "Dr. Ashwani Kumar",
-        organisation: "Delhi University, South Campus",
-      },
-      {
-        fullName: "Dr. Mahendra Kumar Shukla",
-        organisation: "IIIT Gwalior,India",
-      },
-      {
-        fullName: "Dr. Vipin Kamble",
-        organisation: "VNIT Nagpur,India",
-      },
-      {
-        fullName: "Dr. Nrusingha Charan Pradhan",
-        organisation: "School of Engineering Central University of Karnataka, India",
-      },
-    ],
-  },
-  {
-    title: "Women In Engineering",
-    name: "womeninengineering",
-    data: [
-      {
-        fullName: "Dr. Meenakshi Rawat",
-        organisation: "IIT Roorkee. India",
-      },
-      {
-        fullName: "Prof. Poornima Mittal",
-        organisation: "Delhi Technological University, India",
-      },
-      {
-        fullName: "Dr. Situ Rani Patre",
-        organisation: " NIT Rourkela,India",
-      },
-      {
-        fullName: "Ms. Shipra Bhatia",
-        organisation: "CSIR-CEERI, Pilani, India",
-      },
-      {
-        fullName: "Dr. Neetu Joshi",
-        organisation: "JIIT Noida",
-      },
-      {
-        fullName: "Dr. Smrity Dwivedi",
-        organisation: "IIT BHU,India",
-      },
-      {
-        fullName: "Dr. Sasmita Dash",
-        organisation: "University of Cyprus,Cyprus",
-      },
-      {
-        fullName: "Dr. Shilpi Mishra",
-        organisation: "Galgotia college of Engineering and Technology,India",
-      },
-    ],
-  },
-  {
-    title: "Special Interest Group On Humanitarian Technology",
-    name: "sighumanitarian",
-    data: [
-      {
-        fullName: "Dr. Karun Rawat",
-        organisation: "IIT Roorkee, India",
-      },
-      {
-        fullName: "Dr. Dharmendra Kumar Jhariya",
-        organisation: "NIT Delhi, India",
-      },
-      {
-        fullName: "Dr. Ankit Yadav",
-        organisation: "Iowa State University, USA",
-      },
-      {
-        fullName: "Dr. Piyush Kumar Mishra",
-        organisation: "IISc Bangalore, India",
-      },
-      {
-        fullName: "Dr. Indrasen Singh",
-        organisation: "Vit Chennai, India",
-      },
-      {
-        fullName: "Dr. Girish Chandra Tripathi",
-        organisation: "Tejas Networks,India",
-      },
-      {
-        fullName: "Dr. Sachin Agarwal",
-        organisation: "Delhi University, India",
-      },
-      {
-        fullName: "Dr. Mayur Katwe",
-        organisation: "NIT Raipur, India",
-      },
-      {
-        fullName: "Dr. Amarjit Kumar",
-        organisation: "NIT Warangal, India",
-      },
-    ],
-  },
-  {
-    title: "Student Activity",
-    name: "studentactivity",
-    data: [
-      {
-        fullName: "Dr. Deep Tripathi",
-        organisation: "Université de Sherbrooke, Canada",
-      },
-      {
-        fullName: "Mr. Sheikh Dobir Hossain",
-        organisation: "University of Texas, USA",
-      },
-      {
-        fullName: "Dr. Raghvendra Pal",
-        organisation: "NIT Surat, India",
-      },
-      {
-        fullName: "Mr. Pawan Kumar Shukla",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Mr. Ravindra Kumar",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Mr. Nitin Kumar Nishad",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Ms. Aayushi Srivastava",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Ms. Diksha Parya",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Ms. Aleesha Nadeem",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Ms. Srishti",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Ms. Sejal Jain",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Ms. Vamsi Krishna",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Mr. Yashwant Sahu ",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Mr. Sunanth Pashikanti",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Ms. Bharti Parmar",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Mr. Jitendra Singh",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Mr. Debojeet Shaha",
-        organisation: "MANIT BHOPAL, India",
-      },
-    ],
-  },
-  {
-    title: "Student Co-ordinator",
-    name: "studentcoordinator",
-    data: [
-      {
-        fullName: "Mr. Yajush Rai",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Mr. Aditya Pal",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Mr. Sattwik Ranjan",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Mr. Manish Kumar",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Ms. Sejal Deolikar",
-        organisation: "MANIT BHOPAL, India",
-      },
-    ],
-  },
-];
+//   {
+//     title: "Technical Program Committee",
+//     name: "technicalcommittee",
+//     data: [
+//       {
+//         fullName: "Dr. Prashant Ranjan",
+//         organisation: "UEM Jaipur, India",
+//       },
+//       {
+//         fullName: "Dr. Rajat Kumar Singh",
+//         organisation: "IIIT Allahabad, India",
+//       },
+//       {
+//         fullName: "Dr. R. K. Chaudhary",
+//         organisation: "IIT Kanpur, India",
+//       },
+//       {
+//         fullName: "Dr. Ravi Kumar Gangwar",
+//         organisation: "IIT(ISM) Dhanbad, India",
+//       },
+//       {
+//         fullName: "Dr. Akhilesh Mohan",
+//         organisation: "IIT Roorkee, India",
+//       },
+//       {
+//         fullName: "Dr. Diptiranjan Samantaray",
+//         organisation: "University of Delhi, India",
+//       },
+//       {
+//         fullName: "Dr. Niraj Pratap Singh",
+//         organisation: "NIT Kurukshetra, India",
+//       },
+//       {
+//         fullName: "Dr. Ravi Panwar",
+//         organisation: " IIT BHU Varanasi, India",
+//       },
+//       {
+//         fullName: "Dr. Om Jee Pandey",
+//         organisation: " IIT BHU Varanasi, India",
+//       },
+//       {
+//         fullName: "Dr. Zubair Akhter",
+//         organisation: " Technology Innovation Institute (TII), UAE",
+//       },
+//       {
+//         fullName: "Dr. Arun Kumar Saurabh",
+//         organisation: " MNNIT Allahabad, India",
+//       },
+//       {
+//         fullName: "Dr. Sandeep Kumar Singh",
+//         organisation: " MNNIT Allahabad, India",
+//       },
+//       {
+//         fullName: "Dr. Nand Kishore",
+//         organisation: "HBTU Kanpur, India",
+//       },
+//       {
+//         fullName: "Mr. Subradeep Chakraborty",
+//         organisation: "CSIR, Ceeri Pilani",
+//       },
+//       {
+//         fullName: "Dr. Vivek Rajpoot",
+//         organisation: "VIT Vellore, India",
+//       },
+//       {
+//         fullName: "Dr. S. Yuvaraj",
+//         organisation: "IIIT Kancheepuram, India",
+//       },
+//       {
+//         fullName: "Dr. Shivesh Tripathi",
+//         organisation: "IIT Roorkee, India",
+//       },
+//       {
+//         fullName: "Dr. Deepak Punetha",
+//         organisation: "MNNIT Allahabad , India",
+//       },
+//       {
+//         fullName: "Dr. Vinay Kumar",
+//         organisation: "MNNIT Allahabad , India",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Young Professionals",
+//     name: "youngprofessionals",
+//     data: [
+//       {
+//         fullName: "Dr. Debdeep Sarkar",
+//         organisation: "IISc Banglore, India",
+//       },
+//       {
+//         fullName: "Dr Arvind Kumar",
+//         organisation: "VNIT Nagpur, India",
+//       },
+//       {
+//         fullName: "Dr. Tushar Sharma",
+//         organisation: "Renesas Electronics, San Diego, USA",
+//       },
+//       {
+//         fullName: "Dr. Abhishek Sharma",
+//         organisation: "Stevens Institute of Technology, New Jersey, USA",
+//       },
+//       {
+//         fullName: "Dr. Thummaluru Sreenath Reddy",
+//         organisation: "IIIT Kanchipuram, India",
+//       },
+//       {
+//         fullName: "Dr. Devesh Tiwari",
+//         organisation: "Graphic Era Hill dehradun,India",
+//       },
+//       {
+//         fullName: "Dr. Pinku ranjan",
+//         organisation: "IIIT Gwalior,India",
+//       },
+//       {
+//         fullName: "Dr. Ashwani Kumar",
+//         organisation: "Delhi University, South Campus",
+//       },
+//       {
+//         fullName: "Dr. Mahendra Kumar Shukla",
+//         organisation: "IIIT Gwalior,India",
+//       },
+//       {
+//         fullName: "Dr. Vipin Kamble",
+//         organisation: "VNIT Nagpur,India",
+//       },
+//       {
+//         fullName: "Dr. Nrusingha Charan Pradhan",
+//         organisation: "School of Engineering Central University of Karnataka, India",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Women In Engineering",
+//     name: "womeninengineering",
+//     data: [
+//       {
+//         fullName: "Dr. Meenakshi Rawat",
+//         organisation: "IIT Roorkee. India",
+//       },
+//       {
+//         fullName: "Prof. Poornima Mittal",
+//         organisation: "Delhi Technological University, India",
+//       },
+//       {
+//         fullName: "Dr. Situ Rani Patre",
+//         organisation: " NIT Rourkela,India",
+//       },
+//       {
+//         fullName: "Ms. Shipra Bhatia",
+//         organisation: "CSIR-CEERI, Pilani, India",
+//       },
+//       {
+//         fullName: "Dr. Neetu Joshi",
+//         organisation: "JIIT Noida",
+//       },
+//       {
+//         fullName: "Dr. Smrity Dwivedi",
+//         organisation: "IIT BHU,India",
+//       },
+//       {
+//         fullName: "Dr. Sasmita Dash",
+//         organisation: "University of Cyprus,Cyprus",
+//       },
+//       {
+//         fullName: "Dr. Shilpi Mishra",
+//         organisation: "Galgotia college of Engineering and Technology,India",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Special Interest Group On Humanitarian Technology",
+//     name: "sighumanitarian",
+//     data: [
+//       {
+//         fullName: "Dr. Karun Rawat",
+//         organisation: "IIT Roorkee, India",
+//       },
+//       {
+//         fullName: "Dr. Dharmendra Kumar Jhariya",
+//         organisation: "NIT Delhi, India",
+//       },
+//       {
+//         fullName: "Dr. Ankit Yadav",
+//         organisation: "Iowa State University, USA",
+//       },
+//       {
+//         fullName: "Dr. Piyush Kumar Mishra",
+//         organisation: "IISc Bangalore, India",
+//       },
+//       {
+//         fullName: "Dr. Indrasen Singh",
+//         organisation: "Vit Chennai, India",
+//       },
+//       {
+//         fullName: "Dr. Girish Chandra Tripathi",
+//         organisation: "Tejas Networks,India",
+//       },
+//       {
+//         fullName: "Dr. Sachin Agarwal",
+//         organisation: "Delhi University, India",
+//       },
+//       {
+//         fullName: "Dr. Mayur Katwe",
+//         organisation: "NIT Raipur, India",
+//       },
+//       {
+//         fullName: "Dr. Amarjit Kumar",
+//         organisation: "NIT Warangal, India",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Student Activity",
+//     name: "studentactivity",
+//     data: [
+//       {
+//         fullName: "Dr. Deep Tripathi",
+//         organisation: "Université de Sherbrooke, Canada",
+//       },
+//       {
+//         fullName: "Mr. Sheikh Dobir Hossain",
+//         organisation: "University of Texas, USA",
+//       },
+//       {
+//         fullName: "Dr. Raghvendra Pal",
+//         organisation: "NIT Surat, India",
+//       },
+//       {
+//         fullName: "Mr. Pawan Kumar Shukla",
+//         organisation: "MNNIT Allahabad, India",
+//       },
+//       {
+//         fullName: "Mr. Ravindra Kumar",
+//         organisation: "MNNIT Allahabad, India",
+//       },
+//       {
+//         fullName: "Mr. Nitin Kumar Nishad",
+//         organisation: "MNNIT Allahabad, India",
+//       },
+//       {
+//         fullName: "Ms. Aayushi Srivastava",
+//         organisation: "MNNIT Allahabad, India",
+//       },
+//       {
+//         fullName: "Ms. Diksha Parya",
+//         organisation: "MNNIT Allahabad, India",
+//       },
+//       {
+//         fullName: "Ms. Aleesha Nadeem",
+//         organisation: "MANIT BHOPAL, India",
+//       },
+//       {
+//         fullName: "Ms. Srishti",
+//         organisation: "MANIT BHOPAL, India",
+//       },
+//       {
+//         fullName: "Ms. Sejal Jain",
+//         organisation: "MANIT BHOPAL, India",
+//       },
+//       {
+//         fullName: "Ms. Vamsi Krishna",
+//         organisation: "MANIT BHOPAL, India",
+//       },
+//       {
+//         fullName: "Mr. Yashwant Sahu ",
+//         organisation: "MANIT BHOPAL, India",
+//       },
+//       {
+//         fullName: "Mr. Sunanth Pashikanti",
+//         organisation: "MANIT BHOPAL, India",
+//       },
+//       {
+//         fullName: "Ms. Bharti Parmar",
+//         organisation: "MANIT BHOPAL, India",
+//       },
+//       {
+//         fullName: "Mr. Jitendra Singh",
+//         organisation: "MANIT BHOPAL, India",
+//       },
+//       {
+//         fullName: "Mr. Debojeet Shaha",
+//         organisation: "MANIT BHOPAL, India",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Student Co-ordinator",
+//     name: "studentcoordinator",
+//     data: [
+//       {
+//         fullName: "Mr. Yajush Rai",
+//         organisation: "MNNIT Allahabad, India",
+//       },
+//       {
+//         fullName: "Mr. Aditya Pal",
+//         organisation: "MNNIT Allahabad, India",
+//       },
+//       {
+//         fullName: "Mr. Sattwik Ranjan",
+//         organisation: "MNNIT Allahabad, India",
+//       },
+//       {
+//         fullName: "Mr. Manish Kumar",
+//         organisation: "MNNIT Allahabad, India",
+//       },
+//       {
+//         fullName: "Ms. Sejal Deolikar",
+//         organisation: "MANIT BHOPAL, India",
+//       },
+//     ],
+//   },
+// ];
