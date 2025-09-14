@@ -146,7 +146,7 @@ export const SponsorshipChair = [
     title: "Dr.",
     fullName: "Shivesh Tripathi",
     organisation: "GL Bajaj Institute of Technology and Management, Noida, India",
-    profileImage: "/blank.png",
+    profileImage: "/st.png",
   },{
     title: "Dr.",
     fullName: "Deepak Punetha",
