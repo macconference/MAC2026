@@ -419,6 +419,12 @@ export const PublicityChairs = [
     organisation:"ISRO, Trivandrum",
     profileImage:"sp.png",
   },
+  {
+    title:"Dr.",
+    fullName:"Sangeeta Singh",
+    organisation:"Vardhaman College of Engineering, Hyderabad, India",
+    profileImage:"sangeeta.png",
+  }
 
  ];
  export const  advisorycommittee=[
