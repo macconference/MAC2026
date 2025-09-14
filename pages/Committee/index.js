@@ -102,6 +102,8 @@ const Committee = () => {
                {renderSection(TPC, "Technical Program Committee Chairs", "tpcchairs")}
               {renderSection(ProgramChair, "Program Chair", "programchairs")}
                {renderSection(FinChairs, "Finance Chair", "finchairs")}
+                {renderSection(advisorycommittee, "Advisory Committee", "advisorycommittee")}
+                     {renderSection(execCommittee, "Executive Committee", "execcommittee")}
                 {renderSection(PublicationChair, "Publication Chair", "publicationchair")}
               {renderSection(IndustryInteractionChair, "Industry Outreach Chairs", "industryintchair")}
               {renderSection(AcademicOutreachChair, "Academic Outreach Chairs", "academicoutreach")}
@@ -109,8 +111,8 @@ const Committee = () => {
               {renderSection(SocialMediaChair, "Web and Social Media Chairs", "socialmediachair")}
               {renderSection(PublicityChairs, "Publicity Chairs", "publchairs")}
               {renderSection(InternationalChair, "International Chair", "intchair")}
-              {renderSection(execCommittee, "Executive Committee", "execcommittee")}
-              {renderSection(advisorycommittee, "Advisory Committee", "advisorycommittee")}
+         
+             
             </div>
           </div>
         </div>

@@ -50,14 +50,14 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
         {isOpen && (
           <ul className="fixed md:static top-16 overflow-auto h-[90vh] md:h-[85vh] md:pb-12 bg-white dark:bg-gray-900 z-10 px-4 py-16 md:py-2 text-lg lg:text-xl flex flex-col gap-2 w-full">
             
-            <li 
+            {/* <li 
               className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#patrons")}`}
               onClick={() => handleLinkClick("/Committee#patrons")}
             >
               <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
                 Patrons
               </div>
-            </li>
+            </li> */}
 
             <li 
               className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#honchairs")}`}
@@ -113,6 +113,24 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               </div>
             </li>
              
+             <li 
+              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#advisorycommittee")}`}
+              onClick={() => handleLinkClick("/Committee#advisorycommittee")}
+            >
+              <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
+                Advisory Committee
+              </div>
+            </li>
+
+            <li 
+              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#execcommittee")}`}
+              onClick={() => handleLinkClick("/Committee#execcommittee")}
+            >
+              <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
+                Executive Committee
+              </div>
+            </li>
+
              
             <li 
               className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#academicoutreach")}`}
@@ -179,24 +197,8 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               </div>
             </li>
 
-            <li 
-              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#execcommittee")}`}
-              onClick={() => handleLinkClick("/Committee#execcommittee")}
-            >
-              <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
-                Executive Committee
-              </div>
-            </li>
-
-            <li 
-              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#advisorycommittee")}`}
-              onClick={() => handleLinkClick("/Committee#advisorycommittee")}
-            >
-              <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
-                Advisory Committee
-              </div>
-            </li>
-
+            
+            
           </ul>
         )}
       </div>

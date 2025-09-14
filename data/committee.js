@@ -1,12 +1,12 @@
 // export const cheifpatrons = [];
 
 export const patrons = [
-  {
-    title: "Prof.",
-    fullName: "Director",
-    organisation: " MNNIT Allahabad, India",
-    profileImage: "/blank.png",
-  }
+  // {
+  //   title: "Prof.",
+  //   fullName: "Director",
+  //   organisation: " MNNIT Allahabad, India",
+  //   profileImage: "/blank.png",
+  // }
 
 ];
 
@@ -42,7 +42,7 @@ export const genChairs = [
     title: "Prof.",
     fullName: "Puneet Kumar Mishra",
     organisation: "U R Rao Satellite Centre, ISRO Bengaluru",
-    profileImage: "/puneet_mishra_sir_1.png",
+    profileImage: "/pkm.png",
   },
   {
     title: "Prof.",
@@ -113,13 +113,13 @@ export const PublicationChair = [
   {
     title: "Dr.",
     fullName: "Aditya Pal",
-    organisation: "MNNIT Allahabad, India",
+    organisation: "IIT Roorkee, India",
     profileImage: "/ap1.png",
   },
   {
     title: "Dr.",
     fullName: "Pawan Shukla",
-    organisation: "MNNIT Allahabad, India",
+    organisation: "IIT Roorkee, India",
     profileImage: "/psa.png",
   }
 ];
@@ -144,7 +144,7 @@ export const SponsorshipChair = [
   {
     title: "Dr.",
     fullName: "Shivesh Tripathi",
-    organisation: "IIT Roorkee, India",
+    organisation: "GL Bajaj Institute of Technology and Management, Noida, India",
     profileImage: "/blank.png",
   },{
     title: "Dr.",
@@ -379,7 +379,7 @@ export const PublicityChairs = [
   {
     title:"",
     fullName:"Bighnaraj Panigrahi",
-    organisation:"",
+    organisation:"NOKIA",
     profileImage:"bp.png",
   },
   {
@@ -398,7 +398,7 @@ export const PublicityChairs = [
     title:"",
     fullName:"Ajit Panda",
     organisation:"National Institute of Science & Technology (NIST)",
-    profileImage:"blank.png",
+    profileImage:"ajitpanda.png",
   },
   {
     title:"",
@@ -410,7 +410,7 @@ export const PublicityChairs = [
     title:"",
     fullName:"Madhumita Chakravarti",
     organisation:"IEEE Hyderabad Section",
-    profileImage:"blank.png",
+    profileImage:"madhumita.png",
   },
   {
     title:"",
@@ -610,7 +610,7 @@ export const PublicityChairs = [
   {
     title:"",
     fullName:"Vijay Arora",
-    organisation:"IEEE-EDS Distinguished Lecturer, Global Distinguished Visiting Professor, Wilkes University Professor",
+    organisation:"Wilkes University",
     profileImage:"blank.png",
   },
   // {
