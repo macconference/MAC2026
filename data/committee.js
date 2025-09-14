@@ -410,7 +410,7 @@ export const PublicityChairs = [
   {
     title:"",
     fullName:"Madhumita Chakravarti",
-    organisation:"IEEE Hyderabad Section",
+    organisation:"DRDO",
     profileImage:"madhumita.png",
   },
   {
