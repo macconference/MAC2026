@@ -38,18 +38,19 @@ export const genChairs = [
     organisation: "MNNIT Allahabad, India",
     profileImage: "/vst_sir_pic.png",
   },
-  {
-    title: "Prof.",
-    fullName: "Puneet Kumar Mishra",
-    organisation: "U R Rao Satellite Centre, ISRO Bengaluru",
-    profileImage: "/pkm.png",
-  },
-  {
+   {
     title: "Prof.",
     fullName: "Bharat Rawal",
     organisation: "Grambling State University, USA",
     profileImage: "/bharat_rawal.png",
   },
+  {
+    title: "Prof.",
+    fullName: "Puneet Kumar Mishra",
+    organisation: "U R Rao Satellite Centre, ISRO ",
+    profileImage: "/pkm1.png",
+  },
+ 
 ];
 
 export const GeneralCoChair = [
@@ -62,8 +63,8 @@ export const GeneralCoChair = [
   {
     title: "Dr.",
     fullName: "Manish Mishra",
-    organisation: "",
-    profileImage: "/blank.png",
+    organisation: "DDU Gorakhpur Unversity, India",
+    profileImage: "/mm.png",
   },
   {
     title: "Prof.",
@@ -385,7 +386,7 @@ export const PublicityChairs = [
   {
     title:"",
     fullName:"Manoj Saxena",
-    organisation:"Deen Dayal Upadhyaya College, University of Delhi, New Delhi, India",
+    organisation:"University of Delhi, New Delhi, India",
     profileImage:"ms1.png",
   },
   {
@@ -403,7 +404,7 @@ export const PublicityChairs = [
   {
     title:"",
     fullName:"Veer Pratap Meena",
-    organisation:"IEEE Delhi Section- Rajasthan",
+    organisation:"National Institute of Technology, Jamshedpur",
     profileImage:"vpm.png",
   },
   {
@@ -413,9 +414,9 @@ export const PublicityChairs = [
     profileImage:"madhumita.png",
   },
   {
-    title:"",
-    fullName:"Sreelal Pillai",
-    organisation:"IEEE Kerala Section",
+    title:"Dr,",
+    fullName:"Sreelal S. Pillai",
+    organisation:"ISRO, Trivandrum",
     profileImage:"sp.png",
   },
 
@@ -574,13 +575,13 @@ export const PublicityChairs = [
   {
     title:"",
     fullName:"Miroslav Skoric",
-    organisation:"",
+    organisation:"University of Novi Sad, Serbia",
     profileImage:"ms.png",
   },
   {
     title:"",
     fullName:"Houbing Herbert Song",
-    organisation:"IEEE Austria Section, Austria",
+    organisation:"University of Maryland, Baltimore County, USA",
     profileImage:"hhs.png",
   },
    {
@@ -611,7 +612,7 @@ export const PublicityChairs = [
     title:"",
     fullName:"Vijay Arora",
     organisation:"Wilkes University",
-    profileImage:"blank.png",
+    profileImage:"vijayarora1.png",
   },
   // {
   //   title:"",

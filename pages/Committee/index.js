@@ -99,12 +99,12 @@ const Committee = () => {
               {renderSection(honChairs, "Honorary Chair", "honchairs")}
               {renderSection(genChairs, "General Chairs", "genchairs")}
               {renderSection(GeneralCoChair, "General Co-Chairs", "gencochair")}
-               {renderSection(TPC, "Technical Program Committee Chairs", "tpcchairs")}
+               {renderSection(TPC, "Technical Program Committee Chairs", "TPC")}
               {renderSection(ProgramChair, "Program Chair", "programchairs")}
                {renderSection(FinChairs, "Finance Chair", "finchairs")}
                 {renderSection(advisorycommittee, "Advisory Committee", "advisorycommittee")}
                      {renderSection(execCommittee, "Executive Committee", "execcommittee")}
-                {renderSection(PublicationChair, "Publication Chair", "publicationchair")}
+                {renderSection(PublicationChair, "Publication Chair", "publicationchairs")}
               {renderSection(IndustryInteractionChair, "Industry Outreach Chairs", "industryintchair")}
               {renderSection(AcademicOutreachChair, "Academic Outreach Chairs", "academicoutreach")}
               {renderSection(SponsorshipChair, "Sponsorship Chairs", "sponsorshipchair")}

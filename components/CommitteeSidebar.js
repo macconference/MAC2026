@@ -12,15 +12,33 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
     return router.asPath.includes(route) ? "active-tab" : "";
   };
 
-  // Helper function to handle link clicks and close sidebar on mobile
+  // Enhanced helper function to handle link clicks with proper anchor navigation
   const handleLinkClick = (href) => {
     // Close sidebar on mobile
     if (width < 768) {
       setIsOpen(false);
     }
     
-    // Navigate to the section
-    router.push(href);
+    // Extract hash from href
+    const hash = href.split('#')[1];
+    const basePath = href.split('#');
+    
+    // Navigate to the page first
+    router.push(basePath).then(() => {
+      // Then scroll to the element after navigation with a small delay
+      if (hash) {
+        setTimeout(() => {
+          const element = document.getElementById(hash);
+          if (element) {
+            element.scrollIntoView({ 
+              behavior: 'smooth',
+              block: 'start',
+              inline: 'nearest'
+            });
+          }
+        }, 100);
+      }
+    });
   };
 
   return (
@@ -50,6 +68,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
         {isOpen && (
           <ul className="fixed md:static top-16 overflow-auto h-[90vh] md:h-[85vh] md:pb-12 bg-white dark:bg-gray-900 z-10 px-4 py-16 md:py-2 text-lg lg:text-xl flex flex-col gap-2 w-full">
             
+            {/* Commented out Patrons section */}
             {/* <li 
               className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#patrons")}`}
               onClick={() => handleLinkClick("/Committee#patrons")}
@@ -87,24 +106,25 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             </li>
 
             <li 
-              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#programchairs")}`}
-              onClick={() => handleLinkClick("/Committee#programchairs")}
+              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#TPC")}`}
+              onClick={() => handleLinkClick("/Committee#TPC")}
             >
               <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
                 Technical Program Committee Chair
               </div>
             </li>
 
-              <li 
-              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#publicitycochair")}`}
-              onClick={() => handleLinkClick("/Committee#publicitycochair")}
+            {/* FIXED: Program Chair - consistent hash fragment */}
+            <li 
+              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#programchairs")}`}
+              onClick={() => handleLinkClick("/Committee#programchairs")}
             >
               <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
                Program Chair
               </div>
             </li>
              
-             <li 
+            <li 
               className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#finchairs")}`}
               onClick={() => handleLinkClick("/Committee#finchairs")}
             >
@@ -113,7 +133,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               </div>
             </li>
              
-             <li 
+            <li 
               className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#advisorycommittee")}`}
               onClick={() => handleLinkClick("/Committee#advisorycommittee")}
             >
@@ -131,22 +151,23 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               </div>
             </li>
 
-             
+            {/* FIXED: Publication Chair - corrected hash fragment mismatch */}
             <li 
-              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#academicoutreach")}`}
-              onClick={() => handleLinkClick("/Committee#Publicationchair")}
+              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#publicationchairs")}`}
+              onClick={() => handleLinkClick("/Committee#publicationchairs")}
             >
               <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
                 Publication Chair
               </div>
             </li>
 
+            {/* FIXED: Industry Outreach Chair - added space in text */}
             <li 
               className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#industryintchair")}`}
               onClick={() => handleLinkClick("/Committee#industryintchair")}
             >
               <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
-                Industry OutreachChair
+                Industry Outreach Chair
               </div>
             </li>
 
@@ -177,8 +198,6 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               </div>
             </li>
 
-           
-
             <li 
               className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#publchairs")}`}
               onClick={() => handleLinkClick("/Committee#publchairs")}
@@ -196,8 +215,6 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
                 International Chair
               </div>
             </li>
-
-            
             
           </ul>
         )}
