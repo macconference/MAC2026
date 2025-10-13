@@ -118,7 +118,7 @@ const Committee = () => {
                {renderSection(InvitedTalks, "Invited Talks & Tutorials", "invchair")}
                 {renderSection(youngProfessional, "Young Professionals (YP)", "youngprofessional")}
                  {renderSection(womenInEngineering, "Women in Engineering (WiE)", "womeninengineering")}
-                  {renderSection(mentorMentee, "IMentor-Mentee/ Student Activity ", "mentormentee")}
+                  {renderSection(mentorMentee, "Mentor-Mentee/ Student Activity ", "mentormentee")}
 
 
             </div>
