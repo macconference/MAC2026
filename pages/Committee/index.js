@@ -35,7 +35,11 @@ import {
   PublicityChairs,
   PublicityCoChair,
   execCommittee,
-  InternationalChair
+  InternationalChair,
+  InvitedTalks,
+  youngProfessional,
+  womenInEngineering,
+  mentorMentee
 } from "../../data/committee";
 import { useScrollLock, useViewportSize } from "@mantine/hooks";
 import CommitteeSidebar from "../../components/CommitteeSidebar";
@@ -99,18 +103,24 @@ const Committee = () => {
               {renderSection(honChairs, "Honorary Chair", "honchairs")}
               {renderSection(genChairs, "General Chairs", "genchairs")}
               {renderSection(GeneralCoChair, "General Co-Chairs", "gencochair")}
-               {renderSection(TPC, "Technical Program Committee Chairs", "tpcchairs")}
+               {renderSection(TPC, "Technical Program Committee Chairs", "TPC")}
               {renderSection(ProgramChair, "Program Chair", "programchairs")}
                {renderSection(FinChairs, "Finance Chair", "finchairs")}
-                {renderSection(PublicationChair, "Publication Chair", "publicationchair")}
+                {renderSection(advisorycommittee, "Advisory Committee", "advisorycommittee")}
+                     {renderSection(execCommittee, "Executive Committee", "execcommittee")}
+                {renderSection(PublicationChair, "Publication Chair", "publicationchairs")}
               {renderSection(IndustryInteractionChair, "Industry Outreach Chairs", "industryintchair")}
               {renderSection(AcademicOutreachChair, "Academic Outreach Chairs", "academicoutreach")}
               {renderSection(SponsorshipChair, "Sponsorship Chairs", "sponsorshipchair")}
               {renderSection(SocialMediaChair, "Web and Social Media Chairs", "socialmediachair")}
               {renderSection(PublicityChairs, "Publicity Chairs", "publchairs")}
               {renderSection(InternationalChair, "International Chair", "intchair")}
-              {renderSection(execCommittee, "Executive Committee", "execcommittee")}
-              {renderSection(advisorycommittee, "Advisory Committee", "advisorycommittee")}
+               {renderSection(InvitedTalks, "Invited Talks & Tutorials", "invchair")}
+                {renderSection(youngProfessional, "Young Professionals (YP)", "youngprofessional")}
+                 {renderSection(womenInEngineering, "Women in Engineering (WiE)", "womeninengineering")}
+                  {renderSection(mentorMentee, "IMentor-Mentee/ Student Activity ", "mentormentee")}
+
+
             </div>
           </div>
         </div>
