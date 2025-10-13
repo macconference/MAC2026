@@ -35,7 +35,11 @@ import {
   PublicityChairs,
   PublicityCoChair,
   execCommittee,
-  InternationalChair
+  InternationalChair,
+  InvitedTalks,
+  youngProfessional,
+  womenInEngineering,
+  mentorMentee
 } from "../../data/committee";
 import { useScrollLock, useViewportSize } from "@mantine/hooks";
 import CommitteeSidebar from "../../components/CommitteeSidebar";
@@ -111,8 +115,12 @@ const Committee = () => {
               {renderSection(SocialMediaChair, "Web and Social Media Chairs", "socialmediachair")}
               {renderSection(PublicityChairs, "Publicity Chairs", "publchairs")}
               {renderSection(InternationalChair, "International Chair", "intchair")}
-         
-             
+               {renderSection(InvitedTalks, "Invited Talks & Tutorials", "invchair")}
+                {renderSection(youngProfessional, "Young Professionals (YP)", "youngprofessional")}
+                 {renderSection(womenInEngineering, "Women in Engineering (WiE)", "womeninengineering")}
+                  {renderSection(mentorMentee, "IMentor-Mentee/ Student Activity ", "mentormentee")}
+
+
             </div>
           </div>
         </div>

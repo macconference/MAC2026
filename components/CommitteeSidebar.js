@@ -216,6 +216,38 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               </div>
             </li>
             
+            <li 
+              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#invchair")}`}
+              onClick={() => handleLinkClick("/Committee#invchair")}
+            >
+              <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
+               Invited Talks & Tutorials
+              </div>
+            </li>
+            <li 
+              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#youngprofessional")}`}
+              onClick={() => handleLinkClick("/Committee#youngprofessional")}
+            >
+              <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
+               Young Professionals (YP)
+              </div>
+            </li>
+            <li 
+              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#womeninengineering")}`}
+              onClick={() => handleLinkClick("/Committee#womeninengineering")}
+            >
+              <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
+                Women in Engineering (WiE)
+              </div>
+            </li>
+            <li 
+              className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 cursor-pointer ${isActiveTab("#mentormentee")}`}
+              onClick={() => handleLinkClick("/Committee#mentormentee")}
+            >
+              <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
+                Mentor -Mentee/ Student Activity
+              </div>
+            </li>
           </ul>
         )}
       </div>
