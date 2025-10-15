@@ -111,12 +111,12 @@ export const IndustryInteractionChair = [
   }
 ];
 export const PublicationChair = [
-   {
-    title: "Dr.",
-    fullName: "Shivesh Tripathi",
-    organisation: "GL Bajaj Institute of Technology and Management, Noida, India",
-    profileImage: "/st.png",
-  },
+  {
+     title: "Dr.",
+     fullName: "Piyush Kumar Mishra",
+     organisation: "IISc Bangalore, India",
+     profileImage: "/piyushkmishra.png",
+   },
   {
     title: "Dr.",
     fullName: "Aditya Pal",
@@ -271,24 +271,24 @@ export const TPC = [
     organisation: "IIT Kanpur",
     profileImage: "/blank.png"
   },
-  {
-    title: "Dr.",
-    fullName: "Ravi Kumar Gangwar",
-    organisation: "IIT(ISM) Dhanbad",
-    profileImage: "/blank.png",
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Ravi Kumar Gangwar",
+  //   organisation: "IIT(ISM) Dhanbad",
+  //   profileImage: "/blank.png",
+  // },
   {
     title: "Dr.",
     fullName: "Bambam Kumar",
     organisation: "NIT Patna",
     profileImage: "/blank.png",
   },
-  {
-    title: "Dr.",
-    fullName: "Akhilesh Mohan",
-    organisation: "IIT Roorkee",
-    profileImage: "/blank.png",
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Akhilesh Mohan",
+  //   organisation: "IIT Roorkee",
+  //   profileImage: "/blank.png",
+  // },
   {
     title: "Dr.",
     fullName: "Niraj Pratap Singh",
@@ -494,12 +494,12 @@ export const PublicityChairs = [
     organisation: "Georgia Institute of Technology, USA",
     profileImage: "/blank.png"
   },
-  {
-    title: "Dr.",
-    fullName: "Ramesh K. Gupta",
-    organisation: "VP, Satellite Network Engineering and Operations, USA",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Ramesh K. Gupta",
+  //   organisation: "VP, Satellite Network Engineering and Operations, USA",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Dr.",
     fullName: "C.J. Reddy",
@@ -518,12 +518,12 @@ export const PublicityChairs = [
     organisation: "IIT Delhi",
     profileImage: "/blank.png"
   },
-  {
-    title: "Prof.",
-    fullName: "M. Jaleel Akhtar",
-    organisation: "IIT Kanpur",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "M. Jaleel Akhtar",
+  //   organisation: "IIT Kanpur",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Prof.",
     fullName: "N.P. Pathak",
@@ -536,12 +536,12 @@ export const PublicityChairs = [
     organisation: "IIST, Thiruvananthapuram, India",
     profileImage: "/blank.png"
   },
-  {
-    title: "Mr.",
-    fullName: "Puneet Kumar Mishra",
-    organisation: "ISRO India",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Mr.",
+  //   fullName: "Puneet Kumar Mishra",
+  //   organisation: "ISRO India",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Mr.",
     fullName: "Spandan Manna",
@@ -560,18 +560,18 @@ export const PublicityChairs = [
     organisation: "Women Engineering College Ajmer",
     profileImage: "/blank.png"
   },
-  {
-    title: "Dr.",
-    fullName: "Prashant K. Shah",
-    organisation: "NIT Surat, Gujarat",
-    profileImage: "/blank.png"
-  },
-  {
-    title: "Dr.",
-    fullName: "Nagendra Yadav",
-    organisation: "Hubei Polytechnic University, China",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Prashant K. Shah",
+  //   organisation: "NIT Surat, Gujarat",
+  //   profileImage: "/blank.png"
+  // },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Nagendra Yadav",
+  //   organisation: "Hubei Polytechnic University, China",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Prof.",
     fullName: "Domenico Zito",
@@ -596,12 +596,12 @@ export const PublicityChairs = [
     organisation: "Delhi University",
     profileImage: "/blank.png"
   },
-  {
-    title: "Prof.",
-    fullName: "Ramgopal Rao",
-    organisation: "BITS Pilani",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Ramgopal Rao",
+  //   organisation: "BITS Pilani",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Dr.",
     fullName: "S.K. Varshney",
@@ -650,12 +650,12 @@ export const PublicityChairs = [
     organisation: "IIT Kharagpur, India",
     profileImage: "/blank.png"
   },
-  {
-    title: "Dr.",
-    fullName: "Satish Kumar Singh",
-    organisation: "IIIT Allahabad, India",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Satish Kumar Singh",
+  //   organisation: "IIIT Allahabad, India",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Dr.",
     fullName: "Amit Kumar Singh",
@@ -904,18 +904,18 @@ export const PublicityChairs = [
     organisation: "Istanbul Okan University, Turkey",
     profileImage: "/blank.png"
   },
-  {
-    title: "Prof.",
-    fullName: "Rocco Pierri",
-    organisation: "University of Campania Luigi Vanvitelli, Italy",
-    profileImage: "/blank.png"
-  },
-  {
-    title: "Dr.",
-    fullName: "Goutam Chattopadhyay",
-    organisation: "JPL, NASA, USA",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Rocco Pierri",
+  //   organisation: "University of Campania Luigi Vanvitelli, Italy",
+  //   profileImage: "/blank.png"
+  // },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Goutam Chattopadhyay",
+  //   organisation: "JPL, NASA, USA",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Dr.",
     fullName: "Maurizio Bozzi",
@@ -928,12 +928,12 @@ export const PublicityChairs = [
     organisation: "University of Waterloo, Canada",
     profileImage: "/blank.png"
   },
-  {
-    title: "Dr.",
-    fullName: "Sudhakar Rao",
-    organisation: "Northrop Grumman Space Systems, Virginia, USA",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Sudhakar Rao",
+  //   organisation: "Northrop Grumman Space Systems, Virginia, USA",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Dr.",
     fullName: "Ajay K. Poddar",
@@ -946,12 +946,12 @@ export const PublicityChairs = [
     organisation: "Subject Editor Electrical Engineering (FACETS Journal), Canada",
     profileImage: "/blank.png"
   },
-  {
-    title: "Prof.",
-    fullName: "Satish Kumar Sharma",
-    organisation: "SDSU, USA",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Satish Kumar Sharma",
+  //   organisation: "SDSU, USA",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Prof.",
     fullName: "Andrea MASSA",
@@ -976,12 +976,12 @@ export const PublicityChairs = [
     organisation: "University of Waterloo, Canada",
     profileImage: "/blank.png"
   },
-  {
-    title: "Prof.",
-    fullName: "Abhay Karandikar",
-    organisation: "IIT Kanpur",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Abhay Karandikar",
+  //   organisation: "IIT Kanpur",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Prof.",
     fullName: "Arvind Choubey",
@@ -1030,24 +1030,24 @@ export const PublicityChairs = [
     organisation: "Indian Institute of Technology Tirupati, Chindepalle, Andhra Pradesh",
     profileImage: "/blank.png"
   },
-  {
-    title: "Prof.",
-    fullName: "Yogesh Singh Chauhan",
-    organisation: "IIT Kanpur",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Yogesh Singh Chauhan",
+  //   organisation: "IIT Kanpur",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Dr.",
     fullName: "Chandrakanta Kumar",
     organisation: "ISRO, India",
     profileImage: "/blank.png"
   },
-  {
-    title: "Prof.",
-    fullName: "Dharmendra Singh",
-    organisation: "IIT Roorkee",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Dharmendra Singh",
+  //   organisation: "IIT Roorkee",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Dr.",
     fullName: "Karun Rawat",
@@ -1078,12 +1078,12 @@ export const PublicityChairs = [
     organisation: "Amrita Vishwa Vidyapeetham, Chennai",
     profileImage: "/blank.png"
   },
-  {
-    title: "Dr.",
-    fullName: "Dilip Kumar Kothari",
-    organisation: "Nirma University of Science and Technology, Ahmedabad, India",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Dilip Kumar Kothari",
+  //   organisation: "Nirma University of Science and Technology, Ahmedabad, India",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Mr.",
     fullName: "Shobit Agarwal",
@@ -1108,12 +1108,12 @@ export const PublicityChairs = [
     organisation: "Northrop Grumman Space Systems, USA",
     profileImage: "/blank.png"
   },
-  {
-    title: "Dr.",
-    fullName: "Ajay K. Poddar",
-    organisation: "Synergy Microwave, NJ, USA",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Ajay K. Poddar",
+  //   organisation: "Synergy Microwave, NJ, USA",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Dr.",
     fullName: "D.C Pande",
@@ -1144,12 +1144,12 @@ export const PublicityChairs = [
     organisation: "MNNIT Allahabad, India",
     profileImage: "/blank.png"
   },
-  {
-    title: "Prof.",
-    fullName: "Manoj Kumar Meshram",
-    organisation: "IIT BHU, India",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Manoj Kumar Meshram",
+  //   organisation: "IIT BHU, India",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Prof.",
     fullName: "Mahesh P. Abegaonkar",
