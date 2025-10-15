@@ -129,7 +129,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               onClick={() => handleLinkClick("/Committee#finchairs")}
             >
               <div className="block p-1 pl-2 text-gray-900 dark:text-gray-100">
-                Finance Chair/ Treasurer
+                Finance Chair/ Treasurer 
               </div>
             </li>
              
