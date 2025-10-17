@@ -112,11 +112,11 @@ export const IndustryInteractionChair = [
 ];
 export const PublicationChair = [
    {
-    title: "Dr.",
-    fullName: "Shivesh Tripathi",
-    organisation: "GL Bajaj Institute of Technology and Management, Noida, India",
-    profileImage: "/st.png",
-  },
+     title: "Dr.",
+     fullName: "Piyush Kumar Mishra",
+     organisation: "IISc Bangalore, India",
+     profileImage: "/piyushkmishra.png",
+   },
   {
     title: "Dr.",
     fullName: "Aditya Pal",
@@ -172,12 +172,13 @@ export const SponsorshipChair = [
 // export const LocalArrangementsChair = [];
 // export const RegistrationChair = [];
 export const SocialMediaChair = [
+   
    {
-     title: "Dr.",
-     fullName: "Piyush Kumar Mishra",
-     organisation: "IISc Bangalore, India",
-     profileImage: "/piyushkmishra.png",
-   },
+    title: "Dr.",
+    fullName: "Shivesh Tripathi",
+    organisation: "GL Bajaj Institute of Technology and Management, Noida, India",
+    profileImage: "/st.png",
+  },
 ];
 
 // export const PublicityCoChair = [
@@ -560,12 +561,12 @@ export const PublicityChairs = [
     organisation: "Women Engineering College Ajmer",
     profileImage: "/blank.png"
   },
-  {
-    title: "Dr.",
-    fullName: "Prashant K. Shah",
-    organisation: "NIT Surat, Gujarat",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Prashant K. Shah",
+  //   organisation: "NIT Surat, Gujarat",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Dr.",
     fullName: "Nagendra Yadav",
@@ -910,12 +911,12 @@ export const PublicityChairs = [
     organisation: "University of Campania Luigi Vanvitelli, Italy",
     profileImage: "/blank.png"
   },
-  {
-    title: "Dr.",
-    fullName: "Goutam Chattopadhyay",
-    organisation: "JPL, NASA, USA",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Dr.",
+  //   fullName: "Goutam Chattopadhyay",
+  //   organisation: "JPL, NASA, USA",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Dr.",
     fullName: "Maurizio Bozzi",
@@ -976,12 +977,12 @@ export const PublicityChairs = [
     organisation: "University of Waterloo, Canada",
     profileImage: "/blank.png"
   },
-  {
-    title: "Prof.",
-    fullName: "Abhay Karandikar",
-    organisation: "IIT Kanpur",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Abhay Karandikar",
+  //   organisation: "IIT Kanpur",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Prof.",
     fullName: "Arvind Choubey",
@@ -1030,24 +1031,24 @@ export const PublicityChairs = [
     organisation: "Indian Institute of Technology Tirupati, Chindepalle, Andhra Pradesh",
     profileImage: "/blank.png"
   },
-  {
-    title: "Prof.",
-    fullName: "Yogesh Singh Chauhan",
-    organisation: "IIT Kanpur",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Yogesh Singh Chauhan",
+  //   organisation: "IIT Kanpur",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Dr.",
     fullName: "Chandrakanta Kumar",
     organisation: "ISRO, India",
     profileImage: "/blank.png"
   },
-  {
-    title: "Prof.",
-    fullName: "Dharmendra Singh",
-    organisation: "IIT Roorkee",
-    profileImage: "/blank.png"
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Dharmendra Singh",
+  //   organisation: "IIT Roorkee",
+  //   profileImage: "/blank.png"
+  // },
   {
     title: "Dr.",
     fullName: "Karun Rawat",
